@@ -1,4 +1,4 @@
-// this file is forked from a project that copy browser to make realistic selenium, i will find the link later
+// this file is forked from https://github.com/kkoooqq/fakebrowser/blob/main/script/dumpDD.js
 
 // noinspection JSUnusedGlobalSymbols,SpellCheckingInspection
 
