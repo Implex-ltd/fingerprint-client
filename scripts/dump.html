@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Fingerprint dumper</title>
+    <script src="./dumper.js"></script>
+</head>
+
+<body>
+    <div id="result"></div>
+
+    <script>
+        function download(filename, text) {
+            var element = document.createElement('a');
+            element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+            element.setAttribute('download', filename);
+
+            element.style.display = 'none';
+            document.body.appendChild(element);
+
+            element.click();
+            document.body.removeChild(element);
+        }
+
+        (async () => {
+            document.getElementById('result').innerText = "Status: Scraping fingerprint...";
+            const dd = await window['__$dd']();
+
+            document.getElementById('result').innerText = "Status: Done.";
+            download("fingerprint.json", `${dd}`)
+        })();
+    </script>
+</body>
+
+</html>
