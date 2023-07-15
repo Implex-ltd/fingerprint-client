@@ -1,0 +1,5661 @@
+{
+    "plugins": {
+        "mimeTypes": [],
+        "plugins": []
+    },
+    "gpu": {
+        "vendor": "Apple Inc.",
+        "renderer": "Apple GPU"
+    },
+    "navigator": {
+        "languages": [
+            "zh-CN"
+        ],
+        "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/97.0.4692.84 Mobile/15E148 Safari/604.1",
+        "appCodeName": "Mozilla",
+        "appMinorVersion": "_$obj!_undefined_//+_",
+        "appName": "Netscape",
+        "appVersion": "5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/97.0.4692.84 Mobile/15E148 Safari/604.1",
+        "buildID": "_$obj!_undefined_//+_",
+        "platform": "iPhone",
+        "product": "Gecko",
+        "productSub": "20030107",
+        "hardwareConcurrency": "_$obj!_undefined_//+_",
+        "cpuClass": "_$obj!_undefined_//+_",
+        "maxTouchPoints": 5,
+        "oscpu": "_$obj!_undefined_//+_",
+        "vendor": "Apple Computer, Inc.",
+        "vendorSub": "",
+        "deviceMemory": "_$obj!_undefined_//+_",
+        "doNotTrack": "_$obj!_undefined_//+_",
+        "msDoNotTrack": "_$obj!_undefined_//+_",
+        "vibrate": "_$obj!_undefined_//+_",
+        "credentials": "_$obj!_//+_",
+        "storage": "_$obj!_undefined_//+_",
+        "requestMediaKeySystemAccess": "_$obj!_//+_",
+        "bluetooth": "_$obj!_undefined_//+_",
+        "language": "zh-CN",
+        "systemLanguage": "_$obj!_undefined_//+_",
+        "userLanguage": "_$obj!_undefined_//+_"
+    },
+    "window": {
+        "innerWidth": 980,
+        "innerHeight": 1704,
+        "outerWidth": 414,
+        "outerHeight": 896,
+        "screenX": 0,
+        "screenY": 0,
+        "pageXOffset": 0,
+        "pageYOffset": 0,
+        "Image": "_$obj!_//+_",
+        "isSecureContext": true,
+        "devicePixelRatio": 2,
+        "toolbar": "_$obj!_//+_",
+        "locationbar": "_$obj!_//+_",
+        "ActiveXObject": "_$obj!_undefined_//+_",
+        "external": "_$obj!_undefined_//+_",
+        "mozRTCPeerConnection": "_$obj!_undefined_//+_",
+        "postMessage": "_$obj!_//+_",
+        "webkitRequestAnimationFrame": "_$obj!_//+_",
+        "BluetoothUUID": "_$obj!_undefined_//+_",
+        "netscape": "_$obj!_undefined_//+_",
+        "localStorage": "_$obj!_//+_",
+        "sessionStorage": "_$obj!_//+_",
+        "indexDB": "_$obj!_undefined_//+_",
+        "BarcodeDetector": "_$obj!_undefined_//+_"
+    },
+    "document": {
+        "characterSet": "UTF-8",
+        "compatMode": "CSS1Compat",
+        "documentMode": "_$obj!_undefined_//+_",
+        "layers": "_$obj!_undefined_//+_",
+        "images": "_$obj!_//+_"
+    },
+    "screen": {
+        "availWidth": 414,
+        "availHeight": 896,
+        "availLeft": 0,
+        "availTop": 0,
+        "width": 414,
+        "height": 896,
+        "colorDepth": 32,
+        "pixelDepth": 32
+    },
+    "body": {
+        "clientWidth": 964,
+        "clientHeight": 43
+    },
+    "webgl": {
+        "supportedExtensions": [
+            "EXT_blend_minmax",
+            "EXT_sRGB",
+            "EXT_frag_depth",
+            "OES_texture_float",
+            "OES_texture_float_linear",
+            "OES_texture_half_float",
+            "OES_texture_half_float_linear",
+            "OES_standard_derivatives",
+            "EXT_texture_filter_anisotropic",
+            "OES_vertex_array_object",
+            "OES_element_index_uint",
+            "WEBGL_lose_context",
+            "WEBGL_compressed_texture_astc",
+            "WEBGL_compressed_texture_etc1",
+            "WEBGL_depth_texture",
+            "WEBGL_draw_buffers",
+            "ANGLE_instanced_arrays",
+            "WEBGL_debug_shaders",
+            "WEBGL_debug_renderer_info",
+            "EXT_color_buffer_half_float",
+            "EXT_float_blend",
+            "WEBGL_color_buffer_float",
+            "KHR_parallel_shader_compile",
+            "WEBGL_multi_draw"
+        ],
+        "contextAttributes": {
+            "alpha": true,
+            "antialias": true,
+            "depth": true,
+            "failIfMajorPerformanceCaveat": false,
+            "powerPreference": "default",
+            "premultipliedAlpha": true,
+            "preserveDrawingBuffer": false,
+            "stencil": false
+        },
+        "maxAnisotropy": 16,
+        "params": {
+            "2849": {
+                "type": "Number",
+                "value": 1
+            },
+            "2884": {
+                "type": "",
+                "value": false
+            },
+            "2885": {
+                "type": "Number",
+                "value": 1029
+            },
+            "2886": {
+                "type": "Number",
+                "value": 2305
+            },
+            "2928": {
+                "type": "Float32Array",
+                "value": {
+                    "0": 0,
+                    "1": 1
+                }
+            },
+            "2929": {
+                "type": "",
+                "value": false
+            },
+            "2930": {
+                "type": "Boolean",
+                "value": true
+            },
+            "2931": {
+                "type": "Number",
+                "value": 1
+            },
+            "2932": {
+                "type": "Number",
+                "value": 513
+            },
+            "2960": {
+                "type": "",
+                "value": false
+            },
+            "2961": {
+                "type": "",
+                "value": 0
+            },
+            "2962": {
+                "type": "Number",
+                "value": 519
+            },
+            "2963": {
+                "type": "Number",
+                "value": 2147483647
+            },
+            "2964": {
+                "type": "Number",
+                "value": 7680
+            },
+            "2965": {
+                "type": "Number",
+                "value": 7680
+            },
+            "2966": {
+                "type": "Number",
+                "value": 7680
+            },
+            "2967": {
+                "type": "",
+                "value": 0
+            },
+            "2968": {
+                "type": "Number",
+                "value": 2147483647
+            },
+            "2978": {
+                "type": "Int32Array",
+                "value": {
+                    "0": 0,
+                    "1": 0,
+                    "2": 300,
+                    "3": 150
+                }
+            },
+            "3024": {
+                "type": "Boolean",
+                "value": true
+            },
+            "3042": {
+                "type": "",
+                "value": false
+            },
+            "3088": {
+                "type": "Int32Array",
+                "value": {
+                    "0": 0,
+                    "1": 0,
+                    "2": 300,
+                    "3": 150
+                }
+            },
+            "3089": {
+                "type": "",
+                "value": false
+            },
+            "3106": {
+                "type": "Float32Array",
+                "value": {
+                    "0": 0,
+                    "1": 0,
+                    "2": 0,
+                    "3": 0
+                }
+            },
+            "3107": {
+                "type": "Array",
+                "value": [
+                    true,
+                    true,
+                    true,
+                    true
+                ]
+            },
+            "3317": {
+                "type": "Number",
+                "value": 4
+            },
+            "3333": {
+                "type": "Number",
+                "value": 4
+            },
+            "3379": {
+                "type": "Number",
+                "value": 16384
+            },
+            "3386": {
+                "type": "Int32Array",
+                "value": {
+                    "0": 16384,
+                    "1": 16384
+                }
+            },
+            "3408": {
+                "type": "Number",
+                "value": 4
+            },
+            "3410": {
+                "type": "Number",
+                "value": 8
+            },
+            "3411": {
+                "type": "Number",
+                "value": 8
+            },
+            "3412": {
+                "type": "Number",
+                "value": 8
+            },
+            "3413": {
+                "type": "Number",
+                "value": 8
+            },
+            "3414": {
+                "type": "Number",
+                "value": 24
+            },
+            "3415": {
+                "type": "",
+                "value": 0
+            },
+            "7936": {
+                "type": "String",
+                "value": "WebKit"
+            },
+            "7937": {
+                "type": "String",
+                "value": "WebKit WebGL"
+            },
+            "7938": {
+                "type": "String",
+                "value": "WebGL 1.0"
+            },
+            "10752": {
+                "type": "",
+                "value": 0
+            },
+            "32773": {
+                "type": "Float32Array",
+                "value": {
+                    "0": 0,
+                    "1": 0,
+                    "2": 0,
+                    "3": 0
+                }
+            },
+            "32777": {
+                "type": "Number",
+                "value": 32774
+            },
+            "32823": {
+                "type": "",
+                "value": false
+            },
+            "32824": {
+                "type": "",
+                "value": 0
+            },
+            "32873": {
+                "type": "",
+                "value": null
+            },
+            "32883": {
+                "type": "",
+                "value": null
+            },
+            "32936": {
+                "type": "Number",
+                "value": 1
+            },
+            "32937": {
+                "type": "Number",
+                "value": 4
+            },
+            "32938": {
+                "type": "Number",
+                "value": 1
+            },
+            "32939": {
+                "type": "",
+                "value": false
+            },
+            "32968": {
+                "type": "",
+                "value": 0
+            },
+            "32969": {
+                "type": "Number",
+                "value": 1
+            },
+            "32970": {
+                "type": "",
+                "value": 0
+            },
+            "32971": {
+                "type": "Number",
+                "value": 1
+            },
+            "33170": {
+                "type": "Number",
+                "value": 4352
+            },
+            "33901": {
+                "type": "Float32Array",
+                "value": {
+                    "0": 1,
+                    "1": 64
+                }
+            },
+            "33902": {
+                "type": "Float32Array",
+                "value": {
+                    "0": 1,
+                    "1": 1
+                }
+            },
+            "34016": {
+                "type": "Number",
+                "value": 33984
+            },
+            "34024": {
+                "type": "Number",
+                "value": 16384
+            },
+            "34045": {
+                "type": "",
+                "value": null
+            },
+            "34047": {
+                "type": "Number",
+                "value": 16
+            },
+            "34068": {
+                "type": "",
+                "value": null
+            },
+            "34076": {
+                "type": "Number",
+                "value": 16384
+            },
+            "34467": {
+                "type": "Uint32Array",
+                "value": {}
+            },
+            "34816": {
+                "type": "Number",
+                "value": 519
+            },
+            "34817": {
+                "type": "Number",
+                "value": 7680
+            },
+            "34818": {
+                "type": "Number",
+                "value": 7680
+            },
+            "34819": {
+                "type": "Number",
+                "value": 7680
+            },
+            "34852": {
+                "type": "",
+                "value": null
+            },
+            "34877": {
+                "type": "Number",
+                "value": 32774
+            },
+            "34921": {
+                "type": "Number",
+                "value": 16
+            },
+            "34930": {
+                "type": "Number",
+                "value": 16
+            },
+            "34964": {
+                "type": "",
+                "value": null
+            },
+            "34965": {
+                "type": "",
+                "value": null
+            },
+            "35071": {
+                "type": "",
+                "value": null
+            },
+            "35076": {
+                "type": "",
+                "value": null
+            },
+            "35077": {
+                "type": "",
+                "value": null
+            },
+            "35371": {
+                "type": "",
+                "value": null
+            },
+            "35373": {
+                "type": "",
+                "value": null
+            },
+            "35374": {
+                "type": "",
+                "value": null
+            },
+            "35375": {
+                "type": "",
+                "value": null
+            },
+            "35376": {
+                "type": "",
+                "value": null
+            },
+            "35377": {
+                "type": "",
+                "value": null
+            },
+            "35379": {
+                "type": "",
+                "value": null
+            },
+            "35380": {
+                "type": "",
+                "value": null
+            },
+            "35657": {
+                "type": "",
+                "value": null
+            },
+            "35658": {
+                "type": "",
+                "value": null
+            },
+            "35659": {
+                "type": "",
+                "value": null
+            },
+            "35660": {
+                "type": "Number",
+                "value": 16
+            },
+            "35661": {
+                "type": "Number",
+                "value": 32
+            },
+            "35724": {
+                "type": "String",
+                "value": "WebGL GLSL ES 1.0 (1.0)"
+            },
+            "35725": {
+                "type": "",
+                "value": null
+            },
+            "35968": {
+                "type": "",
+                "value": null
+            },
+            "35978": {
+                "type": "",
+                "value": null
+            },
+            "35979": {
+                "type": "",
+                "value": null
+            },
+            "36003": {
+                "type": "",
+                "value": 0
+            },
+            "36004": {
+                "type": "Number",
+                "value": 2147483647
+            },
+            "36005": {
+                "type": "Number",
+                "value": 2147483647
+            },
+            "36006": {
+                "type": "",
+                "value": null
+            },
+            "36007": {
+                "type": "",
+                "value": null
+            },
+            "36063": {
+                "type": "",
+                "value": null
+            },
+            "36183": {
+                "type": "",
+                "value": null
+            },
+            "36347": {
+                "type": "Number",
+                "value": 1024
+            },
+            "36348": {
+                "type": "Number",
+                "value": 31
+            },
+            "36349": {
+                "type": "Number",
+                "value": 1024
+            },
+            "37154": {
+                "type": "",
+                "value": null
+            },
+            "37157": {
+                "type": "",
+                "value": null
+            },
+            "37440": {
+                "type": "",
+                "value": false
+            },
+            "37441": {
+                "type": "",
+                "value": false
+            },
+            "37443": {
+                "type": "Number",
+                "value": 37444
+            }
+        },
+        "shaderPrecisionFormats": [
+            {
+                "shaderType": 35633,
+                "precisionType": 36338,
+                "r": {
+                    "rangeMin": 127,
+                    "rangeMax": 127,
+                    "precision": 23
+                }
+            },
+            {
+                "shaderType": 35633,
+                "precisionType": 36337,
+                "r": {
+                    "rangeMin": 127,
+                    "rangeMax": 127,
+                    "precision": 23
+                }
+            },
+            {
+                "shaderType": 35633,
+                "precisionType": 36336,
+                "r": {
+                    "rangeMin": 127,
+                    "rangeMax": 127,
+                    "precision": 23
+                }
+            },
+            {
+                "shaderType": 35633,
+                "precisionType": 36341,
+                "r": {
+                    "rangeMin": 31,
+                    "rangeMax": 30,
+                    "precision": 0
+                }
+            },
+            {
+                "shaderType": 35633,
+                "precisionType": 36340,
+                "r": {
+                    "rangeMin": 31,
+                    "rangeMax": 30,
+                    "precision": 0
+                }
+            },
+            {
+                "shaderType": 35633,
+                "precisionType": 36339,
+                "r": {
+                    "rangeMin": 31,
+                    "rangeMax": 30,
+                    "precision": 0
+                }
+            },
+            {
+                "shaderType": 35632,
+                "precisionType": 36338,
+                "r": {
+                    "rangeMin": 127,
+                    "rangeMax": 127,
+                    "precision": 23
+                }
+            },
+            {
+                "shaderType": 35632,
+                "precisionType": 36337,
+                "r": {
+                    "rangeMin": 127,
+                    "rangeMax": 127,
+                    "precision": 23
+                }
+            },
+            {
+                "shaderType": 35632,
+                "precisionType": 36336,
+                "r": {
+                    "rangeMin": 127,
+                    "rangeMax": 127,
+                    "precision": 23
+                }
+            },
+            {
+                "shaderType": 35632,
+                "precisionType": 36341,
+                "r": {
+                    "rangeMin": 31,
+                    "rangeMax": 30,
+                    "precision": 0
+                }
+            },
+            {
+                "shaderType": 35632,
+                "precisionType": 36340,
+                "r": {
+                    "rangeMin": 31,
+                    "rangeMax": 30,
+                    "precision": 0
+                }
+            },
+            {
+                "shaderType": 35632,
+                "precisionType": 36339,
+                "r": {
+                    "rangeMin": 31,
+                    "rangeMax": 30,
+                    "precision": 0
+                }
+            }
+        ]
+    },
+    "webgl2": {
+        "supportedExtensions": [
+            "OES_texture_float_linear",
+            "EXT_texture_filter_anisotropic",
+            "WEBGL_compressed_texture_astc",
+            "WEBGL_compressed_texture_etc1",
+            "WEBGL_lose_context",
+            "WEBGL_debug_shaders",
+            "WEBGL_debug_renderer_info",
+            "EXT_color_buffer_float",
+            "EXT_color_buffer_half_float",
+            "EXT_float_blend",
+            "KHR_parallel_shader_compile",
+            "WEBGL_multi_draw"
+        ],
+        "contextAttributes": {
+            "alpha": true,
+            "antialias": true,
+            "depth": true,
+            "failIfMajorPerformanceCaveat": false,
+            "powerPreference": "default",
+            "premultipliedAlpha": true,
+            "preserveDrawingBuffer": false,
+            "stencil": false
+        },
+        "maxAnisotropy": 16,
+        "params": {
+            "2849": {
+                "type": "Number",
+                "value": 1
+            },
+            "2884": {
+                "type": "",
+                "value": false
+            },
+            "2885": {
+                "type": "Number",
+                "value": 1029
+            },
+            "2886": {
+                "type": "Number",
+                "value": 2305
+            },
+            "2928": {
+                "type": "Float32Array",
+                "value": {
+                    "0": 0,
+                    "1": 1
+                }
+            },
+            "2929": {
+                "type": "",
+                "value": false
+            },
+            "2930": {
+                "type": "Boolean",
+                "value": true
+            },
+            "2931": {
+                "type": "Number",
+                "value": 1
+            },
+            "2932": {
+                "type": "Number",
+                "value": 513
+            },
+            "2960": {
+                "type": "",
+                "value": false
+            },
+            "2961": {
+                "type": "",
+                "value": 0
+            },
+            "2962": {
+                "type": "Number",
+                "value": 519
+            },
+            "2963": {
+                "type": "Number",
+                "value": 2147483647
+            },
+            "2964": {
+                "type": "Number",
+                "value": 7680
+            },
+            "2965": {
+                "type": "Number",
+                "value": 7680
+            },
+            "2966": {
+                "type": "Number",
+                "value": 7680
+            },
+            "2967": {
+                "type": "",
+                "value": 0
+            },
+            "2968": {
+                "type": "Number",
+                "value": 2147483647
+            },
+            "2978": {
+                "type": "Int32Array",
+                "value": {
+                    "0": 0,
+                    "1": 0,
+                    "2": 300,
+                    "3": 150
+                }
+            },
+            "3024": {
+                "type": "Boolean",
+                "value": true
+            },
+            "3042": {
+                "type": "",
+                "value": false
+            },
+            "3088": {
+                "type": "Int32Array",
+                "value": {
+                    "0": 0,
+                    "1": 0,
+                    "2": 300,
+                    "3": 150
+                }
+            },
+            "3089": {
+                "type": "",
+                "value": false
+            },
+            "3106": {
+                "type": "Float32Array",
+                "value": {
+                    "0": 0,
+                    "1": 0,
+                    "2": 0,
+                    "3": 0
+                }
+            },
+            "3107": {
+                "type": "Array",
+                "value": [
+                    true,
+                    true,
+                    true,
+                    true
+                ]
+            },
+            "3317": {
+                "type": "Number",
+                "value": 4
+            },
+            "3333": {
+                "type": "Number",
+                "value": 4
+            },
+            "3379": {
+                "type": "Number",
+                "value": 16384
+            },
+            "3386": {
+                "type": "Int32Array",
+                "value": {
+                    "0": 16384,
+                    "1": 16384
+                }
+            },
+            "3408": {
+                "type": "Number",
+                "value": 4
+            },
+            "3410": {
+                "type": "Number",
+                "value": 8
+            },
+            "3411": {
+                "type": "Number",
+                "value": 8
+            },
+            "3412": {
+                "type": "Number",
+                "value": 8
+            },
+            "3413": {
+                "type": "Number",
+                "value": 8
+            },
+            "3414": {
+                "type": "Number",
+                "value": 24
+            },
+            "3415": {
+                "type": "",
+                "value": 0
+            },
+            "7936": {
+                "type": "String",
+                "value": "WebKit"
+            },
+            "7937": {
+                "type": "String",
+                "value": "WebKit WebGL"
+            },
+            "7938": {
+                "type": "String",
+                "value": "WebGL 2.0"
+            },
+            "10752": {
+                "type": "",
+                "value": 0
+            },
+            "32773": {
+                "type": "Float32Array",
+                "value": {
+                    "0": 0,
+                    "1": 0,
+                    "2": 0,
+                    "3": 0
+                }
+            },
+            "32777": {
+                "type": "Number",
+                "value": 32774
+            },
+            "32823": {
+                "type": "",
+                "value": false
+            },
+            "32824": {
+                "type": "",
+                "value": 0
+            },
+            "32873": {
+                "type": "",
+                "value": null
+            },
+            "32883": {
+                "type": "Number",
+                "value": 2048
+            },
+            "32936": {
+                "type": "Number",
+                "value": 1
+            },
+            "32937": {
+                "type": "Number",
+                "value": 4
+            },
+            "32938": {
+                "type": "Number",
+                "value": 1
+            },
+            "32939": {
+                "type": "",
+                "value": false
+            },
+            "32968": {
+                "type": "",
+                "value": 0
+            },
+            "32969": {
+                "type": "Number",
+                "value": 1
+            },
+            "32970": {
+                "type": "",
+                "value": 0
+            },
+            "32971": {
+                "type": "Number",
+                "value": 1
+            },
+            "33170": {
+                "type": "Number",
+                "value": 4352
+            },
+            "33901": {
+                "type": "Float32Array",
+                "value": {
+                    "0": 1,
+                    "1": 64
+                }
+            },
+            "33902": {
+                "type": "Float32Array",
+                "value": {
+                    "0": 1,
+                    "1": 1
+                }
+            },
+            "34016": {
+                "type": "Number",
+                "value": 33984
+            },
+            "34024": {
+                "type": "Number",
+                "value": 16384
+            },
+            "34045": {
+                "type": "Number",
+                "value": 2
+            },
+            "34047": {
+                "type": "Number",
+                "value": 16
+            },
+            "34068": {
+                "type": "",
+                "value": null
+            },
+            "34076": {
+                "type": "Number",
+                "value": 16384
+            },
+            "34467": {
+                "type": "Uint32Array",
+                "value": {}
+            },
+            "34816": {
+                "type": "Number",
+                "value": 519
+            },
+            "34817": {
+                "type": "Number",
+                "value": 7680
+            },
+            "34818": {
+                "type": "Number",
+                "value": 7680
+            },
+            "34819": {
+                "type": "Number",
+                "value": 7680
+            },
+            "34852": {
+                "type": "Number",
+                "value": 4
+            },
+            "34877": {
+                "type": "Number",
+                "value": 32774
+            },
+            "34921": {
+                "type": "Number",
+                "value": 16
+            },
+            "34930": {
+                "type": "Number",
+                "value": 16
+            },
+            "34964": {
+                "type": "",
+                "value": null
+            },
+            "34965": {
+                "type": "",
+                "value": null
+            },
+            "35071": {
+                "type": "Number",
+                "value": 2048
+            },
+            "35076": {
+                "type": "Number",
+                "value": -8
+            },
+            "35077": {
+                "type": "Number",
+                "value": 7
+            },
+            "35371": {
+                "type": "Number",
+                "value": 12
+            },
+            "35373": {
+                "type": "Number",
+                "value": 12
+            },
+            "35374": {
+                "type": "Number",
+                "value": 24
+            },
+            "35375": {
+                "type": "Number",
+                "value": 24
+            },
+            "35376": {
+                "type": "Number",
+                "value": 16384
+            },
+            "35377": {
+                "type": "Number",
+                "value": 50176
+            },
+            "35379": {
+                "type": "Number",
+                "value": 50176
+            },
+            "35380": {
+                "type": "Number",
+                "value": 16
+            },
+            "35657": {
+                "type": "Number",
+                "value": 1024
+            },
+            "35658": {
+                "type": "Number",
+                "value": 1024
+            },
+            "35659": {
+                "type": "Number",
+                "value": 124
+            },
+            "35660": {
+                "type": "Number",
+                "value": 16
+            },
+            "35661": {
+                "type": "Number",
+                "value": 32
+            },
+            "35724": {
+                "type": "String",
+                "value": "WebGL GLSL ES 3.00"
+            },
+            "35725": {
+                "type": "",
+                "value": null
+            },
+            "35968": {
+                "type": "Number",
+                "value": 4
+            },
+            "35978": {
+                "type": "Number",
+                "value": 128
+            },
+            "35979": {
+                "type": "Number",
+                "value": 4
+            },
+            "36003": {
+                "type": "",
+                "value": 0
+            },
+            "36004": {
+                "type": "Number",
+                "value": 2147483647
+            },
+            "36005": {
+                "type": "Number",
+                "value": 2147483647
+            },
+            "36006": {
+                "type": "",
+                "value": null
+            },
+            "36007": {
+                "type": "",
+                "value": null
+            },
+            "36063": {
+                "type": "Number",
+                "value": 4
+            },
+            "36183": {
+                "type": "Number",
+                "value": 4
+            },
+            "36347": {
+                "type": "Number",
+                "value": 1024
+            },
+            "36348": {
+                "type": "Number",
+                "value": 31
+            },
+            "36349": {
+                "type": "Number",
+                "value": 1024
+            },
+            "37154": {
+                "type": "Number",
+                "value": 124
+            },
+            "37157": {
+                "type": "Number",
+                "value": 124
+            },
+            "37440": {
+                "type": "",
+                "value": false
+            },
+            "37441": {
+                "type": "",
+                "value": false
+            },
+            "37443": {
+                "type": "Number",
+                "value": 37444
+            }
+        },
+        "shaderPrecisionFormats": [
+            {
+                "shaderType": 35633,
+                "precisionType": 36338,
+                "r": {
+                    "rangeMin": 127,
+                    "rangeMax": 127,
+                    "precision": 23
+                }
+            },
+            {
+                "shaderType": 35633,
+                "precisionType": 36337,
+                "r": {
+                    "rangeMin": 127,
+                    "rangeMax": 127,
+                    "precision": 23
+                }
+            },
+            {
+                "shaderType": 35633,
+                "precisionType": 36336,
+                "r": {
+                    "rangeMin": 127,
+                    "rangeMax": 127,
+                    "precision": 23
+                }
+            },
+            {
+                "shaderType": 35633,
+                "precisionType": 36341,
+                "r": {
+                    "rangeMin": 31,
+                    "rangeMax": 30,
+                    "precision": 0
+                }
+            },
+            {
+                "shaderType": 35633,
+                "precisionType": 36340,
+                "r": {
+                    "rangeMin": 31,
+                    "rangeMax": 30,
+                    "precision": 0
+                }
+            },
+            {
+                "shaderType": 35633,
+                "precisionType": 36339,
+                "r": {
+                    "rangeMin": 31,
+                    "rangeMax": 30,
+                    "precision": 0
+                }
+            },
+            {
+                "shaderType": 35632,
+                "precisionType": 36338,
+                "r": {
+                    "rangeMin": 127,
+                    "rangeMax": 127,
+                    "precision": 23
+                }
+            },
+            {
+                "shaderType": 35632,
+                "precisionType": 36337,
+                "r": {
+                    "rangeMin": 127,
+                    "rangeMax": 127,
+                    "precision": 23
+                }
+            },
+            {
+                "shaderType": 35632,
+                "precisionType": 36336,
+                "r": {
+                    "rangeMin": 127,
+                    "rangeMax": 127,
+                    "precision": 23
+                }
+            },
+            {
+                "shaderType": 35632,
+                "precisionType": 36341,
+                "r": {
+                    "rangeMin": 31,
+                    "rangeMax": 30,
+                    "precision": 0
+                }
+            },
+            {
+                "shaderType": 35632,
+                "precisionType": 36340,
+                "r": {
+                    "rangeMin": 31,
+                    "rangeMax": 30,
+                    "precision": 0
+                }
+            },
+            {
+                "shaderType": 35632,
+                "precisionType": 36339,
+                "r": {
+                    "rangeMin": 31,
+                    "rangeMax": 30,
+                    "precision": 0
+                }
+            }
+        ]
+    },
+    "defaultCS": {
+        "0": "align-content",
+        "1": "align-items",
+        "2": "align-self",
+        "3": "alignment-baseline",
+        "4": "all",
+        "5": "alt",
+        "6": "animation-delay",
+        "7": "animation-direction",
+        "8": "animation-duration",
+        "9": "animation-fill-mode",
+        "10": "animation-iteration-count",
+        "11": "animation-name",
+        "12": "animation-play-state",
+        "13": "animation-timing-function",
+        "14": "aspect-ratio",
+        "15": "background-attachment",
+        "16": "background-blend-mode",
+        "17": "background-clip",
+        "18": "background-color",
+        "19": "background-image",
+        "20": "background-origin",
+        "21": "background-position-x",
+        "22": "background-position-y",
+        "23": "background-repeat",
+        "24": "background-size",
+        "25": "baseline-shift",
+        "26": "block-size",
+        "27": "border-block-end-color",
+        "28": "border-block-end-style",
+        "29": "border-block-end-width",
+        "30": "border-block-start-color",
+        "31": "border-block-start-style",
+        "32": "border-block-start-width",
+        "33": "border-bottom-color",
+        "34": "border-bottom-left-radius",
+        "35": "border-bottom-right-radius",
+        "36": "border-bottom-style",
+        "37": "border-bottom-width",
+        "38": "border-collapse",
+        "39": "border-end-end-radius",
+        "40": "border-end-start-radius",
+        "41": "border-image-outset",
+        "42": "border-image-repeat",
+        "43": "border-image-slice",
+        "44": "border-image-source",
+        "45": "border-image-width",
+        "46": "border-inline-end-color",
+        "47": "border-inline-end-style",
+        "48": "border-inline-end-width",
+        "49": "border-inline-start-color",
+        "50": "border-inline-start-style",
+        "51": "border-inline-start-width",
+        "52": "border-left-color",
+        "53": "border-left-style",
+        "54": "border-left-width",
+        "55": "border-right-color",
+        "56": "border-right-style",
+        "57": "border-right-width",
+        "58": "border-start-end-radius",
+        "59": "border-start-start-radius",
+        "60": "border-top-color",
+        "61": "border-top-left-radius",
+        "62": "border-top-right-radius",
+        "63": "border-top-style",
+        "64": "border-top-width",
+        "65": "bottom",
+        "66": "box-shadow",
+        "67": "box-sizing",
+        "68": "break-after",
+        "69": "break-before",
+        "70": "break-inside",
+        "71": "buffered-rendering",
+        "72": "caption-side",
+        "73": "caret-color",
+        "74": "clear",
+        "75": "clip",
+        "76": "clip-path",
+        "77": "clip-rule",
+        "78": "color",
+        "79": "color-interpolation",
+        "80": "color-interpolation-filters",
+        "81": "color-rendering",
+        "82": "color-scheme",
+        "83": "column-count",
+        "84": "column-fill",
+        "85": "column-gap",
+        "86": "column-rule-color",
+        "87": "column-rule-style",
+        "88": "column-rule-width",
+        "89": "column-span",
+        "90": "column-width",
+        "91": "contain",
+        "92": "content",
+        "93": "counter-increment",
+        "94": "counter-reset",
+        "95": "cursor",
+        "96": "cx",
+        "97": "cy",
+        "98": "direction",
+        "99": "display",
+        "100": "dominant-baseline",
+        "101": "empty-cells",
+        "102": "fill",
+        "103": "fill-opacity",
+        "104": "fill-rule",
+        "105": "filter",
+        "106": "flex-basis",
+        "107": "flex-direction",
+        "108": "flex-grow",
+        "109": "flex-shrink",
+        "110": "flex-wrap",
+        "111": "float",
+        "112": "flood-color",
+        "113": "flood-opacity",
+        "114": "font-family",
+        "115": "font-feature-settings",
+        "116": "font-optical-sizing",
+        "117": "font-size",
+        "118": "font-stretch",
+        "119": "font-style",
+        "120": "font-synthesis",
+        "121": "font-variant-alternates",
+        "122": "font-variant-caps",
+        "123": "font-variant-east-asian",
+        "124": "font-variant-ligatures",
+        "125": "font-variant-numeric",
+        "126": "font-variant-position",
+        "127": "font-variation-settings",
+        "128": "font-weight",
+        "129": "glyph-orientation-horizontal",
+        "130": "glyph-orientation-vertical",
+        "131": "grid-auto-columns",
+        "132": "grid-auto-flow",
+        "133": "grid-auto-rows",
+        "134": "grid-column-end",
+        "135": "grid-column-start",
+        "136": "grid-row-end",
+        "137": "grid-row-start",
+        "138": "grid-template-areas",
+        "139": "grid-template-columns",
+        "140": "grid-template-rows",
+        "141": "hanging-punctuation",
+        "142": "height",
+        "143": "image-orientation",
+        "144": "image-rendering",
+        "145": "inline-size",
+        "146": "inset-block-end",
+        "147": "inset-block-start",
+        "148": "inset-inline-end",
+        "149": "inset-inline-start",
+        "150": "isolation",
+        "151": "justify-content",
+        "152": "justify-items",
+        "153": "justify-self",
+        "154": "kerning",
+        "155": "left",
+        "156": "letter-spacing",
+        "157": "lighting-color",
+        "158": "line-break",
+        "159": "line-height",
+        "160": "list-style-image",
+        "161": "list-style-position",
+        "162": "list-style-type",
+        "163": "margin-block-end",
+        "164": "margin-block-start",
+        "165": "margin-bottom",
+        "166": "margin-inline-end",
+        "167": "margin-inline-start",
+        "168": "margin-left",
+        "169": "margin-right",
+        "170": "margin-top",
+        "171": "marker-end",
+        "172": "marker-mid",
+        "173": "marker-start",
+        "174": "mask",
+        "175": "mask-type",
+        "176": "math-style",
+        "177": "max-block-size",
+        "178": "max-height",
+        "179": "max-inline-size",
+        "180": "max-width",
+        "181": "min-block-size",
+        "182": "min-height",
+        "183": "min-inline-size",
+        "184": "min-width",
+        "185": "mix-blend-mode",
+        "186": "object-fit",
+        "187": "object-position",
+        "188": "opacity",
+        "189": "order",
+        "190": "orphans",
+        "191": "outline-color",
+        "192": "outline-offset",
+        "193": "outline-style",
+        "194": "outline-width",
+        "195": "overflow-wrap",
+        "196": "overflow-x",
+        "197": "overflow-y",
+        "198": "overscroll-behavior-x",
+        "199": "overscroll-behavior-y",
+        "200": "padding-block-end",
+        "201": "padding-block-start",
+        "202": "padding-bottom",
+        "203": "padding-inline-end",
+        "204": "padding-inline-start",
+        "205": "padding-left",
+        "206": "padding-right",
+        "207": "padding-top",
+        "208": "page-break-after",
+        "209": "page-break-before",
+        "210": "page-break-inside",
+        "211": "paint-order",
+        "212": "perspective",
+        "213": "perspective-origin-x",
+        "214": "perspective-origin-y",
+        "215": "pointer-events",
+        "216": "position",
+        "217": "quotes",
+        "218": "r",
+        "219": "resize",
+        "220": "right",
+        "221": "rotate",
+        "222": "row-gap",
+        "223": "rx",
+        "224": "ry",
+        "225": "scale",
+        "226": "scroll-behavior",
+        "227": "scroll-margin-block",
+        "228": "scroll-margin-bottom",
+        "229": "scroll-margin-inline",
+        "230": "scroll-margin-left",
+        "231": "scroll-margin-right",
+        "232": "scroll-margin-top",
+        "233": "scroll-padding-block",
+        "234": "scroll-padding-bottom",
+        "235": "scroll-padding-inline",
+        "236": "scroll-padding-left",
+        "237": "scroll-padding-right",
+        "238": "scroll-padding-top",
+        "239": "scroll-snap-align",
+        "240": "scroll-snap-stop",
+        "241": "scroll-snap-type",
+        "242": "shape-image-threshold",
+        "243": "shape-margin",
+        "244": "shape-outside",
+        "245": "shape-rendering",
+        "246": "size",
+        "247": "speak-as",
+        "248": "stop-color",
+        "249": "stop-opacity",
+        "250": "stroke",
+        "251": "stroke-color",
+        "252": "stroke-dasharray",
+        "253": "stroke-dashoffset",
+        "254": "stroke-linecap",
+        "255": "stroke-linejoin",
+        "256": "stroke-miterlimit",
+        "257": "stroke-opacity",
+        "258": "stroke-width",
+        "259": "tab-size",
+        "260": "table-layout",
+        "261": "text-align",
+        "262": "text-anchor",
+        "263": "text-decoration",
+        "264": "text-decoration-color",
+        "265": "text-decoration-line",
+        "266": "text-decoration-skip",
+        "267": "text-decoration-style",
+        "268": "text-decoration-thickness",
+        "269": "text-indent",
+        "270": "text-orientation",
+        "271": "text-overflow",
+        "272": "text-rendering",
+        "273": "text-shadow",
+        "274": "text-transform",
+        "275": "text-underline-offset",
+        "276": "text-underline-position",
+        "277": "top",
+        "278": "touch-action",
+        "279": "transform",
+        "280": "transform-box",
+        "281": "transform-origin-x",
+        "282": "transform-origin-y",
+        "283": "transform-origin-z",
+        "284": "transform-style",
+        "285": "transition-delay",
+        "286": "transition-duration",
+        "287": "transition-property",
+        "288": "transition-timing-function",
+        "289": "translate",
+        "290": "unicode-bidi",
+        "291": "vector-effect",
+        "292": "vertical-align",
+        "293": "visibility",
+        "294": "white-space",
+        "295": "widows",
+        "296": "width",
+        "297": "will-change",
+        "298": "word-break",
+        "299": "word-spacing",
+        "300": "word-wrap",
+        "301": "writing-mode",
+        "302": "x",
+        "303": "y",
+        "304": "z-index",
+        "305": "zoom",
+        "306": "-apple-color-filter",
+        "307": "-apple-pay-button-style",
+        "308": "-apple-pay-button-type",
+        "309": "-apple-trailing-word",
+        "310": "-webkit-appearance",
+        "311": "-webkit-backdrop-filter",
+        "312": "-webkit-backface-visibility",
+        "313": "-webkit-background-clip",
+        "314": "-webkit-background-composite",
+        "315": "-webkit-background-origin",
+        "316": "-webkit-background-size",
+        "317": "-webkit-border-fit",
+        "318": "-webkit-border-horizontal-spacing",
+        "319": "-webkit-border-image",
+        "320": "-webkit-border-vertical-spacing",
+        "321": "-webkit-box-align",
+        "322": "-webkit-box-decoration-break",
+        "323": "-webkit-box-direction",
+        "324": "-webkit-box-flex",
+        "325": "-webkit-box-flex-group",
+        "326": "-webkit-box-lines",
+        "327": "-webkit-box-ordinal-group",
+        "328": "-webkit-box-orient",
+        "329": "-webkit-box-pack",
+        "330": "-webkit-box-reflect",
+        "331": "-webkit-box-shadow",
+        "332": "-webkit-column-axis",
+        "333": "-webkit-column-break-after",
+        "334": "-webkit-column-break-before",
+        "335": "-webkit-column-break-inside",
+        "336": "-webkit-column-progression",
+        "337": "-webkit-cursor-visibility",
+        "338": "-webkit-font-kerning",
+        "339": "-webkit-font-smoothing",
+        "340": "-webkit-hyphenate-character",
+        "341": "-webkit-hyphenate-limit-after",
+        "342": "-webkit-hyphenate-limit-before",
+        "343": "-webkit-hyphenate-limit-lines",
+        "344": "-webkit-hyphens",
+        "345": "-webkit-initial-letter",
+        "346": "-webkit-line-align",
+        "347": "-webkit-line-box-contain",
+        "348": "-webkit-line-clamp",
+        "349": "-webkit-line-grid",
+        "350": "-webkit-line-snap",
+        "351": "-webkit-locale",
+        "352": "-webkit-margin-after-collapse",
+        "353": "-webkit-margin-before-collapse",
+        "354": "-webkit-margin-bottom-collapse",
+        "355": "-webkit-margin-top-collapse",
+        "356": "-webkit-mask-box-image",
+        "357": "-webkit-mask-box-image-outset",
+        "358": "-webkit-mask-box-image-repeat",
+        "359": "-webkit-mask-box-image-slice",
+        "360": "-webkit-mask-box-image-source",
+        "361": "-webkit-mask-box-image-width",
+        "362": "-webkit-mask-clip",
+        "363": "-webkit-mask-composite",
+        "364": "-webkit-mask-image",
+        "365": "-webkit-mask-origin",
+        "366": "-webkit-mask-position-x",
+        "367": "-webkit-mask-position-y",
+        "368": "-webkit-mask-repeat",
+        "369": "-webkit-mask-size",
+        "370": "-webkit-mask-source-type",
+        "371": "-webkit-nbsp-mode",
+        "372": "-webkit-overflow-scrolling",
+        "373": "-webkit-print-color-adjust",
+        "374": "-webkit-rtl-ordering",
+        "375": "-webkit-ruby-position",
+        "376": "-webkit-tap-highlight-color",
+        "377": "-webkit-text-combine",
+        "378": "-webkit-text-emphasis-color",
+        "379": "-webkit-text-emphasis-position",
+        "380": "-webkit-text-emphasis-style",
+        "381": "-webkit-text-fill-color",
+        "382": "-webkit-text-orientation",
+        "383": "-webkit-text-security",
+        "384": "-webkit-text-size-adjust",
+        "385": "-webkit-text-stroke-color",
+        "386": "-webkit-text-stroke-width",
+        "387": "-webkit-text-zoom",
+        "388": "-webkit-touch-callout",
+        "389": "-webkit-transform-style",
+        "390": "-webkit-user-drag",
+        "391": "-webkit-user-modify",
+        "392": "-webkit-user-select",
+        "cssText": "align-content: normal; align-items: normal; align-self: auto; alignment-baseline: auto; all: ; alt: \"\"; animation-delay: 0s; animation-direction: normal; animation-duration: 0s; animation-fill-mode: none; animation-iteration-count: 1; animation-name: none; animation-play-state: running; animation-timing-function: ease; aspect-ratio: auto; background-attachment: scroll; background-blend-mode: normal; background-clip: border-box; background-color: rgba(0, 0, 0, 0); background-image: none; background-origin: padding-box; background-position-x: 0%; background-position-y: 0%; background-repeat: repeat; background-size: auto; baseline-shift: baseline; block-size: 134px; border-block-end-color: rgb(0, 0, 0); border-block-end-style: none; border-block-end-width: 0px; border-block-start-color: rgb(0, 0, 0); border-block-start-style: none; border-block-start-width: 0px; border-bottom-color: rgb(0, 0, 0); border-bottom-left-radius: 0px; border-bottom-right-radius: 0px; border-bottom-style: none; border-bottom-width: 0px; border-collapse: separate; border-end-end-radius: 0px; border-end-start-radius: 0px; border-image-outset: 0; border-image-repeat: stretch; border-image-slice: 100%; border-image-source: none; border-image-width: 1; border-inline-end-color: rgb(0, 0, 0); border-inline-end-style: none; border-inline-end-width: 0px; border-inline-start-color: rgb(0, 0, 0); border-inline-start-style: none; border-inline-start-width: 0px; border-left-color: rgb(0, 0, 0); border-left-style: none; border-left-width: 0px; border-right-color: rgb(0, 0, 0); border-right-style: none; border-right-width: 0px; border-start-end-radius: 0px; border-start-start-radius: 0px; border-top-color: rgb(0, 0, 0); border-top-left-radius: 0px; border-top-right-radius: 0px; border-top-style: none; border-top-width: 0px; bottom: auto; box-shadow: none; box-sizing: content-box; break-after: auto; break-before: auto; break-inside: auto; buffered-rendering: auto; caption-side: top; caret-color: rgb(0, 0, 0); clear: none; clip: auto; clip-path: none; clip-rule: nonzero; color: rgb(0, 0, 0); color-interpolation: sRGB; color-interpolation-filters: linearRGB; color-rendering: auto; color-scheme: auto; column-count: auto; column-fill: balance; column-gap: normal; column-rule-color: rgb(0, 0, 0); column-rule-style: none; column-rule-width: 0px; column-span: none; column-width: auto; contain: ; content: ; counter-increment: none; counter-reset: none; cursor: auto; cx: 0px; cy: 0px; direction: ltr; display: block; dominant-baseline: auto; empty-cells: show; fill: rgb(0, 0, 0); fill-opacity: 1; fill-rule: nonzero; filter: none; flex-basis: auto; flex-direction: row; flex-grow: 0; flex-shrink: 1; flex-wrap: nowrap; float: none; flood-color: rgb(0, 0, 0); flood-opacity: 1; font-family: -webkit-standard; font-feature-settings: normal; font-optical-sizing: auto; font-size: 16px; font-stretch: normal; font-style: normal; font-synthesis: style weight small-caps; font-variant-alternates: normal; font-variant-caps: normal; font-variant-east-asian: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-position: normal; font-variation-settings: normal; font-weight: normal; glyph-orientation-horizontal: 0deg; glyph-orientation-vertical: auto; grid-auto-columns: auto; grid-auto-flow: row; grid-auto-rows: auto; grid-column-end: auto; grid-column-start: auto; grid-row-end: auto; grid-row-start: auto; grid-template-areas: none; grid-template-columns: none; grid-template-rows: none; hanging-punctuation: none; height: 134px; image-orientation: from-image; image-rendering: auto; inline-size: 284px; inset-block-end: auto; inset-block-start: auto; inset-inline-end: auto; inset-inline-start: auto; isolation: auto; justify-content: normal; justify-items: normal; justify-self: auto; kerning: 0; left: auto; letter-spacing: normal; lighting-color: rgb(255, 255, 255); line-break: auto; line-height: normal; list-style-image: none; list-style-position: outside; list-style-type: disc; margin-block-end: 8px; margin-block-start: 8px; margin-bottom: 8px; margin-inline-end: 8px; margin-inline-start: 8px; margin-left: 8px; margin-right: 8px; margin-top: 8px; marker-end: none; marker-mid: none; marker-start: none; mask: none; mask-type: luminance; math-style: normal; max-block-size: none; max-height: none; max-inline-size: none; max-width: none; min-block-size: 0px; min-height: 0px; min-inline-size: 0px; min-width: 0px; mix-blend-mode: normal; object-fit: fill; object-position: 50% 50%; opacity: 1; order: 0; orphans: auto; outline-color: rgb(0, 0, 0); outline-offset: 0px; outline-style: none; outline-width: 0px; overflow-wrap: normal; overflow-x: visible; overflow-y: visible; overscroll-behavior-x: ; overscroll-behavior-y: ; padding-block-end: 0px; padding-block-start: 0px; padding-bottom: 0px; padding-inline-end: 0px; padding-inline-start: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px; page-break-after: auto; page-break-before: auto; page-break-inside: auto; paint-order: normal; perspective: none; perspective-origin-x: ; perspective-origin-y: ; pointer-events: auto; position: static; quotes: auto; r: 0px; resize: none; right: auto; rotate: none; row-gap: normal; rx: auto; ry: auto; scale: none; scroll-behavior: auto; scroll-margin-block: 0px; scroll-margin-bottom: 0px; scroll-margin-inline: 0px; scroll-margin-left: 0px; scroll-margin-right: 0px; scroll-margin-top: 0px; scroll-padding-block: auto; scroll-padding-bottom: auto; scroll-padding-inline: auto; scroll-padding-left: auto; scroll-padding-right: auto; scroll-padding-top: auto; scroll-snap-align: none; scroll-snap-stop: normal; scroll-snap-type: none; shape-image-threshold: 0; shape-margin: 0px; shape-outside: none; shape-rendering: auto; size: ; speak-as: normal; stop-color: rgb(0, 0, 0); stop-opacity: 1; stroke: none; stroke-color: rgba(0, 0, 0, 0); stroke-dasharray: none; stroke-dashoffset: 0px; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-opacity: 1; stroke-width: 1px; tab-size: 8; table-layout: auto; text-align: start; text-anchor: start; text-decoration: none; text-decoration-color: rgb(0, 0, 0); text-decoration-line: none; text-decoration-skip: auto; text-decoration-style: solid; text-decoration-thickness: auto; text-indent: 0px; text-orientation: mixed; text-overflow: clip; text-rendering: auto; text-shadow: none; text-transform: none; text-underline-offset: auto; text-underline-position: auto; top: auto; touch-action: auto; transform: none; transform-box: view-box; transform-origin-x: ; transform-origin-y: ; transform-origin-z: ; transform-style: flat; transition-delay: 0s; transition-duration: 0s; transition-property: all; transition-timing-function: ease; translate: none; unicode-bidi: normal; vector-effect: none; vertical-align: baseline; visibility: visible; white-space: normal; widows: auto; width: 284px; will-change: auto; word-break: normal; word-spacing: 0px; word-wrap: normal; writing-mode: horizontal-tb; x: 0px; y: 0px; z-index: auto; zoom: 1; -apple-color-filter: none; -apple-pay-button-style: black; -apple-pay-button-type: plain; -apple-trailing-word: auto; -webkit-appearance: none; -webkit-backdrop-filter: none; -webkit-backface-visibility: visible; -webkit-background-clip: border-box; -webkit-background-composite: source-over; -webkit-background-origin: padding-box; -webkit-background-size: auto; -webkit-border-fit: border; -webkit-border-horizontal-spacing: 0px; -webkit-border-image: none; -webkit-border-vertical-spacing: 0px; -webkit-box-align: stretch; -webkit-box-decoration-break: slice; -webkit-box-direction: normal; -webkit-box-flex: 0; -webkit-box-flex-group: 1; -webkit-box-lines: single; -webkit-box-ordinal-group: 1; -webkit-box-orient: horizontal; -webkit-box-pack: start; -webkit-box-reflect: none; -webkit-box-shadow: none; -webkit-column-axis: auto; -webkit-column-break-after: auto; -webkit-column-break-before: auto; -webkit-column-break-inside: auto; -webkit-column-progression: normal; -webkit-cursor-visibility: auto; -webkit-font-kerning: auto; -webkit-font-smoothing: auto; -webkit-hyphenate-character: auto; -webkit-hyphenate-limit-after: auto; -webkit-hyphenate-limit-before: auto; -webkit-hyphenate-limit-lines: no-limit; -webkit-hyphens: manual; -webkit-initial-letter: normal; -webkit-line-align: none; -webkit-line-box-contain: block inline replaced; -webkit-line-clamp: none; -webkit-line-grid: none; -webkit-line-snap: none; -webkit-locale: auto; -webkit-margin-after-collapse: collapse; -webkit-margin-before-collapse: collapse; -webkit-margin-bottom-collapse: collapse; -webkit-margin-top-collapse: collapse; -webkit-mask-box-image: none; -webkit-mask-box-image-outset: 0; -webkit-mask-box-image-repeat: stretch; -webkit-mask-box-image-slice: 0 fill; -webkit-mask-box-image-source: none; -webkit-mask-box-image-width: auto; -webkit-mask-clip: border-box; -webkit-mask-composite: source-over; -webkit-mask-image: none; -webkit-mask-origin: border-box; -webkit-mask-position-x: 0%; -webkit-mask-position-y: 0%; -webkit-mask-repeat: repeat; -webkit-mask-size: auto; -webkit-mask-source-type: alpha; -webkit-nbsp-mode: normal; -webkit-overflow-scrolling: auto; -webkit-print-color-adjust: economy; -webkit-rtl-ordering: logical; -webkit-ruby-position: before; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.3); -webkit-text-combine: none; -webkit-text-emphasis-color: rgb(0, 0, 0); -webkit-text-emphasis-position: over right; -webkit-text-emphasis-style: none; -webkit-text-fill-color: rgb(0, 0, 0); -webkit-text-orientation: mixed; -webkit-text-security: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-color: rgb(0, 0, 0); -webkit-text-stroke-width: 0px; -webkit-text-zoom: normal; -webkit-touch-callout: default; -webkit-transform-style: flat; -webkit-user-drag: auto; -webkit-user-modify: read-only; -webkit-user-select: text;",
+        "length": 393,
+        "parentRule": null,
+        "cssFloat": "none",
+        "AppleColorFilter": "none",
+        "ApplePayButtonStyle": "black",
+        "ApplePayButtonType": "plain",
+        "AppleTrailingWord": "auto",
+        "EpubCaptionSide": "top",
+        "EpubHyphens": "manual",
+        "EpubTextCombine": "none",
+        "EpubTextEmphasis": "",
+        "EpubTextEmphasisColor": "rgb(0, 0, 0)",
+        "EpubTextEmphasisStyle": "none",
+        "EpubTextOrientation": "mixed",
+        "EpubTextTransform": "none",
+        "EpubWordBreak": "normal",
+        "EpubWritingMode": "horizontal-tb",
+        "InternalTextAutosizingStatus": "",
+        "WebkitAlignContent": "normal",
+        "WebkitAlignItems": "normal",
+        "WebkitAlignSelf": "auto",
+        "WebkitAlt": "\"\"",
+        "WebkitAnimation": "",
+        "WebkitAnimationDelay": "0s",
+        "WebkitAnimationDirection": "normal",
+        "WebkitAnimationDuration": "0s",
+        "WebkitAnimationFillMode": "none",
+        "WebkitAnimationIterationCount": "1",
+        "WebkitAnimationName": "none",
+        "WebkitAnimationPlayState": "running",
+        "WebkitAnimationTimingFunction": "ease",
+        "WebkitAppearance": "none",
+        "WebkitBackdropFilter": "none",
+        "WebkitBackfaceVisibility": "visible",
+        "WebkitBackgroundClip": "border-box",
+        "WebkitBackgroundComposite": "source-over",
+        "WebkitBackgroundOrigin": "padding-box",
+        "WebkitBackgroundSize": "auto",
+        "WebkitBorderAfter": "0px none rgb(0, 0, 0)",
+        "WebkitBorderAfterColor": "rgb(0, 0, 0)",
+        "WebkitBorderAfterStyle": "none",
+        "WebkitBorderAfterWidth": "0px",
+        "WebkitBorderBefore": "0px none rgb(0, 0, 0)",
+        "WebkitBorderBeforeColor": "rgb(0, 0, 0)",
+        "WebkitBorderBeforeStyle": "none",
+        "WebkitBorderBeforeWidth": "0px",
+        "WebkitBorderBottomLeftRadius": "0px",
+        "WebkitBorderBottomRightRadius": "0px",
+        "WebkitBorderEnd": "0px none rgb(0, 0, 0)",
+        "WebkitBorderEndColor": "rgb(0, 0, 0)",
+        "WebkitBorderEndStyle": "none",
+        "WebkitBorderEndWidth": "0px",
+        "WebkitBorderFit": "border",
+        "WebkitBorderHorizontalSpacing": "0px",
+        "WebkitBorderImage": "none",
+        "WebkitBorderRadius": "",
+        "WebkitBorderStart": "0px none rgb(0, 0, 0)",
+        "WebkitBorderStartColor": "rgb(0, 0, 0)",
+        "WebkitBorderStartStyle": "none",
+        "WebkitBorderStartWidth": "0px",
+        "WebkitBorderTopLeftRadius": "0px",
+        "WebkitBorderTopRightRadius": "0px",
+        "WebkitBorderVerticalSpacing": "0px",
+        "WebkitBoxAlign": "stretch",
+        "WebkitBoxDecorationBreak": "slice",
+        "WebkitBoxDirection": "normal",
+        "WebkitBoxFlex": "0",
+        "WebkitBoxFlexGroup": "1",
+        "WebkitBoxLines": "single",
+        "WebkitBoxOrdinalGroup": "1",
+        "WebkitBoxOrient": "horizontal",
+        "WebkitBoxPack": "start",
+        "WebkitBoxReflect": "none",
+        "WebkitBoxShadow": "none",
+        "WebkitBoxSizing": "content-box",
+        "WebkitClipPath": "none",
+        "WebkitColumnAxis": "auto",
+        "WebkitColumnBreakAfter": "auto",
+        "WebkitColumnBreakBefore": "auto",
+        "WebkitColumnBreakInside": "auto",
+        "WebkitColumnCount": "auto",
+        "WebkitColumnFill": "balance",
+        "WebkitColumnGap": "normal",
+        "WebkitColumnProgression": "normal",
+        "WebkitColumnRule": "0px none rgb(0, 0, 0)",
+        "WebkitColumnRuleColor": "rgb(0, 0, 0)",
+        "WebkitColumnRuleStyle": "none",
+        "WebkitColumnRuleWidth": "0px",
+        "WebkitColumnSpan": "none",
+        "WebkitColumnWidth": "auto",
+        "WebkitColumns": "auto auto",
+        "WebkitCursorVisibility": "auto",
+        "WebkitFilter": "none",
+        "WebkitFlex": "0 1 auto",
+        "WebkitFlexBasis": "auto",
+        "WebkitFlexDirection": "row",
+        "WebkitFlexFlow": "row nowrap",
+        "WebkitFlexGrow": "0",
+        "WebkitFlexShrink": "1",
+        "WebkitFlexWrap": "nowrap",
+        "WebkitFontKerning": "auto",
+        "WebkitFontSmoothing": "auto",
+        "WebkitHyphenateCharacter": "auto",
+        "WebkitHyphenateLimitAfter": "auto",
+        "WebkitHyphenateLimitBefore": "auto",
+        "WebkitHyphenateLimitLines": "no-limit",
+        "WebkitHyphens": "manual",
+        "WebkitInitialLetter": "normal",
+        "WebkitJustifyContent": "normal",
+        "WebkitJustifyItems": "normal",
+        "WebkitLineAlign": "none",
+        "WebkitLineBoxContain": "block inline replaced",
+        "WebkitLineBreak": "auto",
+        "WebkitLineClamp": "none",
+        "WebkitLineGrid": "none",
+        "WebkitLineSnap": "none",
+        "WebkitLocale": "auto",
+        "WebkitLogicalHeight": "134px",
+        "WebkitLogicalWidth": "284px",
+        "WebkitMarginAfter": "8px",
+        "WebkitMarginAfterCollapse": "collapse",
+        "WebkitMarginBefore": "8px",
+        "WebkitMarginBeforeCollapse": "collapse",
+        "WebkitMarginBottomCollapse": "collapse",
+        "WebkitMarginCollapse": "",
+        "WebkitMarginEnd": "8px",
+        "WebkitMarginStart": "8px",
+        "WebkitMarginTopCollapse": "collapse",
+        "WebkitMask": "",
+        "WebkitMaskBoxImage": "none",
+        "WebkitMaskBoxImageOutset": "0",
+        "WebkitMaskBoxImageRepeat": "stretch",
+        "WebkitMaskBoxImageSlice": "0 fill",
+        "WebkitMaskBoxImageSource": "none",
+        "WebkitMaskBoxImageWidth": "auto",
+        "WebkitMaskClip": "border-box",
+        "WebkitMaskComposite": "source-over",
+        "WebkitMaskImage": "none",
+        "WebkitMaskOrigin": "border-box",
+        "WebkitMaskPosition": "0% 0%",
+        "WebkitMaskPositionX": "0%",
+        "WebkitMaskPositionY": "0%",
+        "WebkitMaskRepeat": "repeat",
+        "WebkitMaskSize": "auto",
+        "WebkitMaskSourceType": "alpha",
+        "WebkitMaxLogicalHeight": "none",
+        "WebkitMaxLogicalWidth": "none",
+        "WebkitMinLogicalHeight": "0px",
+        "WebkitMinLogicalWidth": "0px",
+        "WebkitNbspMode": "normal",
+        "WebkitOpacity": "1",
+        "WebkitOrder": "0",
+        "WebkitOverflowScrolling": "auto",
+        "WebkitPaddingAfter": "0px",
+        "WebkitPaddingBefore": "0px",
+        "WebkitPaddingEnd": "0px",
+        "WebkitPaddingStart": "0px",
+        "WebkitPerspective": "none",
+        "WebkitPerspectiveOrigin": "142px 67px",
+        "WebkitPerspectiveOriginX": "",
+        "WebkitPerspectiveOriginY": "",
+        "WebkitPrintColorAdjust": "economy",
+        "WebkitRtlOrdering": "logical",
+        "WebkitRubyPosition": "before",
+        "WebkitShapeImageThreshold": "0",
+        "WebkitShapeMargin": "0px",
+        "WebkitShapeOutside": "none",
+        "WebkitTapHighlightColor": "rgba(26, 26, 26, 0.3)",
+        "WebkitTextCombine": "none",
+        "WebkitTextDecoration": "none solid rgb(0, 0, 0)",
+        "WebkitTextDecorationColor": "rgb(0, 0, 0)",
+        "WebkitTextDecorationLine": "none",
+        "WebkitTextDecorationSkip": "auto",
+        "WebkitTextDecorationStyle": "solid",
+        "WebkitTextDecorationsInEffect": "none",
+        "WebkitTextEmphasis": "",
+        "WebkitTextEmphasisColor": "rgb(0, 0, 0)",
+        "WebkitTextEmphasisPosition": "over right",
+        "WebkitTextEmphasisStyle": "none",
+        "WebkitTextFillColor": "rgb(0, 0, 0)",
+        "WebkitTextOrientation": "mixed",
+        "WebkitTextSecurity": "none",
+        "WebkitTextSizeAdjust": "auto",
+        "WebkitTextStroke": "",
+        "WebkitTextStrokeColor": "rgb(0, 0, 0)",
+        "WebkitTextStrokeWidth": "0px",
+        "WebkitTextUnderlinePosition": "auto",
+        "WebkitTextZoom": "normal",
+        "WebkitTouchCallout": "default",
+        "WebkitTransform": "none",
+        "WebkitTransformOrigin": "142px 67px",
+        "WebkitTransformOriginX": "",
+        "WebkitTransformOriginY": "",
+        "WebkitTransformOriginZ": "",
+        "WebkitTransformStyle": "flat",
+        "WebkitTransition": "all 0s ease 0s",
+        "WebkitTransitionDelay": "0s",
+        "WebkitTransitionDuration": "0s",
+        "WebkitTransitionProperty": "all",
+        "WebkitTransitionTimingFunction": "ease",
+        "WebkitUserDrag": "auto",
+        "WebkitUserModify": "read-only",
+        "WebkitUserSelect": "text",
+        "WebkitWritingMode": "horizontal-tb",
+        "alignContent": "normal",
+        "alignItems": "normal",
+        "alignSelf": "auto",
+        "alignmentBaseline": "auto",
+        "all": "",
+        "alt": "\"\"",
+        "animation": "",
+        "animationDelay": "0s",
+        "animationDirection": "normal",
+        "animationDuration": "0s",
+        "animationFillMode": "none",
+        "animationIterationCount": "1",
+        "animationName": "none",
+        "animationPlayState": "running",
+        "animationTimingFunction": "ease",
+        "aspectRatio": "auto",
+        "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "backgroundAttachment": "scroll",
+        "backgroundBlendMode": "normal",
+        "backgroundClip": "border-box",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "backgroundOrigin": "padding-box",
+        "backgroundPosition": "0% 0%",
+        "backgroundPositionX": "0%",
+        "backgroundPositionY": "0%",
+        "backgroundRepeat": "repeat",
+        "backgroundSize": "auto",
+        "baselineShift": "baseline",
+        "blockSize": "134px",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderBlock": "0px none rgb(0, 0, 0)",
+        "borderBlockColor": "rgb(0, 0, 0)",
+        "borderBlockEnd": "0px none rgb(0, 0, 0)",
+        "borderBlockEndColor": "rgb(0, 0, 0)",
+        "borderBlockEndStyle": "none",
+        "borderBlockEndWidth": "0px",
+        "borderBlockStart": "0px none rgb(0, 0, 0)",
+        "borderBlockStartColor": "rgb(0, 0, 0)",
+        "borderBlockStartStyle": "none",
+        "borderBlockStartWidth": "0px",
+        "borderBlockStyle": "none",
+        "borderBlockWidth": "0px",
+        "borderBottom": "0px none rgb(0, 0, 0)",
+        "borderBottomColor": "rgb(0, 0, 0)",
+        "borderBottomLeftRadius": "0px",
+        "borderBottomRightRadius": "0px",
+        "borderBottomStyle": "none",
+        "borderBottomWidth": "0px",
+        "borderCollapse": "separate",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderEndEndRadius": "0px",
+        "borderEndStartRadius": "0px",
+        "borderImage": "none",
+        "borderImageOutset": "0",
+        "borderImageRepeat": "stretch",
+        "borderImageSlice": "100%",
+        "borderImageSource": "none",
+        "borderImageWidth": "1",
+        "borderInline": "0px none rgb(0, 0, 0)",
+        "borderInlineColor": "rgb(0, 0, 0)",
+        "borderInlineEnd": "0px none rgb(0, 0, 0)",
+        "borderInlineEndColor": "rgb(0, 0, 0)",
+        "borderInlineEndStyle": "none",
+        "borderInlineEndWidth": "0px",
+        "borderInlineStart": "0px none rgb(0, 0, 0)",
+        "borderInlineStartColor": "rgb(0, 0, 0)",
+        "borderInlineStartStyle": "none",
+        "borderInlineStartWidth": "0px",
+        "borderInlineStyle": "none",
+        "borderInlineWidth": "0px",
+        "borderLeft": "0px none rgb(0, 0, 0)",
+        "borderLeftColor": "rgb(0, 0, 0)",
+        "borderLeftStyle": "none",
+        "borderLeftWidth": "0px",
+        "borderRadius": "0px",
+        "borderRight": "0px none rgb(0, 0, 0)",
+        "borderRightColor": "rgb(0, 0, 0)",
+        "borderRightStyle": "none",
+        "borderRightWidth": "0px",
+        "borderSpacing": "0px 0px",
+        "borderStartEndRadius": "0px",
+        "borderStartStartRadius": "0px",
+        "borderStyle": "none",
+        "borderTop": "0px none rgb(0, 0, 0)",
+        "borderTopColor": "rgb(0, 0, 0)",
+        "borderTopLeftRadius": "0px",
+        "borderTopRightRadius": "0px",
+        "borderTopStyle": "none",
+        "borderTopWidth": "0px",
+        "borderWidth": "0px",
+        "bottom": "auto",
+        "boxShadow": "none",
+        "boxSizing": "content-box",
+        "breakAfter": "auto",
+        "breakBefore": "auto",
+        "breakInside": "auto",
+        "bufferedRendering": "auto",
+        "captionSide": "top",
+        "caretColor": "rgb(0, 0, 0)",
+        "clear": "none",
+        "clip": "auto",
+        "clipPath": "none",
+        "clipRule": "nonzero",
+        "color": "rgb(0, 0, 0)",
+        "colorInterpolation": "sRGB",
+        "colorInterpolationFilters": "linearRGB",
+        "colorProfile": "",
+        "colorRendering": "auto",
+        "colorScheme": "auto",
+        "columnCount": "auto",
+        "columnFill": "balance",
+        "columnGap": "normal",
+        "columnRule": "0px none rgb(0, 0, 0)",
+        "columnRuleColor": "rgb(0, 0, 0)",
+        "columnRuleStyle": "none",
+        "columnRuleWidth": "0px",
+        "columnSpan": "none",
+        "columnWidth": "auto",
+        "columns": "auto auto",
+        "content": "",
+        "counterIncrement": "none",
+        "counterReset": "none",
+        "cursor": "auto",
+        "cx": "0px",
+        "cy": "0px",
+        "direction": "ltr",
+        "display": "block",
+        "dominantBaseline": "auto",
+        "emptyCells": "show",
+        "enableBackground": "",
+        "fill": "rgb(0, 0, 0)",
+        "fillOpacity": "1",
+        "fillRule": "nonzero",
+        "filter": "none",
+        "flex": "0 1 auto",
+        "flexBasis": "auto",
+        "flexDirection": "row",
+        "flexFlow": "row nowrap",
+        "flexGrow": "0",
+        "flexShrink": "1",
+        "flexWrap": "nowrap",
+        "float": "none",
+        "floodColor": "rgb(0, 0, 0)",
+        "floodOpacity": "1",
+        "font": "normal normal normal normal 16px/normal -webkit-standard",
+        "fontDisplay": "",
+        "fontFamily": "-webkit-standard",
+        "fontFeatureSettings": "normal",
+        "fontKerning": "auto",
+        "fontOpticalSizing": "auto",
+        "fontSize": "16px",
+        "fontStretch": "normal",
+        "fontStyle": "normal",
+        "fontSynthesis": "style weight small-caps",
+        "fontVariant": "normal",
+        "fontVariantAlternates": "normal",
+        "fontVariantCaps": "normal",
+        "fontVariantEastAsian": "normal",
+        "fontVariantLigatures": "normal",
+        "fontVariantNumeric": "normal",
+        "fontVariantPosition": "normal",
+        "fontVariationSettings": "normal",
+        "fontWeight": "normal",
+        "gap": "normal normal",
+        "glyphOrientationHorizontal": "0deg",
+        "glyphOrientationVertical": "auto",
+        "grid": "none / none / none / row / auto / auto",
+        "gridArea": "auto / auto / auto / auto",
+        "gridAutoColumns": "auto",
+        "gridAutoFlow": "row",
+        "gridAutoRows": "auto",
+        "gridColumn": "auto / auto",
+        "gridColumnEnd": "auto",
+        "gridColumnGap": "normal",
+        "gridColumnStart": "auto",
+        "gridGap": "normal normal",
+        "gridRow": "auto / auto",
+        "gridRowEnd": "auto",
+        "gridRowGap": "normal",
+        "gridRowStart": "auto",
+        "gridTemplate": "none / none / none",
+        "gridTemplateAreas": "none",
+        "gridTemplateColumns": "none",
+        "gridTemplateRows": "none",
+        "hangingPunctuation": "none",
+        "height": "134px",
+        "imageOrientation": "from-image",
+        "imageRendering": "auto",
+        "inlineSize": "284px",
+        "inset": "auto",
+        "insetBlock": "auto",
+        "insetBlockEnd": "auto",
+        "insetBlockStart": "auto",
+        "insetInline": "auto",
+        "insetInlineEnd": "auto",
+        "insetInlineStart": "auto",
+        "isolation": "auto",
+        "justifyContent": "normal",
+        "justifyItems": "normal",
+        "justifySelf": "auto",
+        "kerning": "0",
+        "left": "auto",
+        "letterSpacing": "normal",
+        "lightingColor": "rgb(255, 255, 255)",
+        "lineBreak": "auto",
+        "lineHeight": "normal",
+        "listStyle": "disc outside none",
+        "listStyleImage": "none",
+        "listStylePosition": "outside",
+        "listStyleType": "disc",
+        "margin": "8px",
+        "marginBlock": "8px",
+        "marginBlockEnd": "8px",
+        "marginBlockStart": "8px",
+        "marginBottom": "8px",
+        "marginInline": "8px",
+        "marginInlineEnd": "8px",
+        "marginInlineStart": "8px",
+        "marginLeft": "8px",
+        "marginRight": "8px",
+        "marginTop": "8px",
+        "marker": "",
+        "markerEnd": "none",
+        "markerMid": "none",
+        "markerStart": "none",
+        "mask": "none",
+        "maskType": "luminance",
+        "mathStyle": "normal",
+        "maxBlockSize": "none",
+        "maxHeight": "none",
+        "maxInlineSize": "none",
+        "maxWidth": "none",
+        "minBlockSize": "0px",
+        "minHeight": "0px",
+        "minInlineSize": "0px",
+        "minWidth": "0px",
+        "mixBlendMode": "normal",
+        "objectFit": "fill",
+        "objectPosition": "50% 50%",
+        "opacity": "1",
+        "order": "0",
+        "orphans": "auto",
+        "outline": "rgb(0, 0, 0) none 0px",
+        "outlineColor": "rgb(0, 0, 0)",
+        "outlineOffset": "0px",
+        "outlineStyle": "none",
+        "outlineWidth": "0px",
+        "overflow": "visible",
+        "overflowWrap": "normal",
+        "overflowX": "visible",
+        "overflowY": "visible",
+        "padding": "0px",
+        "paddingBlock": "0px",
+        "paddingBlockEnd": "0px",
+        "paddingBlockStart": "0px",
+        "paddingBottom": "0px",
+        "paddingInline": "0px",
+        "paddingInlineEnd": "0px",
+        "paddingInlineStart": "0px",
+        "paddingLeft": "0px",
+        "paddingRight": "0px",
+        "paddingTop": "0px",
+        "page": "",
+        "pageBreakAfter": "auto",
+        "pageBreakBefore": "auto",
+        "pageBreakInside": "auto",
+        "paintOrder": "normal",
+        "perspective": "none",
+        "perspectiveOrigin": "142px 67px",
+        "perspectiveOriginX": "",
+        "perspectiveOriginY": "",
+        "placeContent": "normal normal",
+        "placeItems": "normal normal",
+        "placeSelf": "auto auto",
+        "pointerEvents": "auto",
+        "position": "static",
+        "quotes": "auto",
+        "r": "0px",
+        "resize": "none",
+        "right": "auto",
+        "rotate": "none",
+        "rowGap": "normal",
+        "rx": "auto",
+        "ry": "auto",
+        "scale": "none",
+        "scrollMargin": "0px",
+        "scrollMarginBlock": "0px",
+        "scrollMarginBlockEnd": "0px",
+        "scrollMarginBlockStart": "0px",
+        "scrollMarginBottom": "0px",
+        "scrollMarginInline": "0px",
+        "scrollMarginInlineEnd": "0px",
+        "scrollMarginInlineStart": "0px",
+        "scrollMarginLeft": "0px",
+        "scrollMarginRight": "0px",
+        "scrollMarginTop": "0px",
+        "scrollPadding": "auto",
+        "scrollPaddingBlock": "auto",
+        "scrollPaddingBlockEnd": "auto",
+        "scrollPaddingBlockStart": "auto",
+        "scrollPaddingBottom": "auto",
+        "scrollPaddingInline": "auto",
+        "scrollPaddingInlineEnd": "auto",
+        "scrollPaddingInlineStart": "auto",
+        "scrollPaddingLeft": "auto",
+        "scrollPaddingRight": "auto",
+        "scrollPaddingTop": "auto",
+        "scrollSnapAlign": "none",
+        "scrollSnapMargin": "0px",
+        "scrollSnapMarginBottom": "0px",
+        "scrollSnapMarginLeft": "0px",
+        "scrollSnapMarginRight": "0px",
+        "scrollSnapMarginTop": "0px",
+        "scrollSnapStop": "normal",
+        "scrollSnapType": "none",
+        "shapeImageThreshold": "0",
+        "shapeMargin": "0px",
+        "shapeOutside": "none",
+        "shapeRendering": "auto",
+        "size": "",
+        "speakAs": "normal",
+        "src": "",
+        "stopColor": "rgb(0, 0, 0)",
+        "stopOpacity": "1",
+        "stroke": "none",
+        "strokeColor": "rgba(0, 0, 0, 0)",
+        "strokeDasharray": "none",
+        "strokeDashoffset": "0px",
+        "strokeLinecap": "butt",
+        "strokeLinejoin": "miter",
+        "strokeMiterlimit": "4",
+        "strokeOpacity": "1",
+        "strokeWidth": "1px",
+        "supportedColorSchemes": "auto",
+        "tabSize": "8",
+        "tableLayout": "auto",
+        "textAlign": "start",
+        "textAnchor": "start",
+        "textDecoration": "none",
+        "textDecorationColor": "rgb(0, 0, 0)",
+        "textDecorationLine": "none",
+        "textDecorationSkip": "auto",
+        "textDecorationStyle": "solid",
+        "textDecorationThickness": "auto",
+        "textEmphasis": "",
+        "textEmphasisColor": "rgb(0, 0, 0)",
+        "textEmphasisPosition": "over right",
+        "textEmphasisStyle": "none",
+        "textIndent": "0px",
+        "textOrientation": "mixed",
+        "textOverflow": "clip",
+        "textRendering": "auto",
+        "textShadow": "none",
+        "textTransform": "none",
+        "textUnderlineOffset": "auto",
+        "textUnderlinePosition": "auto",
+        "top": "auto",
+        "touchAction": "auto",
+        "transform": "none",
+        "transformBox": "view-box",
+        "transformOrigin": "142px 67px",
+        "transformOriginX": "",
+        "transformOriginY": "",
+        "transformOriginZ": "",
+        "transformStyle": "flat",
+        "transition": "all 0s ease 0s",
+        "transitionDelay": "0s",
+        "transitionDuration": "0s",
+        "transitionProperty": "all",
+        "transitionTimingFunction": "ease",
+        "translate": "none",
+        "unicodeBidi": "normal",
+        "unicodeRange": "",
+        "vectorEffect": "none",
+        "verticalAlign": "baseline",
+        "visibility": "visible",
+        "whiteSpace": "normal",
+        "widows": "auto",
+        "width": "284px",
+        "willChange": "auto",
+        "wordBreak": "normal",
+        "wordSpacing": "0px",
+        "wordWrap": "normal",
+        "writingMode": "horizontal-tb",
+        "x": "0px",
+        "y": "0px",
+        "zIndex": "auto",
+        "zoom": "1",
+        "webkitAlignContent": "normal",
+        "webkitAlignItems": "normal",
+        "webkitAlignSelf": "auto",
+        "webkitAlt": "\"\"",
+        "webkitAnimation": "",
+        "webkitAnimationDelay": "0s",
+        "webkitAnimationDirection": "normal",
+        "webkitAnimationDuration": "0s",
+        "webkitAnimationFillMode": "none",
+        "webkitAnimationIterationCount": "1",
+        "webkitAnimationName": "none",
+        "webkitAnimationPlayState": "running",
+        "webkitAnimationTimingFunction": "ease",
+        "webkitAppearance": "none",
+        "webkitBackdropFilter": "none",
+        "webkitBackfaceVisibility": "visible",
+        "webkitBackgroundClip": "border-box",
+        "webkitBackgroundComposite": "source-over",
+        "webkitBackgroundOrigin": "padding-box",
+        "webkitBackgroundSize": "auto",
+        "webkitBorderAfter": "0px none rgb(0, 0, 0)",
+        "webkitBorderAfterColor": "rgb(0, 0, 0)",
+        "webkitBorderAfterStyle": "none",
+        "webkitBorderAfterWidth": "0px",
+        "webkitBorderBefore": "0px none rgb(0, 0, 0)",
+        "webkitBorderBeforeColor": "rgb(0, 0, 0)",
+        "webkitBorderBeforeStyle": "none",
+        "webkitBorderBeforeWidth": "0px",
+        "webkitBorderBottomLeftRadius": "0px",
+        "webkitBorderBottomRightRadius": "0px",
+        "webkitBorderEnd": "0px none rgb(0, 0, 0)",
+        "webkitBorderEndColor": "rgb(0, 0, 0)",
+        "webkitBorderEndStyle": "none",
+        "webkitBorderEndWidth": "0px",
+        "webkitBorderFit": "border",
+        "webkitBorderHorizontalSpacing": "0px",
+        "webkitBorderImage": "none",
+        "webkitBorderRadius": "",
+        "webkitBorderStart": "0px none rgb(0, 0, 0)",
+        "webkitBorderStartColor": "rgb(0, 0, 0)",
+        "webkitBorderStartStyle": "none",
+        "webkitBorderStartWidth": "0px",
+        "webkitBorderTopLeftRadius": "0px",
+        "webkitBorderTopRightRadius": "0px",
+        "webkitBorderVerticalSpacing": "0px",
+        "webkitBoxAlign": "stretch",
+        "webkitBoxDecorationBreak": "slice",
+        "webkitBoxDirection": "normal",
+        "webkitBoxFlex": "0",
+        "webkitBoxFlexGroup": "1",
+        "webkitBoxLines": "single",
+        "webkitBoxOrdinalGroup": "1",
+        "webkitBoxOrient": "horizontal",
+        "webkitBoxPack": "start",
+        "webkitBoxReflect": "none",
+        "webkitBoxShadow": "none",
+        "webkitBoxSizing": "content-box",
+        "webkitClipPath": "none",
+        "webkitColumnAxis": "auto",
+        "webkitColumnBreakAfter": "auto",
+        "webkitColumnBreakBefore": "auto",
+        "webkitColumnBreakInside": "auto",
+        "webkitColumnCount": "auto",
+        "webkitColumnFill": "balance",
+        "webkitColumnGap": "normal",
+        "webkitColumnProgression": "normal",
+        "webkitColumnRule": "0px none rgb(0, 0, 0)",
+        "webkitColumnRuleColor": "rgb(0, 0, 0)",
+        "webkitColumnRuleStyle": "none",
+        "webkitColumnRuleWidth": "0px",
+        "webkitColumnSpan": "none",
+        "webkitColumnWidth": "auto",
+        "webkitColumns": "auto auto",
+        "webkitCursorVisibility": "auto",
+        "webkitFilter": "none",
+        "webkitFlex": "0 1 auto",
+        "webkitFlexBasis": "auto",
+        "webkitFlexDirection": "row",
+        "webkitFlexFlow": "row nowrap",
+        "webkitFlexGrow": "0",
+        "webkitFlexShrink": "1",
+        "webkitFlexWrap": "nowrap",
+        "webkitFontKerning": "auto",
+        "webkitFontSmoothing": "auto",
+        "webkitHyphenateCharacter": "auto",
+        "webkitHyphenateLimitAfter": "auto",
+        "webkitHyphenateLimitBefore": "auto",
+        "webkitHyphenateLimitLines": "no-limit",
+        "webkitHyphens": "manual",
+        "webkitInitialLetter": "normal",
+        "webkitJustifyContent": "normal",
+        "webkitJustifyItems": "normal",
+        "webkitLineAlign": "none",
+        "webkitLineBoxContain": "block inline replaced",
+        "webkitLineBreak": "auto",
+        "webkitLineClamp": "none",
+        "webkitLineGrid": "none",
+        "webkitLineSnap": "none",
+        "webkitLocale": "auto",
+        "webkitLogicalHeight": "134px",
+        "webkitLogicalWidth": "284px",
+        "webkitMarginAfter": "8px",
+        "webkitMarginAfterCollapse": "collapse",
+        "webkitMarginBefore": "8px",
+        "webkitMarginBeforeCollapse": "collapse",
+        "webkitMarginBottomCollapse": "collapse",
+        "webkitMarginCollapse": "",
+        "webkitMarginEnd": "8px",
+        "webkitMarginStart": "8px",
+        "webkitMarginTopCollapse": "collapse",
+        "webkitMask": "",
+        "webkitMaskBoxImage": "none",
+        "webkitMaskBoxImageOutset": "0",
+        "webkitMaskBoxImageRepeat": "stretch",
+        "webkitMaskBoxImageSlice": "0 fill",
+        "webkitMaskBoxImageSource": "none",
+        "webkitMaskBoxImageWidth": "auto",
+        "webkitMaskClip": "border-box",
+        "webkitMaskComposite": "source-over",
+        "webkitMaskImage": "none",
+        "webkitMaskOrigin": "border-box",
+        "webkitMaskPosition": "0% 0%",
+        "webkitMaskPositionX": "0%",
+        "webkitMaskPositionY": "0%",
+        "webkitMaskRepeat": "repeat",
+        "webkitMaskSize": "auto",
+        "webkitMaskSourceType": "alpha",
+        "webkitMaxLogicalHeight": "none",
+        "webkitMaxLogicalWidth": "none",
+        "webkitMinLogicalHeight": "0px",
+        "webkitMinLogicalWidth": "0px",
+        "webkitNbspMode": "normal",
+        "webkitOpacity": "1",
+        "webkitOrder": "0",
+        "webkitOverflowScrolling": "auto",
+        "webkitPaddingAfter": "0px",
+        "webkitPaddingBefore": "0px",
+        "webkitPaddingEnd": "0px",
+        "webkitPaddingStart": "0px",
+        "webkitPerspective": "none",
+        "webkitPerspectiveOrigin": "142px 67px",
+        "webkitPerspectiveOriginX": "",
+        "webkitPerspectiveOriginY": "",
+        "webkitPrintColorAdjust": "economy",
+        "webkitRtlOrdering": "logical",
+        "webkitRubyPosition": "before",
+        "webkitShapeImageThreshold": "0",
+        "webkitShapeMargin": "0px",
+        "webkitShapeOutside": "none",
+        "webkitTapHighlightColor": "rgba(26, 26, 26, 0.3)",
+        "webkitTextCombine": "none",
+        "webkitTextDecoration": "none solid rgb(0, 0, 0)",
+        "webkitTextDecorationColor": "rgb(0, 0, 0)",
+        "webkitTextDecorationLine": "none",
+        "webkitTextDecorationSkip": "auto",
+        "webkitTextDecorationStyle": "solid",
+        "webkitTextDecorationsInEffect": "none",
+        "webkitTextEmphasis": "",
+        "webkitTextEmphasisColor": "rgb(0, 0, 0)",
+        "webkitTextEmphasisPosition": "over right",
+        "webkitTextEmphasisStyle": "none",
+        "webkitTextFillColor": "rgb(0, 0, 0)",
+        "webkitTextOrientation": "mixed",
+        "webkitTextSecurity": "none",
+        "webkitTextSizeAdjust": "auto",
+        "webkitTextStroke": "",
+        "webkitTextStrokeColor": "rgb(0, 0, 0)",
+        "webkitTextStrokeWidth": "0px",
+        "webkitTextUnderlinePosition": "auto",
+        "webkitTextZoom": "normal",
+        "webkitTouchCallout": "default",
+        "webkitTransform": "none",
+        "webkitTransformOrigin": "142px 67px",
+        "webkitTransformOriginX": "",
+        "webkitTransformOriginY": "",
+        "webkitTransformOriginZ": "",
+        "webkitTransformStyle": "flat",
+        "webkitTransition": "all 0s ease 0s",
+        "webkitTransitionDelay": "0s",
+        "webkitTransitionDuration": "0s",
+        "webkitTransitionProperty": "all",
+        "webkitTransitionTimingFunction": "ease",
+        "webkitUserDrag": "auto",
+        "webkitUserModify": "read-only",
+        "webkitUserSelect": "text",
+        "webkitWritingMode": "horizontal-tb",
+        "-apple-color-filter": "none",
+        "-apple-pay-button-style": "black",
+        "-apple-pay-button-type": "plain",
+        "-apple-trailing-word": "auto",
+        "-epub-caption-side": "top",
+        "-epub-hyphens": "manual",
+        "-epub-text-combine": "none",
+        "-epub-text-emphasis": "",
+        "-epub-text-emphasis-color": "rgb(0, 0, 0)",
+        "-epub-text-emphasis-style": "none",
+        "-epub-text-orientation": "mixed",
+        "-epub-text-transform": "none",
+        "-epub-word-break": "normal",
+        "-epub-writing-mode": "horizontal-tb",
+        "-internal-text-autosizing-status": "",
+        "-webkit-align-content": "normal",
+        "-webkit-align-items": "normal",
+        "-webkit-align-self": "auto",
+        "-webkit-alt": "\"\"",
+        "-webkit-animation": "",
+        "-webkit-animation-delay": "0s",
+        "-webkit-animation-direction": "normal",
+        "-webkit-animation-duration": "0s",
+        "-webkit-animation-fill-mode": "none",
+        "-webkit-animation-iteration-count": "1",
+        "-webkit-animation-name": "none",
+        "-webkit-animation-play-state": "running",
+        "-webkit-animation-timing-function": "ease",
+        "-webkit-appearance": "none",
+        "-webkit-backdrop-filter": "none",
+        "-webkit-backface-visibility": "visible",
+        "-webkit-background-clip": "border-box",
+        "-webkit-background-composite": "source-over",
+        "-webkit-background-origin": "padding-box",
+        "-webkit-background-size": "auto",
+        "-webkit-border-after": "0px none rgb(0, 0, 0)",
+        "-webkit-border-after-color": "rgb(0, 0, 0)",
+        "-webkit-border-after-style": "none",
+        "-webkit-border-after-width": "0px",
+        "-webkit-border-before": "0px none rgb(0, 0, 0)",
+        "-webkit-border-before-color": "rgb(0, 0, 0)",
+        "-webkit-border-before-style": "none",
+        "-webkit-border-before-width": "0px",
+        "-webkit-border-bottom-left-radius": "0px",
+        "-webkit-border-bottom-right-radius": "0px",
+        "-webkit-border-end": "0px none rgb(0, 0, 0)",
+        "-webkit-border-end-color": "rgb(0, 0, 0)",
+        "-webkit-border-end-style": "none",
+        "-webkit-border-end-width": "0px",
+        "-webkit-border-fit": "border",
+        "-webkit-border-horizontal-spacing": "0px",
+        "-webkit-border-image": "none",
+        "-webkit-border-radius": "",
+        "-webkit-border-start": "0px none rgb(0, 0, 0)",
+        "-webkit-border-start-color": "rgb(0, 0, 0)",
+        "-webkit-border-start-style": "none",
+        "-webkit-border-start-width": "0px",
+        "-webkit-border-top-left-radius": "0px",
+        "-webkit-border-top-right-radius": "0px",
+        "-webkit-border-vertical-spacing": "0px",
+        "-webkit-box-align": "stretch",
+        "-webkit-box-decoration-break": "slice",
+        "-webkit-box-direction": "normal",
+        "-webkit-box-flex": "0",
+        "-webkit-box-flex-group": "1",
+        "-webkit-box-lines": "single",
+        "-webkit-box-ordinal-group": "1",
+        "-webkit-box-orient": "horizontal",
+        "-webkit-box-pack": "start",
+        "-webkit-box-reflect": "none",
+        "-webkit-box-shadow": "none",
+        "-webkit-box-sizing": "content-box",
+        "-webkit-clip-path": "none",
+        "-webkit-column-axis": "auto",
+        "-webkit-column-break-after": "auto",
+        "-webkit-column-break-before": "auto",
+        "-webkit-column-break-inside": "auto",
+        "-webkit-column-count": "auto",
+        "-webkit-column-fill": "balance",
+        "-webkit-column-gap": "normal",
+        "-webkit-column-progression": "normal",
+        "-webkit-column-rule": "0px none rgb(0, 0, 0)",
+        "-webkit-column-rule-color": "rgb(0, 0, 0)",
+        "-webkit-column-rule-style": "none",
+        "-webkit-column-rule-width": "0px",
+        "-webkit-column-span": "none",
+        "-webkit-column-width": "auto",
+        "-webkit-columns": "auto auto",
+        "-webkit-cursor-visibility": "auto",
+        "-webkit-filter": "none",
+        "-webkit-flex": "0 1 auto",
+        "-webkit-flex-basis": "auto",
+        "-webkit-flex-direction": "row",
+        "-webkit-flex-flow": "row nowrap",
+        "-webkit-flex-grow": "0",
+        "-webkit-flex-shrink": "1",
+        "-webkit-flex-wrap": "nowrap",
+        "-webkit-font-kerning": "auto",
+        "-webkit-font-smoothing": "auto",
+        "-webkit-hyphenate-character": "auto",
+        "-webkit-hyphenate-limit-after": "auto",
+        "-webkit-hyphenate-limit-before": "auto",
+        "-webkit-hyphenate-limit-lines": "no-limit",
+        "-webkit-hyphens": "manual",
+        "-webkit-initial-letter": "normal",
+        "-webkit-justify-content": "normal",
+        "-webkit-justify-items": "normal",
+        "-webkit-line-align": "none",
+        "-webkit-line-box-contain": "block inline replaced",
+        "-webkit-line-break": "auto",
+        "-webkit-line-clamp": "none",
+        "-webkit-line-grid": "none",
+        "-webkit-line-snap": "none",
+        "-webkit-locale": "auto",
+        "-webkit-logical-height": "134px",
+        "-webkit-logical-width": "284px",
+        "-webkit-margin-after": "8px",
+        "-webkit-margin-after-collapse": "collapse",
+        "-webkit-margin-before": "8px",
+        "-webkit-margin-before-collapse": "collapse",
+        "-webkit-margin-bottom-collapse": "collapse",
+        "-webkit-margin-collapse": "",
+        "-webkit-margin-end": "8px",
+        "-webkit-margin-start": "8px",
+        "-webkit-margin-top-collapse": "collapse",
+        "-webkit-mask": "",
+        "-webkit-mask-box-image": "none",
+        "-webkit-mask-box-image-outset": "0",
+        "-webkit-mask-box-image-repeat": "stretch",
+        "-webkit-mask-box-image-slice": "0 fill",
+        "-webkit-mask-box-image-source": "none",
+        "-webkit-mask-box-image-width": "auto",
+        "-webkit-mask-clip": "border-box",
+        "-webkit-mask-composite": "source-over",
+        "-webkit-mask-image": "none",
+        "-webkit-mask-origin": "border-box",
+        "-webkit-mask-position": "0% 0%",
+        "-webkit-mask-position-x": "0%",
+        "-webkit-mask-position-y": "0%",
+        "-webkit-mask-repeat": "repeat",
+        "-webkit-mask-size": "auto",
+        "-webkit-mask-source-type": "alpha",
+        "-webkit-max-logical-height": "none",
+        "-webkit-max-logical-width": "none",
+        "-webkit-min-logical-height": "0px",
+        "-webkit-min-logical-width": "0px",
+        "-webkit-nbsp-mode": "normal",
+        "-webkit-opacity": "1",
+        "-webkit-order": "0",
+        "-webkit-overflow-scrolling": "auto",
+        "-webkit-padding-after": "0px",
+        "-webkit-padding-before": "0px",
+        "-webkit-padding-end": "0px",
+        "-webkit-padding-start": "0px",
+        "-webkit-perspective": "none",
+        "-webkit-perspective-origin": "142px 67px",
+        "-webkit-perspective-origin-x": "",
+        "-webkit-perspective-origin-y": "",
+        "-webkit-print-color-adjust": "economy",
+        "-webkit-rtl-ordering": "logical",
+        "-webkit-ruby-position": "before",
+        "-webkit-shape-image-threshold": "0",
+        "-webkit-shape-margin": "0px",
+        "-webkit-shape-outside": "none",
+        "-webkit-tap-highlight-color": "rgba(26, 26, 26, 0.3)",
+        "-webkit-text-combine": "none",
+        "-webkit-text-decoration": "none solid rgb(0, 0, 0)",
+        "-webkit-text-decoration-color": "rgb(0, 0, 0)",
+        "-webkit-text-decoration-line": "none",
+        "-webkit-text-decoration-skip": "auto",
+        "-webkit-text-decoration-style": "solid",
+        "-webkit-text-decorations-in-effect": "none",
+        "-webkit-text-emphasis": "",
+        "-webkit-text-emphasis-color": "rgb(0, 0, 0)",
+        "-webkit-text-emphasis-position": "over right",
+        "-webkit-text-emphasis-style": "none",
+        "-webkit-text-fill-color": "rgb(0, 0, 0)",
+        "-webkit-text-orientation": "mixed",
+        "-webkit-text-security": "none",
+        "-webkit-text-size-adjust": "auto",
+        "-webkit-text-stroke": "",
+        "-webkit-text-stroke-color": "rgb(0, 0, 0)",
+        "-webkit-text-stroke-width": "0px",
+        "-webkit-text-underline-position": "auto",
+        "-webkit-text-zoom": "normal",
+        "-webkit-touch-callout": "default",
+        "-webkit-transform": "none",
+        "-webkit-transform-origin": "142px 67px",
+        "-webkit-transform-origin-x": "",
+        "-webkit-transform-origin-y": "",
+        "-webkit-transform-origin-z": "",
+        "-webkit-transform-style": "flat",
+        "-webkit-transition": "all 0s ease 0s",
+        "-webkit-transition-delay": "0s",
+        "-webkit-transition-duration": "0s",
+        "-webkit-transition-property": "all",
+        "-webkit-transition-timing-function": "ease",
+        "-webkit-user-drag": "auto",
+        "-webkit-user-modify": "read-only",
+        "-webkit-user-select": "text",
+        "-webkit-writing-mode": "horizontal-tb",
+        "align-content": "normal",
+        "align-items": "normal",
+        "align-self": "auto",
+        "alignment-baseline": "auto",
+        "animation-delay": "0s",
+        "animation-direction": "normal",
+        "animation-duration": "0s",
+        "animation-fill-mode": "none",
+        "animation-iteration-count": "1",
+        "animation-name": "none",
+        "animation-play-state": "running",
+        "animation-timing-function": "ease",
+        "aspect-ratio": "auto",
+        "background-attachment": "scroll",
+        "background-blend-mode": "normal",
+        "background-clip": "border-box",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "background-image": "none",
+        "background-origin": "padding-box",
+        "background-position": "0% 0%",
+        "background-position-x": "0%",
+        "background-position-y": "0%",
+        "background-repeat": "repeat",
+        "background-size": "auto",
+        "baseline-shift": "baseline",
+        "block-size": "134px",
+        "border-block": "0px none rgb(0, 0, 0)",
+        "border-block-color": "rgb(0, 0, 0)",
+        "border-block-end": "0px none rgb(0, 0, 0)",
+        "border-block-end-color": "rgb(0, 0, 0)",
+        "border-block-end-style": "none",
+        "border-block-end-width": "0px",
+        "border-block-start": "0px none rgb(0, 0, 0)",
+        "border-block-start-color": "rgb(0, 0, 0)",
+        "border-block-start-style": "none",
+        "border-block-start-width": "0px",
+        "border-block-style": "none",
+        "border-block-width": "0px",
+        "border-bottom": "0px none rgb(0, 0, 0)",
+        "border-bottom-color": "rgb(0, 0, 0)",
+        "border-bottom-left-radius": "0px",
+        "border-bottom-right-radius": "0px",
+        "border-bottom-style": "none",
+        "border-bottom-width": "0px",
+        "border-collapse": "separate",
+        "border-color": "rgb(0, 0, 0)",
+        "border-end-end-radius": "0px",
+        "border-end-start-radius": "0px",
+        "border-image": "none",
+        "border-image-outset": "0",
+        "border-image-repeat": "stretch",
+        "border-image-slice": "100%",
+        "border-image-source": "none",
+        "border-image-width": "1",
+        "border-inline": "0px none rgb(0, 0, 0)",
+        "border-inline-color": "rgb(0, 0, 0)",
+        "border-inline-end": "0px none rgb(0, 0, 0)",
+        "border-inline-end-color": "rgb(0, 0, 0)",
+        "border-inline-end-style": "none",
+        "border-inline-end-width": "0px",
+        "border-inline-start": "0px none rgb(0, 0, 0)",
+        "border-inline-start-color": "rgb(0, 0, 0)",
+        "border-inline-start-style": "none",
+        "border-inline-start-width": "0px",
+        "border-inline-style": "none",
+        "border-inline-width": "0px",
+        "border-left": "0px none rgb(0, 0, 0)",
+        "border-left-color": "rgb(0, 0, 0)",
+        "border-left-style": "none",
+        "border-left-width": "0px",
+        "border-radius": "0px",
+        "border-right": "0px none rgb(0, 0, 0)",
+        "border-right-color": "rgb(0, 0, 0)",
+        "border-right-style": "none",
+        "border-right-width": "0px",
+        "border-spacing": "0px 0px",
+        "border-start-end-radius": "0px",
+        "border-start-start-radius": "0px",
+        "border-style": "none",
+        "border-top": "0px none rgb(0, 0, 0)",
+        "border-top-color": "rgb(0, 0, 0)",
+        "border-top-left-radius": "0px",
+        "border-top-right-radius": "0px",
+        "border-top-style": "none",
+        "border-top-width": "0px",
+        "border-width": "0px",
+        "box-shadow": "none",
+        "box-sizing": "content-box",
+        "break-after": "auto",
+        "break-before": "auto",
+        "break-inside": "auto",
+        "buffered-rendering": "auto",
+        "caption-side": "top",
+        "caret-color": "rgb(0, 0, 0)",
+        "clip-path": "none",
+        "clip-rule": "nonzero",
+        "color-interpolation": "sRGB",
+        "color-interpolation-filters": "linearRGB",
+        "color-profile": "",
+        "color-rendering": "auto",
+        "color-scheme": "auto",
+        "column-count": "auto",
+        "column-fill": "balance",
+        "column-gap": "normal",
+        "column-rule": "0px none rgb(0, 0, 0)",
+        "column-rule-color": "rgb(0, 0, 0)",
+        "column-rule-style": "none",
+        "column-rule-width": "0px",
+        "column-span": "none",
+        "column-width": "auto",
+        "counter-increment": "none",
+        "counter-reset": "none",
+        "dominant-baseline": "auto",
+        "empty-cells": "show",
+        "enable-background": "",
+        "fill-opacity": "1",
+        "fill-rule": "nonzero",
+        "flex-basis": "auto",
+        "flex-direction": "row",
+        "flex-flow": "row nowrap",
+        "flex-grow": "0",
+        "flex-shrink": "1",
+        "flex-wrap": "nowrap",
+        "flood-color": "rgb(0, 0, 0)",
+        "flood-opacity": "1",
+        "font-display": "",
+        "font-family": "-webkit-standard",
+        "font-feature-settings": "normal",
+        "font-kerning": "auto",
+        "font-optical-sizing": "auto",
+        "font-size": "16px",
+        "font-stretch": "normal",
+        "font-style": "normal",
+        "font-synthesis": "style weight small-caps",
+        "font-variant": "normal",
+        "font-variant-alternates": "normal",
+        "font-variant-caps": "normal",
+        "font-variant-east-asian": "normal",
+        "font-variant-ligatures": "normal",
+        "font-variant-numeric": "normal",
+        "font-variant-position": "normal",
+        "font-variation-settings": "normal",
+        "font-weight": "normal",
+        "glyph-orientation-horizontal": "0deg",
+        "glyph-orientation-vertical": "auto",
+        "grid-area": "auto / auto / auto / auto",
+        "grid-auto-columns": "auto",
+        "grid-auto-flow": "row",
+        "grid-auto-rows": "auto",
+        "grid-column": "auto / auto",
+        "grid-column-end": "auto",
+        "grid-column-gap": "normal",
+        "grid-column-start": "auto",
+        "grid-gap": "normal normal",
+        "grid-row": "auto / auto",
+        "grid-row-end": "auto",
+        "grid-row-gap": "normal",
+        "grid-row-start": "auto",
+        "grid-template": "none / none / none",
+        "grid-template-areas": "none",
+        "grid-template-columns": "none",
+        "grid-template-rows": "none",
+        "hanging-punctuation": "none",
+        "image-orientation": "from-image",
+        "image-rendering": "auto",
+        "inline-size": "284px",
+        "inset-block": "auto",
+        "inset-block-end": "auto",
+        "inset-block-start": "auto",
+        "inset-inline": "auto",
+        "inset-inline-end": "auto",
+        "inset-inline-start": "auto",
+        "justify-content": "normal",
+        "justify-items": "normal",
+        "justify-self": "auto",
+        "letter-spacing": "normal",
+        "lighting-color": "rgb(255, 255, 255)",
+        "line-break": "auto",
+        "line-height": "normal",
+        "list-style": "disc outside none",
+        "list-style-image": "none",
+        "list-style-position": "outside",
+        "list-style-type": "disc",
+        "margin-block": "8px",
+        "margin-block-end": "8px",
+        "margin-block-start": "8px",
+        "margin-bottom": "8px",
+        "margin-inline": "8px",
+        "margin-inline-end": "8px",
+        "margin-inline-start": "8px",
+        "margin-left": "8px",
+        "margin-right": "8px",
+        "margin-top": "8px",
+        "marker-end": "none",
+        "marker-mid": "none",
+        "marker-start": "none",
+        "mask-type": "luminance",
+        "math-style": "normal",
+        "max-block-size": "none",
+        "max-height": "none",
+        "max-inline-size": "none",
+        "max-width": "none",
+        "min-block-size": "0px",
+        "min-height": "0px",
+        "min-inline-size": "0px",
+        "min-width": "0px",
+        "mix-blend-mode": "normal",
+        "object-fit": "fill",
+        "object-position": "50% 50%",
+        "outline-color": "rgb(0, 0, 0)",
+        "outline-offset": "0px",
+        "outline-style": "none",
+        "outline-width": "0px",
+        "overflow-wrap": "normal",
+        "overflow-x": "visible",
+        "overflow-y": "visible",
+        "padding-block": "0px",
+        "padding-block-end": "0px",
+        "padding-block-start": "0px",
+        "padding-bottom": "0px",
+        "padding-inline": "0px",
+        "padding-inline-end": "0px",
+        "padding-inline-start": "0px",
+        "padding-left": "0px",
+        "padding-right": "0px",
+        "padding-top": "0px",
+        "page-break-after": "auto",
+        "page-break-before": "auto",
+        "page-break-inside": "auto",
+        "paint-order": "normal",
+        "perspective-origin": "142px 67px",
+        "perspective-origin-x": "",
+        "perspective-origin-y": "",
+        "place-content": "normal normal",
+        "place-items": "normal normal",
+        "place-self": "auto auto",
+        "pointer-events": "auto",
+        "row-gap": "normal",
+        "scroll-margin": "0px",
+        "scroll-margin-block": "0px",
+        "scroll-margin-block-end": "0px",
+        "scroll-margin-block-start": "0px",
+        "scroll-margin-bottom": "0px",
+        "scroll-margin-inline": "0px",
+        "scroll-margin-inline-end": "0px",
+        "scroll-margin-inline-start": "0px",
+        "scroll-margin-left": "0px",
+        "scroll-margin-right": "0px",
+        "scroll-margin-top": "0px",
+        "scroll-padding": "auto",
+        "scroll-padding-block": "auto",
+        "scroll-padding-block-end": "auto",
+        "scroll-padding-block-start": "auto",
+        "scroll-padding-bottom": "auto",
+        "scroll-padding-inline": "auto",
+        "scroll-padding-inline-end": "auto",
+        "scroll-padding-inline-start": "auto",
+        "scroll-padding-left": "auto",
+        "scroll-padding-right": "auto",
+        "scroll-padding-top": "auto",
+        "scroll-snap-align": "none",
+        "scroll-snap-margin": "0px",
+        "scroll-snap-margin-bottom": "0px",
+        "scroll-snap-margin-left": "0px",
+        "scroll-snap-margin-right": "0px",
+        "scroll-snap-margin-top": "0px",
+        "scroll-snap-stop": "normal",
+        "scroll-snap-type": "none",
+        "shape-image-threshold": "0",
+        "shape-margin": "0px",
+        "shape-outside": "none",
+        "shape-rendering": "auto",
+        "speak-as": "normal",
+        "stop-color": "rgb(0, 0, 0)",
+        "stop-opacity": "1",
+        "stroke-color": "rgba(0, 0, 0, 0)",
+        "stroke-dasharray": "none",
+        "stroke-dashoffset": "0px",
+        "stroke-linecap": "butt",
+        "stroke-linejoin": "miter",
+        "stroke-miterlimit": "4",
+        "stroke-opacity": "1",
+        "stroke-width": "1px",
+        "supported-color-schemes": "auto",
+        "tab-size": "8",
+        "table-layout": "auto",
+        "text-align": "start",
+        "text-anchor": "start",
+        "text-decoration": "none",
+        "text-decoration-color": "rgb(0, 0, 0)",
+        "text-decoration-line": "none",
+        "text-decoration-skip": "auto",
+        "text-decoration-style": "solid",
+        "text-decoration-thickness": "auto",
+        "text-emphasis": "",
+        "text-emphasis-color": "rgb(0, 0, 0)",
+        "text-emphasis-position": "over right",
+        "text-emphasis-style": "none",
+        "text-indent": "0px",
+        "text-orientation": "mixed",
+        "text-overflow": "clip",
+        "text-rendering": "auto",
+        "text-shadow": "none",
+        "text-transform": "none",
+        "text-underline-offset": "auto",
+        "text-underline-position": "auto",
+        "touch-action": "auto",
+        "transform-box": "view-box",
+        "transform-origin": "142px 67px",
+        "transform-origin-x": "",
+        "transform-origin-y": "",
+        "transform-origin-z": "",
+        "transform-style": "flat",
+        "transition-delay": "0s",
+        "transition-duration": "0s",
+        "transition-property": "all",
+        "transition-timing-function": "ease",
+        "unicode-bidi": "normal",
+        "unicode-range": "",
+        "vector-effect": "none",
+        "vertical-align": "baseline",
+        "white-space": "normal",
+        "will-change": "auto",
+        "word-break": "normal",
+        "word-spacing": "0px",
+        "word-wrap": "normal",
+        "writing-mode": "horizontal-tb",
+        "z-index": "auto",
+        "epubCaptionSide": "top",
+        "epubHyphens": "manual",
+        "epubTextCombine": "none",
+        "epubTextEmphasis": "",
+        "epubTextEmphasisColor": "rgb(0, 0, 0)",
+        "epubTextEmphasisStyle": "none",
+        "epubTextOrientation": "mixed",
+        "epubTextTransform": "none",
+        "epubWordBreak": "normal",
+        "epubWritingMode": "horizontal-tb"
+    },
+    "battery": {},
+    "windowVersion": [
+        "AutofillFormFieldData",
+        "NaN",
+        "goog",
+        "window",
+        "Infinity",
+        "$jscomp$lookupPolyfilledValue",
+        "FormControlElement",
+        "$jscomp",
+        "AutofillFormData",
+        "undefined",
+        "document",
+        "self",
+        "name",
+        "location",
+        "history",
+        "customElements",
+        "locationbar",
+        "menubar",
+        "personalbar",
+        "scrollbars",
+        "statusbar",
+        "toolbar",
+        "status",
+        "closed",
+        "frames",
+        "length",
+        "top",
+        "opener",
+        "parent",
+        "frameElement",
+        "navigator",
+        "applicationCache",
+        "event",
+        "defaultStatus",
+        "defaultstatus",
+        "offscreenBuffering",
+        "clientInformation",
+        "ongesturechange",
+        "ongestureend",
+        "ongesturestart",
+        "GestureEvent",
+        "Touch",
+        "TouchEvent",
+        "TouchList",
+        "WebKitPlaybackTargetAvailabilityEvent",
+        "ApplePayError",
+        "Headers",
+        "Request",
+        "Response",
+        "Geolocation",
+        "GeolocationCoordinates",
+        "GeolocationPosition",
+        "GeolocationPositionError",
+        "IDBCursor",
+        "IDBCursorWithValue",
+        "IDBDatabase",
+        "IDBFactory",
+        "IDBIndex",
+        "IDBKeyRange",
+        "IDBObjectStore",
+        "IDBOpenDBRequest",
+        "IDBRequest",
+        "IDBTransaction",
+        "IDBVersionChangeEvent",
+        "MediaMetadata",
+        "MediaSession",
+        "CanvasCaptureMediaStreamTrack",
+        "MediaDeviceInfo",
+        "MediaStream",
+        "MediaStreamTrack",
+        "MediaStreamTrackEvent",
+        "OverconstrainedError",
+        "OverconstrainedErrorEvent",
+        "SpeechSynthesisEvent",
+        "SpeechSynthesisUtterance",
+        "ByteLengthQueuingStrategy",
+        "CountQueuingStrategy",
+        "ReadableStream",
+        "AnalyserNode",
+        "AudioBuffer",
+        "AudioBufferSourceNode",
+        "AudioDestinationNode",
+        "AudioListener",
+        "AudioNode",
+        "AudioParam",
+        "AudioProcessingEvent",
+        "AudioScheduledSourceNode",
+        "BiquadFilterNode",
+        "ChannelMergerNode",
+        "ChannelSplitterNode",
+        "ConvolverNode",
+        "DelayNode",
+        "DynamicsCompressorNode",
+        "GainNode",
+        "MediaElementAudioSourceNode",
+        "MediaStreamAudioDestinationNode",
+        "MediaStreamAudioSourceNode",
+        "OfflineAudioCompletionEvent",
+        "OscillatorNode",
+        "PeriodicWave",
+        "ScriptProcessorNode",
+        "WaveShaperNode",
+        "SQLTransaction",
+        "CloseEvent",
+        "AnimationEffect",
+        "AnimationPlaybackEvent",
+        "AnimationTimeline",
+        "CSSAnimation",
+        "CSSTransition",
+        "DocumentTimeline",
+        "KeyframeEffect",
+        "Animation",
+        "CSSConditionRule",
+        "CSSFontFaceRule",
+        "CSSGroupingRule",
+        "CSSImportRule",
+        "CSSKeyframeRule",
+        "CSSKeyframesRule",
+        "CSSMediaRule",
+        "CSSNamespaceRule",
+        "CSSPageRule",
+        "CSSRule",
+        "CSSRuleList",
+        "CSSStyleDeclaration",
+        "CSSStyleRule",
+        "CSSStyleSheet",
+        "CSSSupportsRule",
+        "CSS",
+        "DOMMatrix",
+        "WebKitCSSMatrix",
+        "DOMMatrixReadOnly",
+        "Counter",
+        "CSSPrimitiveValue",
+        "RGBColor",
+        "Rect",
+        "CSSValue",
+        "CSSValueList",
+        "FontFace",
+        "FontFaceSet",
+        "MediaList",
+        "MediaQueryList",
+        "MediaQueryListEvent",
+        "StyleSheet",
+        "StyleSheetList",
+        "AbortController",
+        "AbortSignal",
+        "AbstractRange",
+        "AnimationEvent",
+        "Attr",
+        "BeforeUnloadEvent",
+        "CDATASection",
+        "CharacterData",
+        "ClipboardEvent",
+        "Comment",
+        "CompositionEvent",
+        "CustomElementRegistry",
+        "CustomEvent",
+        "DOMException",
+        "DOMImplementation",
+        "DOMPoint",
+        "DOMPointReadOnly",
+        "DOMQuad",
+        "DOMRect",
+        "DOMRectList",
+        "DOMRectReadOnly",
+        "DOMStringList",
+        "DOMStringMap",
+        "DataTransfer",
+        "DeviceMotionEvent",
+        "DeviceOrientationEvent",
+        "Document",
+        "DocumentFragment",
+        "DocumentType",
+        "DragEvent",
+        "Element",
+        "ErrorEvent",
+        "Event",
+        "EventTarget",
+        "FocusEvent",
+        "FormDataEvent",
+        "HashChangeEvent",
+        "KeyboardEvent",
+        "MessageChannel",
+        "MessageEvent",
+        "MessagePort",
+        "MouseEvent",
+        "MutationEvent",
+        "MutationObserver",
+        "WebKitMutationObserver",
+        "MutationRecord",
+        "NamedNodeMap",
+        "Node",
+        "NodeFilter",
+        "NodeIterator",
+        "NodeList",
+        "OverflowEvent",
+        "PageTransitionEvent",
+        "PopStateEvent",
+        "ProcessingInstruction",
+        "ProgressEvent",
+        "PromiseRejectionEvent",
+        "Range",
+        "SecurityPolicyViolationEvent",
+        "ShadowRoot",
+        "StaticRange",
+        "Text",
+        "TextDecoder",
+        "TextEncoder",
+        "TextEvent",
+        "TransitionEvent",
+        "TreeWalker",
+        "UIEvent",
+        "WebKitAnimationEvent",
+        "WebKitTransitionEvent",
+        "WheelEvent",
+        "XMLDocument",
+        "SVGDocument",
+        "Blob",
+        "File",
+        "FileList",
+        "FileReader",
+        "FormData",
+        "DOMTokenList",
+        "URL",
+        "webkitURL",
+        "HTMLAllCollection",
+        "HTMLAnchorElement",
+        "HTMLAreaElement",
+        "HTMLAudioElement",
+        "Audio",
+        "HTMLBRElement",
+        "HTMLBaseElement",
+        "HTMLBodyElement",
+        "HTMLButtonElement",
+        "HTMLCanvasElement",
+        "HTMLCollection",
+        "HTMLDListElement",
+        "HTMLDataElement",
+        "HTMLDetailsElement",
+        "HTMLDirectoryElement",
+        "HTMLDivElement",
+        "HTMLDocument",
+        "HTMLElement",
+        "HTMLEmbedElement",
+        "HTMLFieldSetElement",
+        "HTMLFontElement",
+        "HTMLFormControlsCollection",
+        "HTMLFormElement",
+        "HTMLFrameElement",
+        "HTMLFrameSetElement",
+        "HTMLHRElement",
+        "HTMLHeadElement",
+        "HTMLHeadingElement",
+        "HTMLHtmlElement",
+        "HTMLIFrameElement",
+        "HTMLImageElement",
+        "Image",
+        "HTMLInputElement",
+        "HTMLLIElement",
+        "HTMLLabelElement",
+        "HTMLLegendElement",
+        "HTMLLinkElement",
+        "HTMLMapElement",
+        "HTMLMarqueeElement",
+        "HTMLMediaElement",
+        "HTMLMenuElement",
+        "HTMLMetaElement",
+        "HTMLMeterElement",
+        "HTMLModElement",
+        "HTMLOListElement",
+        "HTMLObjectElement",
+        "HTMLOptGroupElement",
+        "HTMLOptionElement",
+        "Option",
+        "HTMLOptionsCollection",
+        "HTMLOutputElement",
+        "HTMLParagraphElement",
+        "HTMLParamElement",
+        "HTMLPictureElement",
+        "HTMLPreElement",
+        "HTMLProgressElement",
+        "HTMLQuoteElement",
+        "HTMLScriptElement",
+        "HTMLSelectElement",
+        "HTMLSlotElement",
+        "HTMLSourceElement",
+        "HTMLSpanElement",
+        "HTMLStyleElement",
+        "HTMLTableCaptionElement",
+        "HTMLTableCellElement",
+        "HTMLTableColElement",
+        "HTMLTableElement",
+        "HTMLTableRowElement",
+        "HTMLTableSectionElement",
+        "HTMLTemplateElement",
+        "HTMLTextAreaElement",
+        "HTMLTimeElement",
+        "HTMLTitleElement",
+        "HTMLTrackElement",
+        "HTMLUListElement",
+        "HTMLUnknownElement",
+        "HTMLVideoElement",
+        "ImageData",
+        "MediaController",
+        "MediaError",
+        "RadioNodeList",
+        "SubmitEvent",
+        "TextMetrics",
+        "TimeRanges",
+        "URLSearchParams",
+        "ValidityState",
+        "CanvasGradient",
+        "CanvasPattern",
+        "CanvasRenderingContext2D",
+        "Path2D",
+        "WebGLActiveInfo",
+        "WebGLBuffer",
+        "WebGLContextEvent",
+        "WebGLFramebuffer",
+        "WebGLProgram",
+        "WebGLQuery",
+        "WebGLRenderbuffer",
+        "WebGLRenderingContext",
+        "WebGLSampler",
+        "WebGLShader",
+        "WebGLShaderPrecisionFormat",
+        "WebGLSync",
+        "WebGLTexture",
+        "WebGLUniformLocation",
+        "AudioTrack",
+        "AudioTrackList",
+        "DataCue",
+        "TextTrack",
+        "TextTrackCue",
+        "TextTrackCueList",
+        "TextTrackList",
+        "TrackEvent",
+        "VTTCue",
+        "VTTRegion",
+        "VideoTrack",
+        "VideoTrackList",
+        "ApplicationCache",
+        "MathMLElement",
+        "MathMLMathElement",
+        "BarProp",
+        "Crypto",
+        "Selection",
+        "Window",
+        "EventSource",
+        "History",
+        "Location",
+        "Navigator",
+        "Performance",
+        "PerformanceEntry",
+        "PerformanceMark",
+        "PerformanceMeasure",
+        "PerformanceNavigation",
+        "PerformanceObserver",
+        "PerformanceObserverEntryList",
+        "PerformanceResourceTiming",
+        "PerformanceTiming",
+        "Screen",
+        "UserMessageHandler",
+        "UserMessageHandlersNamespace",
+        "WebKitNamespace",
+        "WebKitPoint",
+        "MimeType",
+        "MimeTypeArray",
+        "Plugin",
+        "PluginArray",
+        "Storage",
+        "StorageEvent",
+        "SVGAElement",
+        "SVGAltGlyphDefElement",
+        "SVGAltGlyphElement",
+        "SVGAltGlyphItemElement",
+        "SVGAngle",
+        "SVGAnimateColorElement",
+        "SVGAnimateElement",
+        "SVGAnimateMotionElement",
+        "SVGAnimateTransformElement",
+        "SVGAnimatedAngle",
+        "SVGAnimatedBoolean",
+        "SVGAnimatedEnumeration",
+        "SVGAnimatedInteger",
+        "SVGAnimatedLength",
+        "SVGAnimatedLengthList",
+        "SVGAnimatedNumber",
+        "SVGAnimatedNumberList",
+        "SVGAnimatedPreserveAspectRatio",
+        "SVGAnimatedRect",
+        "SVGAnimatedString",
+        "SVGAnimatedTransformList",
+        "SVGAnimationElement",
+        "SVGCircleElement",
+        "SVGClipPathElement",
+        "SVGComponentTransferFunctionElement",
+        "SVGCursorElement",
+        "SVGDefsElement",
+        "SVGDescElement",
+        "SVGElement",
+        "SVGEllipseElement",
+        "SVGFEBlendElement",
+        "SVGFEColorMatrixElement",
+        "SVGFEComponentTransferElement",
+        "SVGFECompositeElement",
+        "SVGFEConvolveMatrixElement",
+        "SVGFEDiffuseLightingElement",
+        "SVGFEDisplacementMapElement",
+        "SVGFEDistantLightElement",
+        "SVGFEDropShadowElement",
+        "SVGFEFloodElement",
+        "SVGFEFuncAElement",
+        "SVGFEFuncBElement",
+        "SVGFEFuncGElement",
+        "SVGFEFuncRElement",
+        "SVGFEGaussianBlurElement",
+        "SVGFEImageElement",
+        "SVGFEMergeElement",
+        "SVGFEMergeNodeElement",
+        "SVGFEMorphologyElement",
+        "SVGFEOffsetElement",
+        "SVGFEPointLightElement",
+        "SVGFESpecularLightingElement",
+        "SVGFESpotLightElement",
+        "SVGFETileElement",
+        "SVGFETurbulenceElement",
+        "SVGFilterElement",
+        "SVGFontElement",
+        "SVGFontFaceElement",
+        "SVGFontFaceFormatElement",
+        "SVGFontFaceNameElement",
+        "SVGFontFaceSrcElement",
+        "SVGFontFaceUriElement",
+        "SVGForeignObjectElement",
+        "SVGGElement",
+        "SVGGeometryElement",
+        "SVGGlyphElement",
+        "SVGGlyphRefElement",
+        "SVGGradientElement",
+        "SVGGraphicsElement",
+        "SVGHKernElement",
+        "SVGImageElement",
+        "SVGLength",
+        "SVGLengthList",
+        "SVGLineElement",
+        "SVGLinearGradientElement",
+        "SVGMPathElement",
+        "SVGMarkerElement",
+        "SVGMaskElement",
+        "SVGMatrix",
+        "SVGMetadataElement",
+        "SVGMissingGlyphElement",
+        "SVGNumber",
+        "SVGNumberList",
+        "SVGPathElement",
+        "SVGPathSeg",
+        "SVGPathSegArcAbs",
+        "SVGPathSegArcRel",
+        "SVGPathSegClosePath",
+        "SVGPathSegCurvetoCubicAbs",
+        "SVGPathSegCurvetoCubicRel",
+        "SVGPathSegCurvetoCubicSmoothAbs",
+        "SVGPathSegCurvetoCubicSmoothRel",
+        "SVGPathSegCurvetoQuadraticAbs",
+        "SVGPathSegCurvetoQuadraticRel",
+        "SVGPathSegCurvetoQuadraticSmoothAbs",
+        "SVGPathSegCurvetoQuadraticSmoothRel",
+        "SVGPathSegLinetoAbs",
+        "SVGPathSegLinetoHorizontalAbs",
+        "SVGPathSegLinetoHorizontalRel",
+        "SVGPathSegLinetoRel",
+        "SVGPathSegLinetoVerticalAbs",
+        "SVGPathSegLinetoVerticalRel",
+        "SVGPathSegList",
+        "SVGPathSegMovetoAbs",
+        "SVGPathSegMovetoRel",
+        "SVGPatternElement",
+        "SVGPoint",
+        "SVGPointList",
+        "SVGPolygonElement",
+        "SVGPolylineElement",
+        "SVGPreserveAspectRatio",
+        "SVGRadialGradientElement",
+        "SVGRect",
+        "SVGRectElement",
+        "SVGRenderingIntent",
+        "SVGSVGElement",
+        "SVGScriptElement",
+        "SVGSetElement",
+        "SVGStopElement",
+        "SVGStringList",
+        "SVGStyleElement",
+        "SVGSwitchElement",
+        "SVGSymbolElement",
+        "SVGTRefElement",
+        "SVGTSpanElement",
+        "SVGTextContentElement",
+        "SVGTextElement",
+        "SVGTextPathElement",
+        "SVGTextPositioningElement",
+        "SVGTitleElement",
+        "SVGTransform",
+        "SVGTransformList",
+        "SVGUnitTypes",
+        "SVGUseElement",
+        "SVGVKernElement",
+        "SVGViewElement",
+        "SVGViewSpec",
+        "SVGZoomEvent",
+        "Worker",
+        "Worklet",
+        "DOMParser",
+        "XMLHttpRequest",
+        "XMLHttpRequestEventTarget",
+        "XMLHttpRequestProgressEvent",
+        "XMLHttpRequestUpload",
+        "XMLSerializer",
+        "XPathEvaluator",
+        "XPathExpression",
+        "XPathResult",
+        "XSLTProcessor",
+        "speechSynthesis",
+        "openDatabase",
+        "onabort",
+        "onblur",
+        "oncanplay",
+        "oncanplaythrough",
+        "onchange",
+        "onclick",
+        "onclose",
+        "oncontextmenu",
+        "oncuechange",
+        "ondblclick",
+        "ondrag",
+        "ondragend",
+        "ondragenter",
+        "ondragleave",
+        "ondragover",
+        "ondragstart",
+        "ondrop",
+        "ondurationchange",
+        "onemptied",
+        "onended",
+        "onerror",
+        "onfocus",
+        "onformdata",
+        "oninput",
+        "oninvalid",
+        "onkeydown",
+        "onkeypress",
+        "onkeyup",
+        "onload",
+        "onloadeddata",
+        "onloadedmetadata",
+        "onloadstart",
+        "onmousedown",
+        "onmouseenter",
+        "onmouseleave",
+        "onmousemove",
+        "onmouseout",
+        "onmouseover",
+        "onmouseup",
+        "onpause",
+        "onplay",
+        "onplaying",
+        "onprogress",
+        "onratechange",
+        "onreset",
+        "onresize",
+        "onscroll",
+        "onseeked",
+        "onseeking",
+        "onselect",
+        "onslotchange",
+        "onstalled",
+        "onsubmit",
+        "onsuspend",
+        "ontimeupdate",
+        "ontoggle",
+        "onvolumechange",
+        "onwaiting",
+        "onwebkitanimationend",
+        "onwebkitanimationiteration",
+        "onwebkitanimationstart",
+        "onwebkittransitionend",
+        "onwheel",
+        "onmousewheel",
+        "onsearch",
+        "onwebkitmouseforcechanged",
+        "onwebkitmouseforcedown",
+        "onwebkitmouseforcewillbegin",
+        "onwebkitmouseforceup",
+        "onanimationstart",
+        "onanimationiteration",
+        "onanimationend",
+        "onanimationcancel",
+        "ontransitionrun",
+        "ontransitionstart",
+        "ontransitionend",
+        "ontransitioncancel",
+        "ongotpointercapture",
+        "onlostpointercapture",
+        "onpointerdown",
+        "onpointermove",
+        "onpointerup",
+        "onpointercancel",
+        "onpointerover",
+        "onpointerout",
+        "onpointerenter",
+        "onpointerleave",
+        "onselectstart",
+        "onselectionchange",
+        "screen",
+        "innerWidth",
+        "innerHeight",
+        "scrollX",
+        "pageXOffset",
+        "scrollY",
+        "pageYOffset",
+        "screenX",
+        "screenLeft",
+        "screenY",
+        "screenTop",
+        "outerWidth",
+        "outerHeight",
+        "devicePixelRatio",
+        "styleMedia",
+        "orientation",
+        "onorientationchange",
+        "ondevicemotion",
+        "ondeviceorientation",
+        "onafterprint",
+        "onbeforeprint",
+        "onbeforeunload",
+        "onhashchange",
+        "onlanguagechange",
+        "onmessage",
+        "onoffline",
+        "ononline",
+        "onpagehide",
+        "onpageshow",
+        "onpopstate",
+        "onrejectionhandled",
+        "onstorage",
+        "onunhandledrejection",
+        "onunload",
+        "localStorage",
+        "origin",
+        "isSecureContext",
+        "indexedDB",
+        "webkitIndexedDB",
+        "crypto",
+        "performance",
+        "sessionStorage",
+        "close",
+        "stop",
+        "focus",
+        "blur",
+        "open",
+        "alert",
+        "confirm",
+        "prompt",
+        "print",
+        "postMessage",
+        "captureEvents",
+        "releaseEvents",
+        "find",
+        "webkitRequestAnimationFrame",
+        "webkitCancelAnimationFrame",
+        "webkitCancelRequestAnimationFrame",
+        "showModalDialog",
+        "getMatchedCSSRules",
+        "webkitConvertPointFromPageToNode",
+        "webkitConvertPointFromNodeToPage",
+        "requestAnimationFrame",
+        "cancelAnimationFrame",
+        "getComputedStyle",
+        "matchMedia",
+        "moveTo",
+        "moveBy",
+        "resizeTo",
+        "resizeBy",
+        "scroll",
+        "scrollTo",
+        "scrollBy",
+        "getSelection",
+        "atob",
+        "btoa",
+        "setTimeout",
+        "clearTimeout",
+        "setInterval",
+        "clearInterval",
+        "queueMicrotask",
+        "fetch",
+        "isNaN",
+        "isFinite",
+        "escape",
+        "unescape",
+        "decodeURI",
+        "decodeURIComponent",
+        "encodeURI",
+        "encodeURIComponent",
+        "eval",
+        "globalThis",
+        "parseInt",
+        "parseFloat",
+        "ArrayBuffer",
+        "EvalError",
+        "RangeError",
+        "ReferenceError",
+        "SyntaxError",
+        "TypeError",
+        "URIError",
+        "AggregateError",
+        "Proxy",
+        "Reflect",
+        "JSON",
+        "Math",
+        "console",
+        "Int8Array",
+        "Int16Array",
+        "Int32Array",
+        "Uint8Array",
+        "Uint8ClampedArray",
+        "Uint16Array",
+        "Uint32Array",
+        "Float32Array",
+        "Float64Array",
+        "BigInt64Array",
+        "BigUint64Array",
+        "DataView",
+        "Date",
+        "Error",
+        "Boolean",
+        "Map",
+        "Number",
+        "Set",
+        "Symbol",
+        "WeakMap",
+        "WeakSet",
+        "Object",
+        "Function",
+        "Array",
+        "RegExp",
+        "String",
+        "Promise",
+        "BigInt",
+        "WeakRef",
+        "FinalizationRegistry",
+        "Intl",
+        "WebAssembly",
+        "ApplePaySetup",
+        "ApplePaySetupFeature",
+        "Clipboard",
+        "ClipboardItem",
+        "Cache",
+        "CacheStorage",
+        "Credential",
+        "CredentialsContainer",
+        "MediaKeyMessageEvent",
+        "MediaKeySession",
+        "MediaKeyStatusMap",
+        "MediaKeySystemAccess",
+        "MediaKeys",
+        "WebKitMediaKeyMessageEvent",
+        "WebKitMediaKeyNeededEvent",
+        "WebKitMediaKeySession",
+        "WebKitMediaKeys",
+        "FileSystem",
+        "FileSystemDirectoryEntry",
+        "FileSystemDirectoryReader",
+        "FileSystemEntry",
+        "FileSystemFileEntry",
+        "Gamepad",
+        "GamepadButton",
+        "GamepadEvent",
+        "MediaCapabilities",
+        "BlobEvent",
+        "MediaRecorder",
+        "MediaRecorderErrorEvent",
+        "MediaDevices",
+        "RTCCertificate",
+        "RTCDTMFSender",
+        "RTCDTMFToneChangeEvent",
+        "RTCDataChannel",
+        "RTCDataChannelEvent",
+        "RTCIceCandidate",
+        "RTCIceTransport",
+        "RTCPeerConnection",
+        "RTCPeerConnectionIceErrorEvent",
+        "RTCPeerConnectionIceEvent",
+        "RTCRtpReceiver",
+        "RTCRtpSender",
+        "RTCRtpTransceiver",
+        "RTCSessionDescription",
+        "RTCStatsReport",
+        "RTCTrackEvent",
+        "MerchantValidationEvent",
+        "PaymentAddress",
+        "PaymentMethodChangeEvent",
+        "PaymentRequestUpdateEvent",
+        "PaymentResponse",
+        "EnterPictureInPictureEvent",
+        "PictureInPictureWindow",
+        "RemotePlayback",
+        "webkitSpeechRecognition",
+        "SpeechRecognitionAlternative",
+        "SpeechRecognitionErrorEvent",
+        "SpeechRecognitionEvent",
+        "SpeechRecognitionResult",
+        "SpeechRecognitionResultList",
+        "TransformStream",
+        "TransformStreamDefaultController",
+        "WritableStream",
+        "WritableStreamDefaultController",
+        "WritableStreamDefaultWriter",
+        "AudioContext",
+        "AudioParamMap",
+        "AudioWorklet",
+        "AudioWorkletNode",
+        "BaseAudioContext",
+        "ConstantSourceNode",
+        "IIRFilterNode",
+        "OfflineAudioContext",
+        "PannerNode",
+        "StereoPannerNode",
+        "AuthenticatorAssertionResponse",
+        "AuthenticatorAttestationResponse",
+        "AuthenticatorResponse",
+        "PublicKeyCredential",
+        "WebSocket",
+        "CryptoKey",
+        "SubtleCrypto",
+        "DataTransferItem",
+        "DataTransferItemList",
+        "InputEvent",
+        "PointerEvent",
+        "TextDecoderStream",
+        "TextEncoderStream",
+        "HTMLDataListElement",
+        "ImageBitmap",
+        "MediaEncryptedEvent",
+        "WebKitMediaKeyError",
+        "ImageBitmapRenderingContext",
+        "WebGL2RenderingContext",
+        "WebGLTransformFeedback",
+        "WebGLVertexArrayObject",
+        "IntersectionObserver",
+        "IntersectionObserverEntry",
+        "PerformancePaintTiming",
+        "ResizeObserver",
+        "ResizeObserverEntry",
+        "VisualViewport",
+        "ServiceWorker",
+        "ServiceWorkerContainer",
+        "ServiceWorkerRegistration",
+        "ontouchcancel",
+        "ontouchend",
+        "ontouchmove",
+        "ontouchstart",
+        "ontouchforcechange",
+        "visualViewport",
+        "caches",
+        "createImageBitmap",
+        "webkit"
+    ],
+    "htmlElementVersion": [
+        "version",
+        "manifest",
+        "title",
+        "lang",
+        "translate",
+        "dir",
+        "hidden",
+        "accessKey",
+        "accessKeyLabel",
+        "draggable",
+        "spellcheck",
+        "autocapitalize",
+        "innerText",
+        "outerText",
+        "autocorrect",
+        "webkitdropzone",
+        "style",
+        "oncopy",
+        "oncut",
+        "onpaste",
+        "contentEditable",
+        "enterKeyHint",
+        "isContentEditable",
+        "inputMode",
+        "onabort",
+        "onblur",
+        "oncanplay",
+        "oncanplaythrough",
+        "onchange",
+        "onclick",
+        "onclose",
+        "oncontextmenu",
+        "oncuechange",
+        "ondblclick",
+        "ondrag",
+        "ondragend",
+        "ondragenter",
+        "ondragleave",
+        "ondragover",
+        "ondragstart",
+        "ondrop",
+        "ondurationchange",
+        "onemptied",
+        "onended",
+        "onerror",
+        "onfocus",
+        "onformdata",
+        "oninput",
+        "oninvalid",
+        "onkeydown",
+        "onkeypress",
+        "onkeyup",
+        "onload",
+        "onloadeddata",
+        "onloadedmetadata",
+        "onloadstart",
+        "onmousedown",
+        "onmouseenter",
+        "onmouseleave",
+        "onmousemove",
+        "onmouseout",
+        "onmouseover",
+        "onmouseup",
+        "onpause",
+        "onplay",
+        "onplaying",
+        "onprogress",
+        "onratechange",
+        "onreset",
+        "onresize",
+        "onscroll",
+        "onseeked",
+        "onseeking",
+        "onselect",
+        "onslotchange",
+        "onstalled",
+        "onsubmit",
+        "onsuspend",
+        "ontimeupdate",
+        "ontoggle",
+        "onvolumechange",
+        "onwaiting",
+        "onwebkitanimationend",
+        "onwebkitanimationiteration",
+        "onwebkitanimationstart",
+        "onwebkittransitionend",
+        "onwheel",
+        "onmousewheel",
+        "onanimationstart",
+        "onanimationiteration",
+        "onanimationend",
+        "onanimationcancel",
+        "ontransitionrun",
+        "ontransitionstart",
+        "ontransitionend",
+        "ontransitioncancel",
+        "ongotpointercapture",
+        "onlostpointercapture",
+        "onpointerdown",
+        "onpointermove",
+        "onpointerup",
+        "onpointercancel",
+        "onpointerover",
+        "onpointerout",
+        "onpointerenter",
+        "onpointerleave",
+        "onselectstart",
+        "onselectionchange",
+        "offsetParent",
+        "offsetTop",
+        "offsetLeft",
+        "offsetWidth",
+        "offsetHeight",
+        "dataset",
+        "tabIndex",
+        "click",
+        "focus",
+        "blur",
+        "namespaceURI",
+        "prefix",
+        "localName",
+        "tagName",
+        "id",
+        "className",
+        "classList",
+        "slot",
+        "part",
+        "attributes",
+        "shadowRoot",
+        "role",
+        "ariaAtomic",
+        "ariaAutoComplete",
+        "ariaBusy",
+        "ariaChecked",
+        "ariaColCount",
+        "ariaColIndex",
+        "ariaColSpan",
+        "ariaCurrent",
+        "ariaDisabled",
+        "ariaExpanded",
+        "ariaHasPopup",
+        "ariaHidden",
+        "ariaInvalid",
+        "ariaKeyShortcuts",
+        "ariaLabel",
+        "ariaLevel",
+        "ariaLive",
+        "ariaModal",
+        "ariaMultiLine",
+        "ariaMultiSelectable",
+        "ariaOrientation",
+        "ariaPlaceholder",
+        "ariaPosInSet",
+        "ariaPressed",
+        "ariaReadOnly",
+        "ariaRelevant",
+        "ariaRequired",
+        "ariaRoleDescription",
+        "ariaRowCount",
+        "ariaRowIndex",
+        "ariaRowSpan",
+        "ariaSelected",
+        "ariaSetSize",
+        "ariaSort",
+        "ariaValueMax",
+        "ariaValueMin",
+        "ariaValueNow",
+        "ariaValueText",
+        "scrollTop",
+        "scrollLeft",
+        "scrollWidth",
+        "scrollHeight",
+        "clientTop",
+        "clientLeft",
+        "clientWidth",
+        "clientHeight",
+        "outerHTML",
+        "innerHTML",
+        "previousElementSibling",
+        "nextElementSibling",
+        "children",
+        "firstElementChild",
+        "lastElementChild",
+        "childElementCount",
+        "assignedSlot",
+        "hasAttributes",
+        "getAttributeNames",
+        "getAttribute",
+        "getAttributeNS",
+        "setAttribute",
+        "setAttributeNS",
+        "removeAttribute",
+        "removeAttributeNS",
+        "toggleAttribute",
+        "hasAttribute",
+        "hasAttributeNS",
+        "getAttributeNode",
+        "getAttributeNodeNS",
+        "setAttributeNode",
+        "setAttributeNodeNS",
+        "removeAttributeNode",
+        "attachShadow",
+        "closest",
+        "matches",
+        "webkitMatchesSelector",
+        "getElementsByTagName",
+        "getElementsByTagNameNS",
+        "getElementsByClassName",
+        "insertAdjacentElement",
+        "insertAdjacentText",
+        "animate",
+        "getAnimations",
+        "before",
+        "after",
+        "replaceWith",
+        "remove",
+        "getClientRects",
+        "getBoundingClientRect",
+        "scrollIntoView",
+        "scroll",
+        "scrollTo",
+        "scrollBy",
+        "scrollIntoViewIfNeeded",
+        "insertAdjacentHTML",
+        "setPointerCapture",
+        "releasePointerCapture",
+        "hasPointerCapture",
+        "prepend",
+        "append",
+        "replaceChildren",
+        "querySelector",
+        "querySelectorAll",
+        "nodeType",
+        "nodeName",
+        "baseURI",
+        "isConnected",
+        "ownerDocument",
+        "parentNode",
+        "parentElement",
+        "childNodes",
+        "firstChild",
+        "lastChild",
+        "previousSibling",
+        "nextSibling",
+        "nodeValue",
+        "textContent",
+        "getRootNode",
+        "hasChildNodes",
+        "normalize",
+        "cloneNode",
+        "isEqualNode",
+        "isSameNode",
+        "compareDocumentPosition",
+        "contains",
+        "lookupPrefix",
+        "lookupNamespaceURI",
+        "isDefaultNamespace",
+        "insertBefore",
+        "appendChild",
+        "replaceChild",
+        "removeChild",
+        "ELEMENT_NODE",
+        "ATTRIBUTE_NODE",
+        "TEXT_NODE",
+        "CDATA_SECTION_NODE",
+        "ENTITY_REFERENCE_NODE",
+        "ENTITY_NODE",
+        "PROCESSING_INSTRUCTION_NODE",
+        "COMMENT_NODE",
+        "DOCUMENT_NODE",
+        "DOCUMENT_TYPE_NODE",
+        "DOCUMENT_FRAGMENT_NODE",
+        "NOTATION_NODE",
+        "DOCUMENT_POSITION_DISCONNECTED",
+        "DOCUMENT_POSITION_PRECEDING",
+        "DOCUMENT_POSITION_FOLLOWING",
+        "DOCUMENT_POSITION_CONTAINS",
+        "DOCUMENT_POSITION_CONTAINED_BY",
+        "DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC",
+        "addEventListener",
+        "removeEventListener",
+        "dispatchEvent"
+    ],
+    "mediaDevices": [
+        {
+            "deviceId": "",
+            "kind": "audioinput",
+            "label": "",
+            "groupId": ""
+        },
+        {
+            "deviceId": "",
+            "kind": "videoinput",
+            "label": "",
+            "groupId": ""
+        }
+    ],
+    "voices": [
+        {
+            "default": true,
+            "lang": "ar-SA",
+            "localService": true,
+            "name": "Maged",
+            "voiceURI": "com.apple.ttsbundle.Maged-compact"
+        },
+        {
+            "default": true,
+            "lang": "cs-CZ",
+            "localService": true,
+            "name": "Zuzana",
+            "voiceURI": "com.apple.ttsbundle.Zuzana-compact"
+        },
+        {
+            "default": true,
+            "lang": "da-DK",
+            "localService": true,
+            "name": "Sara",
+            "voiceURI": "com.apple.ttsbundle.Sara-compact"
+        },
+        {
+            "default": true,
+            "lang": "de-DE",
+            "localService": true,
+            "name": "Anna",
+            "voiceURI": "com.apple.ttsbundle.Anna-compact"
+        },
+        {
+            "default": true,
+            "lang": "el-GR",
+            "localService": true,
+            "name": "Melina",
+            "voiceURI": "com.apple.ttsbundle.Melina-compact"
+        },
+        {
+            "default": true,
+            "lang": "en-AU",
+            "localService": true,
+            "name": "Karen",
+            "voiceURI": "com.apple.ttsbundle.Karen-compact"
+        },
+        {
+            "default": true,
+            "lang": "en-GB",
+            "localService": true,
+            "name": "Daniel",
+            "voiceURI": "com.apple.ttsbundle.Daniel-compact"
+        },
+        {
+            "default": true,
+            "lang": "en-IE",
+            "localService": true,
+            "name": "Moira",
+            "voiceURI": "com.apple.ttsbundle.Moira-compact"
+        },
+        {
+            "default": true,
+            "lang": "en-IN",
+            "localService": true,
+            "name": "Rishi",
+            "voiceURI": "com.apple.ttsbundle.Rishi-compact"
+        },
+        {
+            "default": true,
+            "lang": "en-US",
+            "localService": true,
+            "name": "Fred",
+            "voiceURI": "com.apple.speech.synthesis.voice.Fred"
+        },
+        {
+            "default": true,
+            "lang": "en-US",
+            "localService": true,
+            "name": "Samantha",
+            "voiceURI": "com.apple.ttsbundle.Samantha-compact"
+        },
+        {
+            "default": true,
+            "lang": "en-ZA",
+            "localService": true,
+            "name": "Tessa",
+            "voiceURI": "com.apple.ttsbundle.Tessa-compact"
+        },
+        {
+            "default": true,
+            "lang": "es-ES",
+            "localService": true,
+            "name": "Mónica",
+            "voiceURI": "com.apple.ttsbundle.Monica-compact"
+        },
+        {
+            "default": true,
+            "lang": "es-MX",
+            "localService": true,
+            "name": "Paulina",
+            "voiceURI": "com.apple.ttsbundle.Paulina-compact"
+        },
+        {
+            "default": true,
+            "lang": "fi-FI",
+            "localService": true,
+            "name": "Satu",
+            "voiceURI": "com.apple.ttsbundle.Satu-compact"
+        },
+        {
+            "default": true,
+            "lang": "fr-CA",
+            "localService": true,
+            "name": "Amélie",
+            "voiceURI": "com.apple.ttsbundle.Amelie-compact"
+        },
+        {
+            "default": true,
+            "lang": "fr-FR",
+            "localService": true,
+            "name": "Thomas",
+            "voiceURI": "com.apple.ttsbundle.Thomas-compact"
+        },
+        {
+            "default": true,
+            "lang": "he-IL",
+            "localService": true,
+            "name": "Carmit",
+            "voiceURI": "com.apple.ttsbundle.Carmit-compact"
+        },
+        {
+            "default": true,
+            "lang": "hi-IN",
+            "localService": true,
+            "name": "Lekha",
+            "voiceURI": "com.apple.ttsbundle.Lekha-compact"
+        },
+        {
+            "default": true,
+            "lang": "hu-HU",
+            "localService": true,
+            "name": "Mariska",
+            "voiceURI": "com.apple.ttsbundle.Mariska-compact"
+        },
+        {
+            "default": true,
+            "lang": "id-ID",
+            "localService": true,
+            "name": "Damayanti",
+            "voiceURI": "com.apple.ttsbundle.Damayanti-compact"
+        },
+        {
+            "default": true,
+            "lang": "it-IT",
+            "localService": true,
+            "name": "Alice",
+            "voiceURI": "com.apple.ttsbundle.Alice-compact"
+        },
+        {
+            "default": true,
+            "lang": "ja-JP",
+            "localService": true,
+            "name": "Kyoko",
+            "voiceURI": "com.apple.ttsbundle.Kyoko-compact"
+        },
+        {
+            "default": true,
+            "lang": "ko-KR",
+            "localService": true,
+            "name": "Yuna",
+            "voiceURI": "com.apple.ttsbundle.Yuna-compact"
+        },
+        {
+            "default": true,
+            "lang": "nl-BE",
+            "localService": true,
+            "name": "Ellen",
+            "voiceURI": "com.apple.ttsbundle.Ellen-compact"
+        },
+        {
+            "default": true,
+            "lang": "nl-NL",
+            "localService": true,
+            "name": "Xander",
+            "voiceURI": "com.apple.ttsbundle.Xander-compact"
+        },
+        {
+            "default": true,
+            "lang": "no-NO",
+            "localService": true,
+            "name": "Nora",
+            "voiceURI": "com.apple.ttsbundle.Nora-compact"
+        },
+        {
+            "default": true,
+            "lang": "pl-PL",
+            "localService": true,
+            "name": "Zosia",
+            "voiceURI": "com.apple.ttsbundle.Zosia-compact"
+        },
+        {
+            "default": true,
+            "lang": "pt-BR",
+            "localService": true,
+            "name": "Luciana",
+            "voiceURI": "com.apple.ttsbundle.Luciana-compact"
+        },
+        {
+            "default": true,
+            "lang": "pt-PT",
+            "localService": true,
+            "name": "Joana",
+            "voiceURI": "com.apple.ttsbundle.Joana-compact"
+        },
+        {
+            "default": true,
+            "lang": "ro-RO",
+            "localService": true,
+            "name": "Ioana",
+            "voiceURI": "com.apple.ttsbundle.Ioana-compact"
+        },
+        {
+            "default": true,
+            "lang": "ru-RU",
+            "localService": true,
+            "name": "Milena",
+            "voiceURI": "com.apple.ttsbundle.Milena-compact"
+        },
+        {
+            "default": true,
+            "lang": "sk-SK",
+            "localService": true,
+            "name": "Laura",
+            "voiceURI": "com.apple.ttsbundle.Laura-compact"
+        },
+        {
+            "default": true,
+            "lang": "sv-SE",
+            "localService": true,
+            "name": "Alva",
+            "voiceURI": "com.apple.ttsbundle.Alva-compact"
+        },
+        {
+            "default": true,
+            "lang": "th-TH",
+            "localService": true,
+            "name": "Kanya",
+            "voiceURI": "com.apple.ttsbundle.Kanya-compact"
+        },
+        {
+            "default": true,
+            "lang": "tr-TR",
+            "localService": true,
+            "name": "Yelda",
+            "voiceURI": "com.apple.ttsbundle.Yelda-compact"
+        },
+        {
+            "default": true,
+            "lang": "zh-CN",
+            "localService": true,
+            "name": "婷婷",
+            "voiceURI": "com.apple.ttsbundle.Ting-Ting-compact"
+        },
+        {
+            "default": true,
+            "lang": "zh-HK",
+            "localService": true,
+            "name": "善怡",
+            "voiceURI": "com.apple.ttsbundle.Sin-Ji-compact"
+        },
+        {
+            "default": true,
+            "lang": "zh-TW",
+            "localService": true,
+            "name": "美嘉",
+            "voiceURI": "com.apple.ttsbundle.Mei-Jia-compact"
+        }
+    ],
+    "rtc": [
+        {
+            "candidate": "candidate:2902949684 1 udp 2122260223 d1225c6d-f251-4af7-98af-13ea6635b49e.local 61666 typ host generation 0 ufrag WGJ+ network-id 1 network-cost 10",
+            "reg": null
+        },
+        {
+            "candidate": "candidate:743405952 1 udp 1686052607 71.67.113.137 61666 typ srflx raddr 0.0.0.0 rport 0 generation 0 ufrag WGJ+ network-id 1 network-cost 10",
+            "reg": [
+                "71.67.113.137",
+                "71.67.113.137",
+                ".137",
+                null
+            ]
+        },
+        {
+            "candidate": "candidate:3817112516 1 tcp 1518280447 d1225c6d-f251-4af7-98af-13ea6635b49e.local 9 typ host tcptype active generation 0 ufrag WGJ+ network-id 1 network-cost 10",
+            "reg": null
+        }
+    ],
+    "allFonts": [
+        {
+            "name": "sans-serif",
+            "exists": 2
+        },
+        {
+            "name": "serif",
+            "exists": 2
+        },
+        {
+            "name": "monospace",
+            "exists": 2
+        },
+        {
+            "name": "Trebuchet MS",
+            "exists": 1
+        },
+        {
+            "name": "Palatino",
+            "exists": 1
+        },
+        {
+            "name": "OPTIMA",
+            "exists": 1
+        },
+        {
+            "name": "Futura",
+            "exists": 1
+        },
+        {
+            "name": "AVENIR",
+            "exists": 1
+        },
+        {
+            "name": "Arial Hebrew",
+            "exists": 1
+        },
+        {
+            "name": "Savoye LET",
+            "exists": 1
+        },
+        {
+            "name": "Charter",
+            "exists": 1
+        },
+        {
+            "name": "Courier",
+            "exists": 1
+        },
+        {
+            "name": "Courier New",
+            "exists": 1
+        },
+        {
+            "name": "Papyrus",
+            "exists": 1
+        },
+        {
+            "name": "STIXVariants",
+            "exists": 1
+        },
+        {
+            "name": "Verdana",
+            "exists": 1
+        },
+        {
+            "name": "Wingdings 3",
+            "exists": 1
+        },
+        {
+            "name": "Al Nile",
+            "exists": 1
+        },
+        {
+            "name": "American Typewriter",
+            "exists": 1
+        },
+        {
+            "name": "Apple Color Emoji",
+            "exists": 1
+        },
+        {
+            "name": "Apple SD Gothic Neo",
+            "exists": 1
+        },
+        {
+            "name": "Apple Symbols",
+            "exists": 1
+        },
+        {
+            "name": "AppleGothic",
+            "exists": 1
+        },
+        {
+            "name": "Arial Rounded MT Bold",
+            "exists": 1
+        },
+        {
+            "name": "Arial",
+            "exists": 1
+        },
+        {
+            "name": "Avenir Next Condensed",
+            "exists": 1
+        },
+        {
+            "name": "Avenir Next",
+            "exists": 1
+        },
+        {
+            "name": "Avenir",
+            "exists": 1
+        },
+        {
+            "name": "Bangla Sangam MN",
+            "exists": 1
+        },
+        {
+            "name": "Baskerville",
+            "exists": 1
+        },
+        {
+            "name": "Bodoni Ornaments",
+            "exists": 1
+        },
+        {
+            "name": "Bradley Hand",
+            "exists": 1
+        },
+        {
+            "name": "Chalkboard SE",
+            "exists": 1
+        },
+        {
+            "name": "Chalkduster",
+            "exists": 1
+        },
+        {
+            "name": "Cochin",
+            "exists": 1
+        },
+        {
+            "name": "Copperplate",
+            "exists": 1
+        },
+        {
+            "name": "Damascus",
+            "exists": 1
+        },
+        {
+            "name": "Devanagari Sangam MN",
+            "exists": 1
+        },
+        {
+            "name": "Didot",
+            "exists": 1
+        },
+        {
+            "name": "Euphemia UCAS",
+            "exists": 1
+        },
+        {
+            "name": "Farah",
+            "exists": 1
+        },
+        {
+            "name": "Geeza Pro",
+            "exists": 1
+        },
+        {
+            "name": "Georgia",
+            "exists": 1
+        },
+        {
+            "name": "Gill Sans",
+            "exists": 1
+        },
+        {
+            "name": "Heiti SC",
+            "exists": 1
+        },
+        {
+            "name": "Helvetica Neue",
+            "exists": 1
+        },
+        {
+            "name": "Helvetica",
+            "exists": 1
+        },
+        {
+            "name": "Hiragino Sans",
+            "exists": 1
+        },
+        {
+            "name": "Hoefler Text",
+            "exists": 1
+        },
+        {
+            "name": "Kefa",
+            "exists": 1
+        },
+        {
+            "name": "Khmer Sangam MN",
+            "exists": 1
+        },
+        {
+            "name": "Kohinoor Bangla",
+            "exists": 1
+        },
+        {
+            "name": "Kohinoor Telugu",
+            "exists": 1
+        },
+        {
+            "name": "Lao Sangam MN",
+            "exists": 1
+        },
+        {
+            "name": "Marker Felt",
+            "exists": 1
+        },
+        {
+            "name": "Menlo",
+            "exists": 1
+        },
+        {
+            "name": "Noteworthy",
+            "exists": 1
+        },
+        {
+            "name": "Optima",
+            "exists": 1
+        },
+        {
+            "name": "PingFang HK",
+            "exists": 1
+        },
+        {
+            "name": "STIXGeneral",
+            "exists": 1
+        },
+        {
+            "name": "STIXIntegralsD",
+            "exists": 1
+        },
+        {
+            "name": "STIXIntegralsSm",
+            "exists": 1
+        },
+        {
+            "name": "STIXIntegralsUp",
+            "exists": 1
+        },
+        {
+            "name": "STIXIntegralsUpD",
+            "exists": 1
+        },
+        {
+            "name": "STIXIntegralsUpSm",
+            "exists": 1
+        },
+        {
+            "name": "STIXSizeFiveSym",
+            "exists": 1
+        },
+        {
+            "name": "STIXSizeFourSym",
+            "exists": 1
+        },
+        {
+            "name": "STIXSizeOneSym",
+            "exists": 1
+        },
+        {
+            "name": "STIXSizeThreeSym",
+            "exists": 1
+        },
+        {
+            "name": "STIXSizeTwoSym",
+            "exists": 1
+        },
+        {
+            "name": "SignPainter",
+            "exists": 1
+        },
+        {
+            "name": "Sinhala Sangam MN",
+            "exists": 1
+        },
+        {
+            "name": "Snell Roundhand",
+            "exists": 1
+        },
+        {
+            "name": "Sukhumvit Set",
+            "exists": 1
+        },
+        {
+            "name": "Symbol",
+            "exists": 1
+        },
+        {
+            "name": "Tamil Sangam MN",
+            "exists": 1
+        },
+        {
+            "name": "Telugu Sangam MN",
+            "exists": 1
+        },
+        {
+            "name": "Thonburi",
+            "exists": 1
+        },
+        {
+            "name": "Zapfino",
+            "exists": 1
+        },
+        {
+            "name": "DIN Alternate",
+            "exists": 1
+        },
+        {
+            "name": "DIN Condensed",
+            "exists": 1
+        },
+        {
+            "name": "Noto Nastaliq Urdu",
+            "exists": 1
+        },
+        {
+            "name": "Rockwell",
+            "exists": 1
+        },
+        {
+            "name": "Zapf Dingbats",
+            "exists": 1
+        },
+        {
+            "name": "Mishafi",
+            "exists": 1
+        },
+        {
+            "name": "Myanmar Sangam MN",
+            "exists": 1
+        },
+        {
+            "name": "Microsoft JhengHei",
+            "exists": 1
+        },
+        {
+            "name": "sans-serif",
+            "exists": 1
+        },
+        {
+            "name": "serif",
+            "exists": 1
+        },
+        {
+            "name": "monospace",
+            "exists": 1
+        },
+        {
+            "name": "Times",
+            "exists": 1
+        },
+        {
+            "name": "Times New Roman",
+            "exists": 1
+        },
+        {
+            "name": "Wingdings 2",
+            "exists": 1
+        },
+        {
+            "name": "Academy Engraved LET",
+            "exists": 1
+        },
+        {
+            "name": "Bauhaus 93",
+            "exists": 1
+        },
+        {
+            "name": "Bodoni 72",
+            "exists": 1
+        },
+        {
+            "name": "Bodoni 72 Oldstyle",
+            "exists": 1
+        },
+        {
+            "name": "Bodoni 72 Smallcaps",
+            "exists": 1
+        },
+        {
+            "name": "Bookshelf Symbol 7",
+            "exists": 1
+        },
+        {
+            "name": "DB LCD Temp",
+            "exists": 1
+        },
+        {
+            "name": "English 111 Vivace BT",
+            "exists": 1
+        },
+        {
+            "name": "GeoSlab 703 Lt BT",
+            "exists": 1
+        },
+        {
+            "name": "GeoSlab 703 XBd BT",
+            "exists": 1
+        },
+        {
+            "name": "Heiti TC",
+            "exists": 1
+        },
+        {
+            "name": "Hiragino Kaku Gothic ProN",
+            "exists": 1
+        },
+        {
+            "name": "Hiragino Mincho ProN",
+            "exists": 1
+        },
+        {
+            "name": "Humanst 521 Cn BT",
+            "exists": 1
+        },
+        {
+            "name": "Kailasa",
+            "exists": 1
+        },
+        {
+            "name": "Malayalam Sangam MN",
+            "exists": 1
+        },
+        {
+            "name": "Marion",
+            "exists": 1
+        },
+        {
+            "name": "Modern No. 20",
+            "exists": 1
+        },
+        {
+            "name": "Party LET",
+            "exists": 1
+        },
+        {
+            "name": "Univers CE 55 Medium",
+            "exists": 1
+        },
+        {
+            "name": "Bebas Neue",
+            "exists": 1
+        },
+        {
+            "name": "Exo 2",
+            "exists": 1
+        },
+        {
+            "name": "Goudy Bookletter 1911",
+            "exists": 1
+        },
+        {
+            "name": "Libre Barcode 128",
+            "exists": 1
+        },
+        {
+            "name": "Libre Barcode 128 Text",
+            "exists": 1
+        },
+        {
+            "name": "Libre Barcode 39",
+            "exists": 1
+        },
+        {
+            "name": "Libre Barcode 39 Extended",
+            "exists": 1
+        },
+        {
+            "name": "Libre Barcode 39 Extended Text",
+            "exists": 1
+        },
+        {
+            "name": "Libre Barcode 39 Text",
+            "exists": 1
+        },
+        {
+            "name": "M PLUS 1p",
+            "exists": 1
+        },
+        {
+            "name": "M PLUS Rounded 1c",
+            "exists": 1
+        },
+        {
+            "name": "Mukta Mahee",
+            "exists": 1
+        },
+        {
+            "name": "Press Start 2P",
+            "exists": 1
+        },
+        {
+            "name": "Slabo 13px",
+            "exists": 1
+        },
+        {
+            "name": "Slabo 27px",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Armenian",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Buginese",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Kannada",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Mongolian",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Myanmar",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Oriya",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Thaana",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Yi",
+            "exists": 1
+        },
+        {
+            "name": "Apple Braille Outline 6 Dot",
+            "exists": 1
+        },
+        {
+            "name": "Apple Braille Outline 8 Dot",
+            "exists": 1
+        },
+        {
+            "name": "Apple Braille Pinpoint 6 Dot",
+            "exists": 1
+        },
+        {
+            "name": "Apple Braille Pinpoint 8 Dot",
+            "exists": 1
+        },
+        {
+            "name": "Avenir Black",
+            "exists": 1
+        },
+        {
+            "name": "Avenir Black Oblique",
+            "exists": 1
+        },
+        {
+            "name": "Avenir Book",
+            "exists": 1
+        },
+        {
+            "name": "Avenir Heavy",
+            "exists": 1
+        },
+        {
+            "name": "Avenir Light",
+            "exists": 1
+        },
+        {
+            "name": "Avenir Medium",
+            "exists": 1
+        },
+        {
+            "name": "Avenir Next Condensed Demi Bold",
+            "exists": 1
+        },
+        {
+            "name": "Avenir Next Condensed Heavy",
+            "exists": 1
+        },
+        {
+            "name": "Avenir Next Condensed Medium",
+            "exists": 1
+        },
+        {
+            "name": "Avenir Next Condensed Ultra Light",
+            "exists": 1
+        },
+        {
+            "name": "Avenir Next Demi Bold",
+            "exists": 1
+        },
+        {
+            "name": "Avenir Next Heavy",
+            "exists": 1
+        },
+        {
+            "name": "Avenir Next Medium",
+            "exists": 1
+        },
+        {
+            "name": "Avenir Next Ultra Light",
+            "exists": 1
+        },
+        {
+            "name": "Bodoni 72 Bold",
+            "exists": 1
+        },
+        {
+            "name": "Bodoni 72 Book",
+            "exists": 1
+        },
+        {
+            "name": "Bodoni 72 Book Italic",
+            "exists": 1
+        },
+        {
+            "name": "Bodoni 72 Oldstyle Bold",
+            "exists": 1
+        },
+        {
+            "name": "Bodoni 72 Oldstyle Book",
+            "exists": 1
+        },
+        {
+            "name": "Bodoni 72 Oldstyle Book Italic",
+            "exists": 1
+        },
+        {
+            "name": "Bodoni 72 Smallcaps Book",
+            "exists": 1
+        },
+        {
+            "name": "Carlito",
+            "exists": 1
+        },
+        {
+            "name": "Charter Black",
+            "exists": 1
+        },
+        {
+            "name": "Courier 10 Pitch",
+            "exists": 1
+        },
+        {
+            "name": "Hiragino Kaku Gothic Pro W3",
+            "exists": 1
+        },
+        {
+            "name": "Hiragino Kaku Gothic Pro W6",
+            "exists": 1
+        },
+        {
+            "name": "Hiragino Kaku Gothic ProN W3",
+            "exists": 1
+        },
+        {
+            "name": "Hiragino Kaku Gothic ProN W6",
+            "exists": 1
+        },
+        {
+            "name": "Hiragino Maru Gothic Pro W4",
+            "exists": 1
+        },
+        {
+            "name": "Hiragino Maru Gothic ProN",
+            "exists": 1
+        },
+        {
+            "name": "Hiragino Maru Gothic ProN W4",
+            "exists": 1
+        },
+        {
+            "name": "Hiragino Mincho Pro W3",
+            "exists": 1
+        },
+        {
+            "name": "Hiragino Mincho Pro W6",
+            "exists": 1
+        },
+        {
+            "name": "Hiragino Mincho ProN W3",
+            "exists": 1
+        },
+        {
+            "name": "Hiragino Mincho ProN W6",
+            "exists": 1
+        },
+        {
+            "name": "Hiragino Sans W3",
+            "exists": 1
+        },
+        {
+            "name": "Hiragino Sans W6",
+            "exists": 1
+        },
+        {
+            "name": "Hiragino Sans W7",
+            "exists": 1
+        },
+        {
+            "name": "Kohinoor Devanagari",
+            "exists": 1
+        },
+        {
+            "name": "LastResort",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Adlam",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Avestan",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Bamum",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Batak",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Brahmi",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Buhid",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Carian",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Chakma",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Cham",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Coptic",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Cuneiform",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Cypriot",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Egyptian Hieroglyphs",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Glagolitic",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Gothic",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Hanunoo",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Imperial Aramaic",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Inscriptional Pahlavi",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Inscriptional Parthian",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Javanese",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Kaithi",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Kayah Li",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Kharoshthi",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Lepcha",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Limbu",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Linear B",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Lisu",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Lycian",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Lydian",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Mandaic",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Meetei Mayek",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans NKo",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans New Tai Lue",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Ogham",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Ol Chiki",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Old Italic",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Old Persian",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Old South Arabian",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Old Turkic",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Osage",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Osmanya",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Phoenician",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Rejang",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Runic",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Samaritan",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Saurashtra",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Shavian",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Sundanese",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Syloti Nagri",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Tagalog",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Tagbanwa",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Tai Le",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Tai Tham",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Tai Viet",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Tifinagh",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Ugaritic",
+            "exists": 1
+        },
+        {
+            "name": "Noto Sans Vai",
+            "exists": 1
+        },
+        {
+            "name": "PingFang SC",
+            "exists": 1
+        },
+        {
+            "name": "PingFang TC",
+            "exists": 1
+        },
+        {
+            "name": "STIXGeneral-Bold",
+            "exists": 1
+        },
+        {
+            "name": "STIXGeneral-BoldItalic",
+            "exists": 1
+        },
+        {
+            "name": "STIXGeneral-Italic",
+            "exists": 1
+        },
+        {
+            "name": "STIXGeneral-Regular",
+            "exists": 1
+        },
+        {
+            "name": "STIXIntegralsD-Bold",
+            "exists": 1
+        },
+        {
+            "name": "STIXIntegralsD-Regular",
+            "exists": 1
+        },
+        {
+            "name": "STIXIntegralsSm-Bold",
+            "exists": 1
+        },
+        {
+            "name": "STIXIntegralsSm-Regular",
+            "exists": 1
+        },
+        {
+            "name": "STIXIntegralsUp-Bold",
+            "exists": 1
+        },
+        {
+            "name": "STIXIntegralsUp-Regular",
+            "exists": 1
+        },
+        {
+            "name": "STIXIntegralsUpD-Bold",
+            "exists": 1
+        },
+        {
+            "name": "STIXIntegralsUpD-Regular",
+            "exists": 1
+        },
+        {
+            "name": "STIXIntegralsUpSm-Bold",
+            "exists": 1
+        },
+        {
+            "name": "STIXIntegralsUpSm-Regular",
+            "exists": 1
+        },
+        {
+            "name": "STIXNonUnicode",
+            "exists": 1
+        },
+        {
+            "name": "STIXNonUnicode-Bold",
+            "exists": 1
+        },
+        {
+            "name": "STIXNonUnicode-BoldItalic",
+            "exists": 1
+        },
+        {
+            "name": "STIXNonUnicode-Italic",
+            "exists": 1
+        },
+        {
+            "name": "STIXNonUnicode-Regular",
+            "exists": 1
+        },
+        {
+            "name": "STIXSizeFiveSym-Regular",
+            "exists": 1
+        },
+        {
+            "name": "STIXSizeFourSym-Bold",
+            "exists": 1
+        },
+        {
+            "name": "STIXSizeFourSym-Regular",
+            "exists": 1
+        },
+        {
+            "name": "STIXSizeOneSym-Bold",
+            "exists": 1
+        },
+        {
+            "name": "STIXSizeOneSym-Regular",
+            "exists": 1
+        },
+        {
+            "name": "STIXSizeThreeSym-Bold",
+            "exists": 1
+        },
+        {
+            "name": "STIXSizeThreeSym-Regular",
+            "exists": 1
+        },
+        {
+            "name": "STIXSizeTwoSym-Bold",
+            "exists": 1
+        },
+        {
+            "name": "STIXSizeTwoSym-Regular",
+            "exists": 1
+        },
+        {
+            "name": "STIXVariants-Bold",
+            "exists": 1
+        },
+        {
+            "name": "STIXVariants-Regular",
+            "exists": 1
+        },
+        {
+            "name": "Savoye LET Plain CC.:1.0",
+            "exists": 1
+        },
+        {
+            "name": "Savoye LET Plain:1.0",
+            "exists": 1
+        },
+        {
+            "name": "Seravek",
+            "exists": 1
+        },
+        {
+            "name": "Seravek ExtraLight",
+            "exists": 1
+        },
+        {
+            "name": "Seravek Light",
+            "exists": 1
+        },
+        {
+            "name": "Seravek Medium",
+            "exists": 1
+        },
+        {
+            "name": "Shree Devanagari 714",
+            "exists": 1
+        },
+        {
+            "name": "Shree Devanagari 714 Bold",
+            "exists": 1
+        },
+        {
+            "name": "Shree Devanagari 714 Bold Italic",
+            "exists": 1
+        },
+        {
+            "name": "Shree Devanagari 714 Italic",
+            "exists": 1
+        },
+        {
+            "name": "SignPainter-HouseScript",
+            "exists": 1
+        },
+        {
+            "name": "UKIJ 3D",
+            "exists": 1
+        },
+        {
+            "name": "UKIJ Kawak 3D",
+            "exists": 1
+        },
+        {
+            "name": "UKIJ Kufi 3D",
+            "exists": 1
+        },
+        {
+            "name": "YuMincho +36p Kana Demibold",
+            "exists": 1
+        },
+        {
+            "name": "YuMincho +36p Kana Extrabold",
+            "exists": 1
+        },
+        {
+            "name": "YuMincho +36p Kana Medium",
+            "exists": 1
+        },
+        {
+            "name": "padmaa-Bold.1.1",
+            "exists": 1
+        },
+        {
+            "name": "微软雅黑",
+            "exists": 1
+        }
+    ]
+}

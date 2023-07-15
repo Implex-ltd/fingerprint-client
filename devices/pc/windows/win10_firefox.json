@@ -1,0 +1,5899 @@
+{
+    "plugins": {
+        "mimeTypes": [
+            {
+                "type": "application/pdf",
+                "suffixes": "pdf",
+                "description": "Portable Document Format",
+                "__pluginName": "PDF Viewer"
+            },
+            {
+                "type": "text/pdf",
+                "suffixes": "pdf",
+                "description": "Portable Document Format",
+                "__pluginName": "PDF Viewer"
+            }
+        ],
+        "plugins": [
+            {
+                "name": "PDF Viewer",
+                "filename": "internal-pdf-viewer",
+                "description": "Portable Document Format",
+                "__mimeTypes": [
+                    "application/pdf",
+                    "text/pdf"
+                ]
+            },
+            {
+                "name": "Chrome PDF Viewer",
+                "filename": "internal-pdf-viewer",
+                "description": "Portable Document Format",
+                "__mimeTypes": [
+                    "application/pdf",
+                    "text/pdf"
+                ]
+            },
+            {
+                "name": "Chromium PDF Viewer",
+                "filename": "internal-pdf-viewer",
+                "description": "Portable Document Format",
+                "__mimeTypes": [
+                    "application/pdf",
+                    "text/pdf"
+                ]
+            },
+            {
+                "name": "Microsoft Edge PDF Viewer",
+                "filename": "internal-pdf-viewer",
+                "description": "Portable Document Format",
+                "__mimeTypes": [
+                    "application/pdf",
+                    "text/pdf"
+                ]
+            },
+            {
+                "name": "WebKit built-in PDF",
+                "filename": "internal-pdf-viewer",
+                "description": "Portable Document Format",
+                "__mimeTypes": [
+                    "application/pdf",
+                    "text/pdf"
+                ]
+            }
+        ]
+    },
+    "gpu": {
+        "vendor": "Google Inc. (NVIDIA)",
+        "renderer": "ANGLE (NVIDIA, NVIDIA GeForce GTX 980 Direct3D11 vs_5_0 ps_5_0)"
+    },
+    "defaultCS": {
+        "0": "accent-color",
+        "1": "align-content",
+        "2": "align-items",
+        "3": "align-self",
+        "4": "animation-delay",
+        "5": "animation-direction",
+        "6": "animation-duration",
+        "7": "animation-fill-mode",
+        "8": "animation-iteration-count",
+        "9": "animation-name",
+        "10": "animation-play-state",
+        "11": "animation-timing-function",
+        "12": "appearance",
+        "13": "aspect-ratio",
+        "14": "backdrop-filter",
+        "15": "backface-visibility",
+        "16": "background-attachment",
+        "17": "background-blend-mode",
+        "18": "background-clip",
+        "19": "background-color",
+        "20": "background-image",
+        "21": "background-origin",
+        "22": "background-position-x",
+        "23": "background-position-y",
+        "24": "background-repeat",
+        "25": "background-size",
+        "26": "block-size",
+        "27": "border-block-end-color",
+        "28": "border-block-end-style",
+        "29": "border-block-end-width",
+        "30": "border-block-start-color",
+        "31": "border-block-start-style",
+        "32": "border-block-start-width",
+        "33": "border-bottom-color",
+        "34": "border-bottom-left-radius",
+        "35": "border-bottom-right-radius",
+        "36": "border-bottom-style",
+        "37": "border-bottom-width",
+        "38": "border-collapse",
+        "39": "border-end-end-radius",
+        "40": "border-end-start-radius",
+        "41": "border-image-outset",
+        "42": "border-image-repeat",
+        "43": "border-image-slice",
+        "44": "border-image-source",
+        "45": "border-image-width",
+        "46": "border-inline-end-color",
+        "47": "border-inline-end-style",
+        "48": "border-inline-end-width",
+        "49": "border-inline-start-color",
+        "50": "border-inline-start-style",
+        "51": "border-inline-start-width",
+        "52": "border-left-color",
+        "53": "border-left-style",
+        "54": "border-left-width",
+        "55": "border-right-color",
+        "56": "border-right-style",
+        "57": "border-right-width",
+        "58": "border-spacing",
+        "59": "border-start-end-radius",
+        "60": "border-start-start-radius",
+        "61": "border-top-color",
+        "62": "border-top-left-radius",
+        "63": "border-top-right-radius",
+        "64": "border-top-style",
+        "65": "border-top-width",
+        "66": "bottom",
+        "67": "box-decoration-break",
+        "68": "box-shadow",
+        "69": "box-sizing",
+        "70": "break-after",
+        "71": "break-before",
+        "72": "break-inside",
+        "73": "caption-side",
+        "74": "caret-color",
+        "75": "clear",
+        "76": "clip",
+        "77": "clip-path",
+        "78": "clip-rule",
+        "79": "color",
+        "80": "color-interpolation",
+        "81": "color-interpolation-filters",
+        "82": "color-scheme",
+        "83": "column-count",
+        "84": "column-fill",
+        "85": "column-gap",
+        "86": "column-rule-color",
+        "87": "column-rule-style",
+        "88": "column-rule-width",
+        "89": "column-span",
+        "90": "column-width",
+        "91": "contain",
+        "92": "contain-intrinsic-block-size",
+        "93": "contain-intrinsic-height",
+        "94": "contain-intrinsic-inline-size",
+        "95": "contain-intrinsic-width",
+        "96": "container-name",
+        "97": "container-type",
+        "98": "content",
+        "99": "counter-increment",
+        "100": "counter-reset",
+        "101": "counter-set",
+        "102": "cursor",
+        "103": "cx",
+        "104": "cy",
+        "105": "d",
+        "106": "direction",
+        "107": "display",
+        "108": "dominant-baseline",
+        "109": "empty-cells",
+        "110": "fill",
+        "111": "fill-opacity",
+        "112": "fill-rule",
+        "113": "filter",
+        "114": "flex-basis",
+        "115": "flex-direction",
+        "116": "flex-grow",
+        "117": "flex-shrink",
+        "118": "flex-wrap",
+        "119": "float",
+        "120": "flood-color",
+        "121": "flood-opacity",
+        "122": "font-family",
+        "123": "font-feature-settings",
+        "124": "font-kerning",
+        "125": "font-language-override",
+        "126": "font-optical-sizing",
+        "127": "font-palette",
+        "128": "font-size",
+        "129": "font-size-adjust",
+        "130": "font-stretch",
+        "131": "font-style",
+        "132": "font-synthesis-small-caps",
+        "133": "font-synthesis-style",
+        "134": "font-synthesis-weight",
+        "135": "font-variant-alternates",
+        "136": "font-variant-caps",
+        "137": "font-variant-east-asian",
+        "138": "font-variant-ligatures",
+        "139": "font-variant-numeric",
+        "140": "font-variant-position",
+        "141": "font-variation-settings",
+        "142": "font-weight",
+        "143": "forced-color-adjust",
+        "144": "grid-auto-columns",
+        "145": "grid-auto-flow",
+        "146": "grid-auto-rows",
+        "147": "grid-column-end",
+        "148": "grid-column-start",
+        "149": "grid-row-end",
+        "150": "grid-row-start",
+        "151": "grid-template-areas",
+        "152": "grid-template-columns",
+        "153": "grid-template-rows",
+        "154": "height",
+        "155": "hyphenate-character",
+        "156": "hyphens",
+        "157": "image-orientation",
+        "158": "image-rendering",
+        "159": "ime-mode",
+        "160": "inline-size",
+        "161": "inset-block-end",
+        "162": "inset-block-start",
+        "163": "inset-inline-end",
+        "164": "inset-inline-start",
+        "165": "isolation",
+        "166": "justify-content",
+        "167": "justify-items",
+        "168": "justify-self",
+        "169": "left",
+        "170": "letter-spacing",
+        "171": "lighting-color",
+        "172": "line-break",
+        "173": "line-height",
+        "174": "list-style-image",
+        "175": "list-style-position",
+        "176": "list-style-type",
+        "177": "margin-block-end",
+        "178": "margin-block-start",
+        "179": "margin-bottom",
+        "180": "margin-inline-end",
+        "181": "margin-inline-start",
+        "182": "margin-left",
+        "183": "margin-right",
+        "184": "margin-top",
+        "185": "marker-end",
+        "186": "marker-mid",
+        "187": "marker-start",
+        "188": "mask-clip",
+        "189": "mask-composite",
+        "190": "mask-image",
+        "191": "mask-mode",
+        "192": "mask-origin",
+        "193": "mask-position-x",
+        "194": "mask-position-y",
+        "195": "mask-repeat",
+        "196": "mask-size",
+        "197": "mask-type",
+        "198": "max-block-size",
+        "199": "max-height",
+        "200": "max-inline-size",
+        "201": "max-width",
+        "202": "min-block-size",
+        "203": "min-height",
+        "204": "min-inline-size",
+        "205": "min-width",
+        "206": "mix-blend-mode",
+        "207": "object-fit",
+        "208": "object-position",
+        "209": "offset-anchor",
+        "210": "offset-distance",
+        "211": "offset-path",
+        "212": "offset-rotate",
+        "213": "opacity",
+        "214": "order",
+        "215": "outline-color",
+        "216": "outline-offset",
+        "217": "outline-style",
+        "218": "outline-width",
+        "219": "overflow-anchor",
+        "220": "overflow-block",
+        "221": "overflow-clip-margin",
+        "222": "overflow-inline",
+        "223": "overflow-wrap",
+        "224": "overflow-x",
+        "225": "overflow-y",
+        "226": "overscroll-behavior-block",
+        "227": "overscroll-behavior-inline",
+        "228": "overscroll-behavior-x",
+        "229": "overscroll-behavior-y",
+        "230": "padding-block-end",
+        "231": "padding-block-start",
+        "232": "padding-bottom",
+        "233": "padding-inline-end",
+        "234": "padding-inline-start",
+        "235": "padding-left",
+        "236": "padding-right",
+        "237": "padding-top",
+        "238": "page",
+        "239": "paint-order",
+        "240": "perspective",
+        "241": "perspective-origin",
+        "242": "pointer-events",
+        "243": "position",
+        "244": "print-color-adjust",
+        "245": "quotes",
+        "246": "r",
+        "247": "resize",
+        "248": "right",
+        "249": "rotate",
+        "250": "row-gap",
+        "251": "ruby-align",
+        "252": "ruby-position",
+        "253": "rx",
+        "254": "ry",
+        "255": "scale",
+        "256": "scroll-behavior",
+        "257": "scroll-margin-block-end",
+        "258": "scroll-margin-block-start",
+        "259": "scroll-margin-bottom",
+        "260": "scroll-margin-inline-end",
+        "261": "scroll-margin-inline-start",
+        "262": "scroll-margin-left",
+        "263": "scroll-margin-right",
+        "264": "scroll-margin-top",
+        "265": "scroll-padding-block-end",
+        "266": "scroll-padding-block-start",
+        "267": "scroll-padding-bottom",
+        "268": "scroll-padding-inline-end",
+        "269": "scroll-padding-inline-start",
+        "270": "scroll-padding-left",
+        "271": "scroll-padding-right",
+        "272": "scroll-padding-top",
+        "273": "scroll-snap-align",
+        "274": "scroll-snap-stop",
+        "275": "scroll-snap-type",
+        "276": "scrollbar-color",
+        "277": "scrollbar-gutter",
+        "278": "scrollbar-width",
+        "279": "shape-image-threshold",
+        "280": "shape-margin",
+        "281": "shape-outside",
+        "282": "shape-rendering",
+        "283": "stop-color",
+        "284": "stop-opacity",
+        "285": "stroke",
+        "286": "stroke-dasharray",
+        "287": "stroke-dashoffset",
+        "288": "stroke-linecap",
+        "289": "stroke-linejoin",
+        "290": "stroke-miterlimit",
+        "291": "stroke-opacity",
+        "292": "stroke-width",
+        "293": "tab-size",
+        "294": "table-layout",
+        "295": "text-align",
+        "296": "text-align-last",
+        "297": "text-anchor",
+        "298": "text-combine-upright",
+        "299": "text-decoration-color",
+        "300": "text-decoration-line",
+        "301": "text-decoration-skip-ink",
+        "302": "text-decoration-style",
+        "303": "text-decoration-thickness",
+        "304": "text-emphasis-color",
+        "305": "text-emphasis-position",
+        "306": "text-emphasis-style",
+        "307": "text-indent",
+        "308": "text-justify",
+        "309": "text-orientation",
+        "310": "text-overflow",
+        "311": "text-rendering",
+        "312": "text-shadow",
+        "313": "text-transform",
+        "314": "text-underline-offset",
+        "315": "text-underline-position",
+        "316": "top",
+        "317": "touch-action",
+        "318": "transform",
+        "319": "transform-box",
+        "320": "transform-origin",
+        "321": "transform-style",
+        "322": "transition-delay",
+        "323": "transition-duration",
+        "324": "transition-property",
+        "325": "transition-timing-function",
+        "326": "translate",
+        "327": "unicode-bidi",
+        "328": "user-select",
+        "329": "vector-effect",
+        "330": "vertical-align",
+        "331": "visibility",
+        "332": "white-space",
+        "333": "width",
+        "334": "will-change",
+        "335": "word-break",
+        "336": "word-spacing",
+        "337": "writing-mode",
+        "338": "x",
+        "339": "y",
+        "340": "z-index",
+        "341": "-moz-box-align",
+        "342": "-moz-box-direction",
+        "343": "-moz-box-flex",
+        "344": "-moz-box-ordinal-group",
+        "345": "-moz-box-orient",
+        "346": "-moz-box-pack",
+        "347": "-moz-float-edge",
+        "348": "-moz-force-broken-image-icon",
+        "349": "-moz-orient",
+        "350": "-moz-text-size-adjust",
+        "351": "-moz-user-focus",
+        "352": "-moz-user-input",
+        "353": "-moz-user-modify",
+        "354": "-moz-window-dragging",
+        "355": "-webkit-line-clamp",
+        "356": "-webkit-text-fill-color",
+        "357": "-webkit-text-security",
+        "358": "-webkit-text-stroke-color",
+        "359": "-webkit-text-stroke-width",
+        "alignContent": "normal",
+        "align-content": "normal",
+        "alignItems": "normal",
+        "align-items": "normal",
+        "alignSelf": "auto",
+        "align-self": "auto",
+        "aspectRatio": "auto",
+        "aspect-ratio": "auto",
+        "backfaceVisibility": "visible",
+        "backface-visibility": "visible",
+        "borderCollapse": "separate",
+        "border-collapse": "separate",
+        "borderImageRepeat": "stretch",
+        "border-image-repeat": "stretch",
+        "boxDecorationBreak": "slice",
+        "box-decoration-break": "slice",
+        "boxSizing": "content-box",
+        "box-sizing": "content-box",
+        "breakInside": "auto",
+        "break-inside": "auto",
+        "captionSide": "top",
+        "caption-side": "top",
+        "clear": "none",
+        "colorInterpolation": "srgb",
+        "color-interpolation": "srgb",
+        "colorInterpolationFilters": "linearrgb",
+        "color-interpolation-filters": "linearrgb",
+        "columnCount": "auto",
+        "column-count": "auto",
+        "columnFill": "balance",
+        "column-fill": "balance",
+        "columnSpan": "none",
+        "column-span": "none",
+        "contain": "none",
+        "containerType": "normal",
+        "container-type": "normal",
+        "direction": "ltr",
+        "display": "block",
+        "dominantBaseline": "auto",
+        "dominant-baseline": "auto",
+        "emptyCells": "show",
+        "empty-cells": "show",
+        "flexDirection": "row",
+        "flex-direction": "row",
+        "flexWrap": "nowrap",
+        "flex-wrap": "nowrap",
+        "cssFloat": "none",
+        "float": "none",
+        "fontKerning": "auto",
+        "font-kerning": "auto",
+        "fontLanguageOverride": "normal",
+        "font-language-override": "normal",
+        "fontOpticalSizing": "auto",
+        "font-optical-sizing": "auto",
+        "fontSizeAdjust": "none",
+        "font-size-adjust": "none",
+        "fontStretch": "100%",
+        "font-stretch": "100%",
+        "fontStyle": "normal",
+        "font-style": "normal",
+        "fontVariantCaps": "normal",
+        "font-variant-caps": "normal",
+        "fontVariantEastAsian": "normal",
+        "font-variant-east-asian": "normal",
+        "fontVariantLigatures": "normal",
+        "font-variant-ligatures": "normal",
+        "fontVariantNumeric": "normal",
+        "font-variant-numeric": "normal",
+        "fontVariantPosition": "normal",
+        "font-variant-position": "normal",
+        "fontWeight": "400",
+        "font-weight": "400",
+        "forcedColorAdjust": "auto",
+        "forced-color-adjust": "auto",
+        "gridAutoFlow": "row",
+        "grid-auto-flow": "row",
+        "hyphens": "manual",
+        "imageOrientation": "from-image",
+        "image-orientation": "from-image",
+        "imageRendering": "auto",
+        "image-rendering": "auto",
+        "imeMode": "auto",
+        "ime-mode": "auto",
+        "isolation": "auto",
+        "justifyContent": "normal",
+        "justify-content": "normal",
+        "justifyItems": "normal",
+        "justify-items": "normal",
+        "justifySelf": "auto",
+        "justify-self": "auto",
+        "lineBreak": "auto",
+        "line-break": "auto",
+        "listStylePosition": "outside",
+        "list-style-position": "outside",
+        "maskType": "luminance",
+        "mask-type": "luminance",
+        "mixBlendMode": "normal",
+        "mix-blend-mode": "normal",
+        "MozBoxAlign": "stretch",
+        "-moz-box-align": "stretch",
+        "MozBoxDirection": "normal",
+        "-moz-box-direction": "normal",
+        "MozBoxOrient": "horizontal",
+        "-moz-box-orient": "horizontal",
+        "MozBoxPack": "start",
+        "-moz-box-pack": "start",
+        "MozFloatEdge": "content-box",
+        "-moz-float-edge": "content-box",
+        "MozOrient": "inline",
+        "-moz-orient": "inline",
+        "MozTextSizeAdjust": "auto",
+        "-moz-text-size-adjust": "auto",
+        "MozUserFocus": "none",
+        "-moz-user-focus": "none",
+        "MozUserInput": "auto",
+        "-moz-user-input": "auto",
+        "MozUserModify": "read-only",
+        "-moz-user-modify": "read-only",
+        "MozWindowDragging": "default",
+        "-moz-window-dragging": "default",
+        "objectFit": "fill",
+        "object-fit": "fill",
+        "offsetRotate": "auto",
+        "offset-rotate": "auto",
+        "outlineStyle": "none",
+        "outline-style": "none",
+        "overflowAnchor": "auto",
+        "overflow-anchor": "auto",
+        "overflowWrap": "normal",
+        "overflow-wrap": "normal",
+        "paintOrder": "normal",
+        "paint-order": "normal",
+        "pointerEvents": "auto",
+        "pointer-events": "auto",
+        "position": "static",
+        "printColorAdjust": "economy",
+        "print-color-adjust": "economy",
+        "resize": "none",
+        "rubyAlign": "space-around",
+        "ruby-align": "space-around",
+        "rubyPosition": "alternate",
+        "ruby-position": "alternate",
+        "scrollBehavior": "auto",
+        "scroll-behavior": "auto",
+        "scrollSnapAlign": "none",
+        "scroll-snap-align": "none",
+        "scrollSnapStop": "normal",
+        "scroll-snap-stop": "normal",
+        "scrollSnapType": "none",
+        "scroll-snap-type": "none",
+        "scrollbarGutter": "auto",
+        "scrollbar-gutter": "auto",
+        "scrollbarWidth": "auto",
+        "scrollbar-width": "auto",
+        "shapeRendering": "auto",
+        "shape-rendering": "auto",
+        "strokeLinecap": "butt",
+        "stroke-linecap": "butt",
+        "strokeLinejoin": "miter",
+        "stroke-linejoin": "miter",
+        "tableLayout": "auto",
+        "table-layout": "auto",
+        "textAlign": "start",
+        "text-align": "start",
+        "textAlignLast": "auto",
+        "text-align-last": "auto",
+        "textAnchor": "start",
+        "text-anchor": "start",
+        "textCombineUpright": "none",
+        "text-combine-upright": "none",
+        "textDecorationLine": "none",
+        "text-decoration-line": "none",
+        "textDecorationSkipInk": "auto",
+        "text-decoration-skip-ink": "auto",
+        "textDecorationStyle": "solid",
+        "text-decoration-style": "solid",
+        "textEmphasisPosition": "over",
+        "text-emphasis-position": "over",
+        "textJustify": "auto",
+        "text-justify": "auto",
+        "textOrientation": "mixed",
+        "text-orientation": "mixed",
+        "textRendering": "auto",
+        "text-rendering": "auto",
+        "textTransform": "none",
+        "text-transform": "none",
+        "textUnderlinePosition": "auto",
+        "text-underline-position": "auto",
+        "touchAction": "auto",
+        "touch-action": "auto",
+        "transformBox": "border-box",
+        "transform-box": "border-box",
+        "transformStyle": "flat",
+        "transform-style": "flat",
+        "unicodeBidi": "isolate",
+        "unicode-bidi": "isolate",
+        "userSelect": "auto",
+        "user-select": "auto",
+        "vectorEffect": "none",
+        "vector-effect": "none",
+        "visibility": "visible",
+        "webkitLineClamp": "none",
+        "WebkitLineClamp": "none",
+        "-webkit-line-clamp": "none",
+        "webkitTextSecurity": "none",
+        "WebkitTextSecurity": "none",
+        "-webkit-text-security": "none",
+        "whiteSpace": "normal",
+        "white-space": "normal",
+        "wordBreak": "normal",
+        "word-break": "normal",
+        "writingMode": "horizontal-tb",
+        "writing-mode": "horizontal-tb",
+        "zIndex": "auto",
+        "z-index": "auto",
+        "appearance": "none",
+        "MozForceBrokenImageIcon": "0",
+        "-moz-force-broken-image-icon": "0",
+        "breakAfter": "auto",
+        "break-after": "auto",
+        "breakBefore": "auto",
+        "break-before": "auto",
+        "clipRule": "nonzero",
+        "clip-rule": "nonzero",
+        "fillRule": "nonzero",
+        "fill-rule": "nonzero",
+        "fillOpacity": "1",
+        "fill-opacity": "1",
+        "strokeOpacity": "1",
+        "stroke-opacity": "1",
+        "fontSynthesisSmallCaps": "auto",
+        "font-synthesis-small-caps": "auto",
+        "fontSynthesisStyle": "auto",
+        "font-synthesis-style": "auto",
+        "fontSynthesisWeight": "auto",
+        "font-synthesis-weight": "auto",
+        "MozBoxOrdinalGroup": "1",
+        "-moz-box-ordinal-group": "1",
+        "order": "0",
+        "flexGrow": "0",
+        "flex-grow": "0",
+        "flexShrink": "1",
+        "flex-shrink": "1",
+        "MozBoxFlex": "0",
+        "-moz-box-flex": "0",
+        "strokeMiterlimit": "4",
+        "stroke-miterlimit": "4",
+        "overflowBlock": "visible",
+        "overflow-block": "visible",
+        "overflowInline": "visible",
+        "overflow-inline": "visible",
+        "overflowX": "visible",
+        "overflow-x": "visible",
+        "overflowY": "visible",
+        "overflow-y": "visible",
+        "overscrollBehaviorBlock": "auto",
+        "overscroll-behavior-block": "auto",
+        "overscrollBehaviorInline": "auto",
+        "overscroll-behavior-inline": "auto",
+        "overscrollBehaviorX": "auto",
+        "overscroll-behavior-x": "auto",
+        "overscrollBehaviorY": "auto",
+        "overscroll-behavior-y": "auto",
+        "floodOpacity": "1",
+        "flood-opacity": "1",
+        "opacity": "1",
+        "shapeImageThreshold": "0",
+        "shape-image-threshold": "0",
+        "stopOpacity": "1",
+        "stop-opacity": "1",
+        "borderBlockEndStyle": "none",
+        "border-block-end-style": "none",
+        "borderBlockStartStyle": "none",
+        "border-block-start-style": "none",
+        "borderBottomStyle": "none",
+        "border-bottom-style": "none",
+        "borderInlineEndStyle": "none",
+        "border-inline-end-style": "none",
+        "borderInlineStartStyle": "none",
+        "border-inline-start-style": "none",
+        "borderLeftStyle": "none",
+        "border-left-style": "none",
+        "borderRightStyle": "none",
+        "border-right-style": "none",
+        "borderTopStyle": "none",
+        "border-top-style": "none",
+        "columnRuleStyle": "none",
+        "column-rule-style": "none",
+        "accentColor": "auto",
+        "accent-color": "auto",
+        "animationDelay": "0s",
+        "animation-delay": "0s",
+        "animationDirection": "normal",
+        "animation-direction": "normal",
+        "animationDuration": "0s",
+        "animation-duration": "0s",
+        "animationFillMode": "none",
+        "animation-fill-mode": "none",
+        "animationIterationCount": "1",
+        "animation-iteration-count": "1",
+        "animationName": "none",
+        "animation-name": "none",
+        "animationPlayState": "running",
+        "animation-play-state": "running",
+        "animationTimingFunction": "ease",
+        "animation-timing-function": "ease",
+        "backdropFilter": "none",
+        "backdrop-filter": "none",
+        "backgroundAttachment": "scroll",
+        "background-attachment": "scroll",
+        "backgroundBlendMode": "normal",
+        "background-blend-mode": "normal",
+        "backgroundClip": "border-box",
+        "background-clip": "border-box",
+        "backgroundImage": "none",
+        "background-image": "none",
+        "backgroundOrigin": "padding-box",
+        "background-origin": "padding-box",
+        "backgroundPositionX": "0%",
+        "background-position-x": "0%",
+        "backgroundPositionY": "0%",
+        "background-position-y": "0%",
+        "backgroundRepeat": "repeat",
+        "background-repeat": "repeat",
+        "backgroundSize": "auto",
+        "background-size": "auto",
+        "borderImageOutset": "0",
+        "border-image-outset": "0",
+        "borderImageSlice": "100%",
+        "border-image-slice": "100%",
+        "borderImageWidth": "1",
+        "border-image-width": "1",
+        "borderSpacing": "0px 0px",
+        "border-spacing": "0px 0px",
+        "boxShadow": "none",
+        "box-shadow": "none",
+        "caretColor": "rgb(0, 0, 0)",
+        "caret-color": "rgb(0, 0, 0)",
+        "clip": "auto",
+        "clipPath": "none",
+        "clip-path": "none",
+        "color": "rgb(0, 0, 0)",
+        "colorScheme": "normal",
+        "color-scheme": "normal",
+        "columnWidth": "auto",
+        "column-width": "auto",
+        "containerName": "none",
+        "container-name": "none",
+        "content": "normal",
+        "counterIncrement": "none",
+        "counter-increment": "none",
+        "counterReset": "none",
+        "counter-reset": "none",
+        "counterSet": "none",
+        "counter-set": "none",
+        "cursor": "auto",
+        "d": "none",
+        "filter": "none",
+        "flexBasis": "auto",
+        "flex-basis": "auto",
+        "fontFamily": "serif",
+        "font-family": "serif",
+        "fontFeatureSettings": "normal",
+        "font-feature-settings": "normal",
+        "fontPalette": "normal",
+        "font-palette": "normal",
+        "fontSize": "16px",
+        "font-size": "16px",
+        "fontVariantAlternates": "normal",
+        "font-variant-alternates": "normal",
+        "fontVariationSettings": "normal",
+        "font-variation-settings": "normal",
+        "gridTemplateAreas": "none",
+        "grid-template-areas": "none",
+        "hyphenateCharacter": "auto",
+        "hyphenate-character": "auto",
+        "letterSpacing": "normal",
+        "letter-spacing": "normal",
+        "lineHeight": "normal",
+        "line-height": "normal",
+        "listStyleType": "disc",
+        "list-style-type": "disc",
+        "maskClip": "border-box",
+        "mask-clip": "border-box",
+        "maskComposite": "add",
+        "mask-composite": "add",
+        "maskImage": "none",
+        "mask-image": "none",
+        "maskMode": "match-source",
+        "mask-mode": "match-source",
+        "maskOrigin": "border-box",
+        "mask-origin": "border-box",
+        "maskPositionX": "0%",
+        "mask-position-x": "0%",
+        "maskPositionY": "0%",
+        "mask-position-y": "0%",
+        "maskRepeat": "repeat",
+        "mask-repeat": "repeat",
+        "maskSize": "auto",
+        "mask-size": "auto",
+        "offsetPath": "none",
+        "offset-path": "none",
+        "page": "auto",
+        "perspective": "none",
+        "quotes": "auto",
+        "rotate": "none",
+        "scale": "none",
+        "scrollbarColor": "auto",
+        "scrollbar-color": "auto",
+        "shapeOutside": "none",
+        "shape-outside": "none",
+        "strokeDasharray": "none",
+        "stroke-dasharray": "none",
+        "strokeDashoffset": "0px",
+        "stroke-dashoffset": "0px",
+        "strokeWidth": "1px",
+        "stroke-width": "1px",
+        "tabSize": "8",
+        "tab-size": "8",
+        "textDecorationThickness": "auto",
+        "text-decoration-thickness": "auto",
+        "textEmphasisStyle": "none",
+        "text-emphasis-style": "none",
+        "textOverflow": "clip",
+        "text-overflow": "clip",
+        "textShadow": "none",
+        "text-shadow": "none",
+        "transitionDelay": "0s",
+        "transition-delay": "0s",
+        "transitionDuration": "0s",
+        "transition-duration": "0s",
+        "transitionProperty": "all",
+        "transition-property": "all",
+        "transitionTimingFunction": "ease",
+        "transition-timing-function": "ease",
+        "translate": "none",
+        "verticalAlign": "baseline",
+        "vertical-align": "baseline",
+        "willChange": "auto",
+        "will-change": "auto",
+        "wordSpacing": "0px",
+        "word-spacing": "0px",
+        "objectPosition": "50% 50%",
+        "object-position": "50% 50%",
+        "perspectiveOrigin": "142px 0px",
+        "perspective-origin": "142px 0px",
+        "offsetAnchor": "auto",
+        "offset-anchor": "auto",
+        "fill": "rgb(0, 0, 0)",
+        "stroke": "none",
+        "transformOrigin": "142px 0px",
+        "transform-origin": "142px 0px",
+        "gridTemplateColumns": "none",
+        "grid-template-columns": "none",
+        "gridTemplateRows": "none",
+        "grid-template-rows": "none",
+        "borderImageSource": "none",
+        "border-image-source": "none",
+        "listStyleImage": "none",
+        "list-style-image": "none",
+        "gridAutoColumns": "auto",
+        "grid-auto-columns": "auto",
+        "gridAutoRows": "auto",
+        "grid-auto-rows": "auto",
+        "transform": "none",
+        "columnGap": "normal",
+        "column-gap": "normal",
+        "rowGap": "normal",
+        "row-gap": "normal",
+        "markerEnd": "none",
+        "marker-end": "none",
+        "markerMid": "none",
+        "marker-mid": "none",
+        "markerStart": "none",
+        "marker-start": "none",
+        "containIntrinsicBlockSize": "none",
+        "contain-intrinsic-block-size": "none",
+        "containIntrinsicHeight": "none",
+        "contain-intrinsic-height": "none",
+        "containIntrinsicInlineSize": "none",
+        "contain-intrinsic-inline-size": "none",
+        "containIntrinsicWidth": "none",
+        "contain-intrinsic-width": "none",
+        "gridColumnEnd": "auto",
+        "grid-column-end": "auto",
+        "gridColumnStart": "auto",
+        "grid-column-start": "auto",
+        "gridRowEnd": "auto",
+        "grid-row-end": "auto",
+        "gridRowStart": "auto",
+        "grid-row-start": "auto",
+        "maxBlockSize": "none",
+        "max-block-size": "none",
+        "maxHeight": "none",
+        "max-height": "none",
+        "maxInlineSize": "none",
+        "max-inline-size": "none",
+        "maxWidth": "none",
+        "max-width": "none",
+        "cx": "0px",
+        "cy": "0px",
+        "offsetDistance": "0px",
+        "offset-distance": "0px",
+        "textIndent": "0px",
+        "text-indent": "0px",
+        "x": "0px",
+        "y": "0px",
+        "borderBottomLeftRadius": "0px",
+        "border-bottom-left-radius": "0px",
+        "borderBottomRightRadius": "0px",
+        "border-bottom-right-radius": "0px",
+        "borderEndEndRadius": "0px",
+        "border-end-end-radius": "0px",
+        "borderEndStartRadius": "0px",
+        "border-end-start-radius": "0px",
+        "borderStartEndRadius": "0px",
+        "border-start-end-radius": "0px",
+        "borderStartStartRadius": "0px",
+        "border-start-start-radius": "0px",
+        "borderTopLeftRadius": "0px",
+        "border-top-left-radius": "0px",
+        "borderTopRightRadius": "0px",
+        "border-top-right-radius": "0px",
+        "blockSize": "0px",
+        "block-size": "0px",
+        "height": "0px",
+        "inlineSize": "284px",
+        "inline-size": "284px",
+        "minBlockSize": "0px",
+        "min-block-size": "0px",
+        "minHeight": "0px",
+        "min-height": "0px",
+        "minInlineSize": "0px",
+        "min-inline-size": "0px",
+        "minWidth": "0px",
+        "min-width": "0px",
+        "width": "284px",
+        "paddingBlockEnd": "0px",
+        "padding-block-end": "0px",
+        "paddingBlockStart": "0px",
+        "padding-block-start": "0px",
+        "paddingBottom": "0px",
+        "padding-bottom": "0px",
+        "paddingInlineEnd": "0px",
+        "padding-inline-end": "0px",
+        "paddingInlineStart": "0px",
+        "padding-inline-start": "0px",
+        "paddingLeft": "0px",
+        "padding-left": "0px",
+        "paddingRight": "0px",
+        "padding-right": "0px",
+        "paddingTop": "0px",
+        "padding-top": "0px",
+        "r": "0px",
+        "shapeMargin": "0px",
+        "shape-margin": "0px",
+        "rx": "auto",
+        "ry": "auto",
+        "scrollPaddingBlockEnd": "auto",
+        "scroll-padding-block-end": "auto",
+        "scrollPaddingBlockStart": "auto",
+        "scroll-padding-block-start": "auto",
+        "scrollPaddingBottom": "auto",
+        "scroll-padding-bottom": "auto",
+        "scrollPaddingInlineEnd": "auto",
+        "scroll-padding-inline-end": "auto",
+        "scrollPaddingInlineStart": "auto",
+        "scroll-padding-inline-start": "auto",
+        "scrollPaddingLeft": "auto",
+        "scroll-padding-left": "auto",
+        "scrollPaddingRight": "auto",
+        "scroll-padding-right": "auto",
+        "scrollPaddingTop": "auto",
+        "scroll-padding-top": "auto",
+        "borderBlockEndWidth": "0px",
+        "border-block-end-width": "0px",
+        "borderBlockStartWidth": "0px",
+        "border-block-start-width": "0px",
+        "borderBottomWidth": "0px",
+        "border-bottom-width": "0px",
+        "borderInlineEndWidth": "0px",
+        "border-inline-end-width": "0px",
+        "borderInlineStartWidth": "0px",
+        "border-inline-start-width": "0px",
+        "borderLeftWidth": "0px",
+        "border-left-width": "0px",
+        "borderRightWidth": "0px",
+        "border-right-width": "0px",
+        "borderTopWidth": "0px",
+        "border-top-width": "0px",
+        "columnRuleWidth": "0px",
+        "column-rule-width": "0px",
+        "outlineWidth": "0px",
+        "outline-width": "0px",
+        "webkitTextStrokeWidth": "0px",
+        "WebkitTextStrokeWidth": "0px",
+        "-webkit-text-stroke-width": "0px",
+        "outlineOffset": "0px",
+        "outline-offset": "0px",
+        "overflowClipMargin": "0px",
+        "overflow-clip-margin": "0px",
+        "scrollMarginBlockEnd": "0px",
+        "scroll-margin-block-end": "0px",
+        "scrollMarginBlockStart": "0px",
+        "scroll-margin-block-start": "0px",
+        "scrollMarginBottom": "0px",
+        "scroll-margin-bottom": "0px",
+        "scrollMarginInlineEnd": "0px",
+        "scroll-margin-inline-end": "0px",
+        "scrollMarginInlineStart": "0px",
+        "scroll-margin-inline-start": "0px",
+        "scrollMarginLeft": "0px",
+        "scroll-margin-left": "0px",
+        "scrollMarginRight": "0px",
+        "scroll-margin-right": "0px",
+        "scrollMarginTop": "0px",
+        "scroll-margin-top": "0px",
+        "bottom": "auto",
+        "insetBlockEnd": "auto",
+        "inset-block-end": "auto",
+        "insetBlockStart": "auto",
+        "inset-block-start": "auto",
+        "insetInlineEnd": "auto",
+        "inset-inline-end": "auto",
+        "insetInlineStart": "auto",
+        "inset-inline-start": "auto",
+        "left": "auto",
+        "marginBlockEnd": "8px",
+        "margin-block-end": "8px",
+        "marginBlockStart": "8px",
+        "margin-block-start": "8px",
+        "marginBottom": "8px",
+        "margin-bottom": "8px",
+        "marginInlineEnd": "8px",
+        "margin-inline-end": "8px",
+        "marginInlineStart": "8px",
+        "margin-inline-start": "8px",
+        "marginLeft": "8px",
+        "margin-left": "8px",
+        "marginRight": "8px",
+        "margin-right": "8px",
+        "marginTop": "8px",
+        "margin-top": "8px",
+        "right": "auto",
+        "textUnderlineOffset": "auto",
+        "text-underline-offset": "auto",
+        "top": "auto",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "background-color": "rgba(0, 0, 0, 0)",
+        "borderBlockEndColor": "rgb(0, 0, 0)",
+        "border-block-end-color": "rgb(0, 0, 0)",
+        "borderBlockStartColor": "rgb(0, 0, 0)",
+        "border-block-start-color": "rgb(0, 0, 0)",
+        "borderBottomColor": "rgb(0, 0, 0)",
+        "border-bottom-color": "rgb(0, 0, 0)",
+        "borderInlineEndColor": "rgb(0, 0, 0)",
+        "border-inline-end-color": "rgb(0, 0, 0)",
+        "borderInlineStartColor": "rgb(0, 0, 0)",
+        "border-inline-start-color": "rgb(0, 0, 0)",
+        "borderLeftColor": "rgb(0, 0, 0)",
+        "border-left-color": "rgb(0, 0, 0)",
+        "borderRightColor": "rgb(0, 0, 0)",
+        "border-right-color": "rgb(0, 0, 0)",
+        "borderTopColor": "rgb(0, 0, 0)",
+        "border-top-color": "rgb(0, 0, 0)",
+        "columnRuleColor": "rgb(0, 0, 0)",
+        "column-rule-color": "rgb(0, 0, 0)",
+        "floodColor": "rgb(0, 0, 0)",
+        "flood-color": "rgb(0, 0, 0)",
+        "lightingColor": "rgb(255, 255, 255)",
+        "lighting-color": "rgb(255, 255, 255)",
+        "outlineColor": "rgb(0, 0, 0)",
+        "outline-color": "rgb(0, 0, 0)",
+        "stopColor": "rgb(0, 0, 0)",
+        "stop-color": "rgb(0, 0, 0)",
+        "textDecorationColor": "rgb(0, 0, 0)",
+        "text-decoration-color": "rgb(0, 0, 0)",
+        "textEmphasisColor": "rgb(0, 0, 0)",
+        "text-emphasis-color": "rgb(0, 0, 0)",
+        "webkitTextFillColor": "rgb(0, 0, 0)",
+        "WebkitTextFillColor": "rgb(0, 0, 0)",
+        "-webkit-text-fill-color": "rgb(0, 0, 0)",
+        "webkitTextStrokeColor": "rgb(0, 0, 0)",
+        "WebkitTextStrokeColor": "rgb(0, 0, 0)",
+        "-webkit-text-stroke-color": "rgb(0, 0, 0)",
+        "background": "none",
+        "backgroundPosition": "0% 0%",
+        "background-position": "0% 0%",
+        "borderColor": "rgb(0, 0, 0)",
+        "border-color": "rgb(0, 0, 0)",
+        "borderStyle": "none",
+        "border-style": "none",
+        "borderWidth": "0px",
+        "border-width": "0px",
+        "borderTop": "0px none rgb(0, 0, 0)",
+        "border-top": "0px none rgb(0, 0, 0)",
+        "borderRight": "0px none rgb(0, 0, 0)",
+        "border-right": "0px none rgb(0, 0, 0)",
+        "borderBottom": "0px none rgb(0, 0, 0)",
+        "border-bottom": "0px none rgb(0, 0, 0)",
+        "borderLeft": "0px none rgb(0, 0, 0)",
+        "border-left": "0px none rgb(0, 0, 0)",
+        "borderBlockStart": "0px none rgb(0, 0, 0)",
+        "border-block-start": "0px none rgb(0, 0, 0)",
+        "borderBlockEnd": "0px none rgb(0, 0, 0)",
+        "border-block-end": "0px none rgb(0, 0, 0)",
+        "borderInlineStart": "0px none rgb(0, 0, 0)",
+        "border-inline-start": "0px none rgb(0, 0, 0)",
+        "borderInlineEnd": "0px none rgb(0, 0, 0)",
+        "border-inline-end": "0px none rgb(0, 0, 0)",
+        "border": "0px none rgb(0, 0, 0)",
+        "borderRadius": "0px",
+        "border-radius": "0px",
+        "borderImage": "none 100% / 1 / 0 stretch",
+        "border-image": "none 100% / 1 / 0 stretch",
+        "borderBlockWidth": "0px",
+        "border-block-width": "0px",
+        "borderBlockStyle": "none",
+        "border-block-style": "none",
+        "borderBlockColor": "rgb(0, 0, 0)",
+        "border-block-color": "rgb(0, 0, 0)",
+        "borderInlineWidth": "0px",
+        "border-inline-width": "0px",
+        "borderInlineStyle": "none",
+        "border-inline-style": "none",
+        "borderInlineColor": "rgb(0, 0, 0)",
+        "border-inline-color": "rgb(0, 0, 0)",
+        "borderBlock": "0px none rgb(0, 0, 0)",
+        "border-block": "0px none rgb(0, 0, 0)",
+        "borderInline": "0px none rgb(0, 0, 0)",
+        "border-inline": "0px none rgb(0, 0, 0)",
+        "overflow": "visible",
+        "overscrollBehavior": "auto",
+        "overscroll-behavior": "auto",
+        "container": "none",
+        "pageBreakBefore": "auto",
+        "page-break-before": "auto",
+        "pageBreakAfter": "auto",
+        "page-break-after": "auto",
+        "pageBreakInside": "auto",
+        "page-break-inside": "auto",
+        "offset": "none",
+        "columns": "auto",
+        "columnRule": "0px none rgb(0, 0, 0)",
+        "column-rule": "0px none rgb(0, 0, 0)",
+        "font": "16px serif",
+        "fontVariant": "normal",
+        "font-variant": "normal",
+        "fontSynthesis": "weight style small-caps",
+        "font-synthesis": "weight style small-caps",
+        "marker": "none",
+        "textEmphasis": "none rgb(0, 0, 0)",
+        "text-emphasis": "none rgb(0, 0, 0)",
+        "webkitTextStroke": "0px rgb(0, 0, 0)",
+        "WebkitTextStroke": "0px rgb(0, 0, 0)",
+        "-webkit-text-stroke": "0px rgb(0, 0, 0)",
+        "listStyle": "outside",
+        "list-style": "outside",
+        "margin": "8px",
+        "marginBlock": "8px",
+        "margin-block": "8px",
+        "marginInline": "8px",
+        "margin-inline": "8px",
+        "scrollMargin": "0px",
+        "scroll-margin": "0px",
+        "scrollMarginBlock": "0px",
+        "scroll-margin-block": "0px",
+        "scrollMarginInline": "0px",
+        "scroll-margin-inline": "0px",
+        "outline": "rgb(0, 0, 0) 0px",
+        "padding": "0px",
+        "paddingBlock": "0px",
+        "padding-block": "0px",
+        "paddingInline": "0px",
+        "padding-inline": "0px",
+        "scrollPadding": "auto",
+        "scroll-padding": "auto",
+        "scrollPaddingBlock": "auto",
+        "scroll-padding-block": "auto",
+        "scrollPaddingInline": "auto",
+        "scroll-padding-inline": "auto",
+        "flexFlow": "row nowrap",
+        "flex-flow": "row nowrap",
+        "flex": "0 1 auto",
+        "gap": "normal",
+        "gridRow": "auto",
+        "grid-row": "auto",
+        "gridColumn": "auto",
+        "grid-column": "auto",
+        "gridArea": "auto",
+        "grid-area": "auto",
+        "gridTemplate": "none",
+        "grid-template": "none",
+        "grid": "none",
+        "placeContent": "normal",
+        "place-content": "normal",
+        "placeSelf": "auto",
+        "place-self": "auto",
+        "placeItems": "normal legacy",
+        "place-items": "normal legacy",
+        "inset": "auto",
+        "insetBlock": "auto",
+        "inset-block": "auto",
+        "insetInline": "auto",
+        "inset-inline": "auto",
+        "containIntrinsicSize": "none",
+        "contain-intrinsic-size": "none",
+        "mask": "none",
+        "maskPosition": "0% 0%",
+        "mask-position": "0% 0%",
+        "textDecoration": "rgb(0, 0, 0)",
+        "text-decoration": "rgb(0, 0, 0)",
+        "transition": "all 0s ease 0s",
+        "animation": "0s ease 0s 1 normal none running none",
+        "all": "",
+        "webkitBackgroundClip": "border-box",
+        "WebkitBackgroundClip": "border-box",
+        "-webkit-background-clip": "border-box",
+        "webkitBackgroundOrigin": "padding-box",
+        "WebkitBackgroundOrigin": "padding-box",
+        "-webkit-background-origin": "padding-box",
+        "webkitBackgroundSize": "auto",
+        "WebkitBackgroundSize": "auto",
+        "-webkit-background-size": "auto",
+        "MozBorderStartColor": "rgb(0, 0, 0)",
+        "-moz-border-start-color": "rgb(0, 0, 0)",
+        "MozBorderStartStyle": "none",
+        "-moz-border-start-style": "none",
+        "MozBorderStartWidth": "0px",
+        "-moz-border-start-width": "0px",
+        "MozBorderEndColor": "rgb(0, 0, 0)",
+        "-moz-border-end-color": "rgb(0, 0, 0)",
+        "MozBorderEndStyle": "none",
+        "-moz-border-end-style": "none",
+        "MozBorderEndWidth": "0px",
+        "-moz-border-end-width": "0px",
+        "webkitBorderTopLeftRadius": "0px",
+        "WebkitBorderTopLeftRadius": "0px",
+        "-webkit-border-top-left-radius": "0px",
+        "webkitBorderTopRightRadius": "0px",
+        "WebkitBorderTopRightRadius": "0px",
+        "-webkit-border-top-right-radius": "0px",
+        "webkitBorderBottomRightRadius": "0px",
+        "WebkitBorderBottomRightRadius": "0px",
+        "-webkit-border-bottom-right-radius": "0px",
+        "webkitBorderBottomLeftRadius": "0px",
+        "WebkitBorderBottomLeftRadius": "0px",
+        "-webkit-border-bottom-left-radius": "0px",
+        "MozTransform": "none",
+        "-moz-transform": "none",
+        "webkitTransform": "none",
+        "WebkitTransform": "none",
+        "-webkit-transform": "none",
+        "MozPerspective": "none",
+        "-moz-perspective": "none",
+        "webkitPerspective": "none",
+        "WebkitPerspective": "none",
+        "-webkit-perspective": "none",
+        "MozPerspectiveOrigin": "142px 0px",
+        "-moz-perspective-origin": "142px 0px",
+        "webkitPerspectiveOrigin": "142px 0px",
+        "WebkitPerspectiveOrigin": "142px 0px",
+        "-webkit-perspective-origin": "142px 0px",
+        "MozBackfaceVisibility": "visible",
+        "-moz-backface-visibility": "visible",
+        "webkitBackfaceVisibility": "visible",
+        "WebkitBackfaceVisibility": "visible",
+        "-webkit-backface-visibility": "visible",
+        "MozTransformStyle": "flat",
+        "-moz-transform-style": "flat",
+        "webkitTransformStyle": "flat",
+        "WebkitTransformStyle": "flat",
+        "-webkit-transform-style": "flat",
+        "MozTransformOrigin": "142px 0px",
+        "-moz-transform-origin": "142px 0px",
+        "webkitTransformOrigin": "142px 0px",
+        "WebkitTransformOrigin": "142px 0px",
+        "-webkit-transform-origin": "142px 0px",
+        "MozAppearance": "none",
+        "-moz-appearance": "none",
+        "webkitAppearance": "none",
+        "WebkitAppearance": "none",
+        "-webkit-appearance": "none",
+        "webkitBoxShadow": "none",
+        "WebkitBoxShadow": "none",
+        "-webkit-box-shadow": "none",
+        "webkitFilter": "none",
+        "WebkitFilter": "none",
+        "-webkit-filter": "none",
+        "MozFontFeatureSettings": "normal",
+        "-moz-font-feature-settings": "normal",
+        "MozFontLanguageOverride": "normal",
+        "-moz-font-language-override": "normal",
+        "colorAdjust": "economy",
+        "color-adjust": "economy",
+        "MozHyphens": "manual",
+        "-moz-hyphens": "manual",
+        "webkitTextSizeAdjust": "auto",
+        "WebkitTextSizeAdjust": "auto",
+        "-webkit-text-size-adjust": "auto",
+        "wordWrap": "normal",
+        "word-wrap": "normal",
+        "MozTabSize": "8",
+        "-moz-tab-size": "8",
+        "MozMarginStart": "8px",
+        "-moz-margin-start": "8px",
+        "MozMarginEnd": "8px",
+        "-moz-margin-end": "8px",
+        "MozPaddingStart": "0px",
+        "-moz-padding-start": "0px",
+        "MozPaddingEnd": "0px",
+        "-moz-padding-end": "0px",
+        "webkitFlexDirection": "row",
+        "WebkitFlexDirection": "row",
+        "-webkit-flex-direction": "row",
+        "webkitFlexWrap": "nowrap",
+        "WebkitFlexWrap": "nowrap",
+        "-webkit-flex-wrap": "nowrap",
+        "webkitJustifyContent": "normal",
+        "WebkitJustifyContent": "normal",
+        "-webkit-justify-content": "normal",
+        "webkitAlignContent": "normal",
+        "WebkitAlignContent": "normal",
+        "-webkit-align-content": "normal",
+        "webkitAlignItems": "normal",
+        "WebkitAlignItems": "normal",
+        "-webkit-align-items": "normal",
+        "webkitFlexGrow": "0",
+        "WebkitFlexGrow": "0",
+        "-webkit-flex-grow": "0",
+        "webkitFlexShrink": "1",
+        "WebkitFlexShrink": "1",
+        "-webkit-flex-shrink": "1",
+        "webkitAlignSelf": "auto",
+        "WebkitAlignSelf": "auto",
+        "-webkit-align-self": "auto",
+        "webkitOrder": "0",
+        "WebkitOrder": "0",
+        "-webkit-order": "0",
+        "webkitFlexBasis": "auto",
+        "WebkitFlexBasis": "auto",
+        "-webkit-flex-basis": "auto",
+        "MozBoxSizing": "content-box",
+        "-moz-box-sizing": "content-box",
+        "webkitBoxSizing": "content-box",
+        "WebkitBoxSizing": "content-box",
+        "-webkit-box-sizing": "content-box",
+        "gridColumnGap": "normal",
+        "grid-column-gap": "normal",
+        "gridRowGap": "normal",
+        "grid-row-gap": "normal",
+        "webkitClipPath": "none",
+        "WebkitClipPath": "none",
+        "-webkit-clip-path": "none",
+        "webkitMaskRepeat": "repeat",
+        "WebkitMaskRepeat": "repeat",
+        "-webkit-mask-repeat": "repeat",
+        "webkitMaskPositionX": "0%",
+        "WebkitMaskPositionX": "0%",
+        "-webkit-mask-position-x": "0%",
+        "webkitMaskPositionY": "0%",
+        "WebkitMaskPositionY": "0%",
+        "-webkit-mask-position-y": "0%",
+        "webkitMaskClip": "border-box",
+        "WebkitMaskClip": "border-box",
+        "-webkit-mask-clip": "border-box",
+        "webkitMaskOrigin": "border-box",
+        "WebkitMaskOrigin": "border-box",
+        "-webkit-mask-origin": "border-box",
+        "webkitMaskSize": "auto",
+        "WebkitMaskSize": "auto",
+        "-webkit-mask-size": "auto",
+        "webkitMaskComposite": "add",
+        "WebkitMaskComposite": "add",
+        "-webkit-mask-composite": "add",
+        "webkitMaskImage": "none",
+        "WebkitMaskImage": "none",
+        "-webkit-mask-image": "none",
+        "MozUserSelect": "auto",
+        "-moz-user-select": "auto",
+        "webkitUserSelect": "auto",
+        "WebkitUserSelect": "auto",
+        "-webkit-user-select": "auto",
+        "MozTransitionDuration": "0s",
+        "-moz-transition-duration": "0s",
+        "webkitTransitionDuration": "0s",
+        "WebkitTransitionDuration": "0s",
+        "-webkit-transition-duration": "0s",
+        "MozTransitionTimingFunction": "ease",
+        "-moz-transition-timing-function": "ease",
+        "webkitTransitionTimingFunction": "ease",
+        "WebkitTransitionTimingFunction": "ease",
+        "-webkit-transition-timing-function": "ease",
+        "MozTransitionProperty": "all",
+        "-moz-transition-property": "all",
+        "webkitTransitionProperty": "all",
+        "WebkitTransitionProperty": "all",
+        "-webkit-transition-property": "all",
+        "MozTransitionDelay": "0s",
+        "-moz-transition-delay": "0s",
+        "webkitTransitionDelay": "0s",
+        "WebkitTransitionDelay": "0s",
+        "-webkit-transition-delay": "0s",
+        "MozAnimationName": "none",
+        "-moz-animation-name": "none",
+        "webkitAnimationName": "none",
+        "WebkitAnimationName": "none",
+        "-webkit-animation-name": "none",
+        "MozAnimationDuration": "0s",
+        "-moz-animation-duration": "0s",
+        "webkitAnimationDuration": "0s",
+        "WebkitAnimationDuration": "0s",
+        "-webkit-animation-duration": "0s",
+        "MozAnimationTimingFunction": "ease",
+        "-moz-animation-timing-function": "ease",
+        "webkitAnimationTimingFunction": "ease",
+        "WebkitAnimationTimingFunction": "ease",
+        "-webkit-animation-timing-function": "ease",
+        "MozAnimationIterationCount": "1",
+        "-moz-animation-iteration-count": "1",
+        "webkitAnimationIterationCount": "1",
+        "WebkitAnimationIterationCount": "1",
+        "-webkit-animation-iteration-count": "1",
+        "MozAnimationDirection": "normal",
+        "-moz-animation-direction": "normal",
+        "webkitAnimationDirection": "normal",
+        "WebkitAnimationDirection": "normal",
+        "-webkit-animation-direction": "normal",
+        "MozAnimationPlayState": "running",
+        "-moz-animation-play-state": "running",
+        "webkitAnimationPlayState": "running",
+        "WebkitAnimationPlayState": "running",
+        "-webkit-animation-play-state": "running",
+        "MozAnimationFillMode": "none",
+        "-moz-animation-fill-mode": "none",
+        "webkitAnimationFillMode": "none",
+        "WebkitAnimationFillMode": "none",
+        "-webkit-animation-fill-mode": "none",
+        "MozAnimationDelay": "0s",
+        "-moz-animation-delay": "0s",
+        "webkitAnimationDelay": "0s",
+        "WebkitAnimationDelay": "0s",
+        "-webkit-animation-delay": "0s",
+        "webkitBoxAlign": "stretch",
+        "WebkitBoxAlign": "stretch",
+        "-webkit-box-align": "stretch",
+        "webkitBoxDirection": "normal",
+        "WebkitBoxDirection": "normal",
+        "-webkit-box-direction": "normal",
+        "webkitBoxFlex": "0",
+        "WebkitBoxFlex": "0",
+        "-webkit-box-flex": "0",
+        "webkitBoxOrient": "horizontal",
+        "WebkitBoxOrient": "horizontal",
+        "-webkit-box-orient": "horizontal",
+        "webkitBoxPack": "start",
+        "WebkitBoxPack": "start",
+        "-webkit-box-pack": "start",
+        "webkitBoxOrdinalGroup": "1",
+        "WebkitBoxOrdinalGroup": "1",
+        "-webkit-box-ordinal-group": "1",
+        "MozBorderStart": "0px none rgb(0, 0, 0)",
+        "-moz-border-start": "0px none rgb(0, 0, 0)",
+        "MozBorderEnd": "0px none rgb(0, 0, 0)",
+        "-moz-border-end": "0px none rgb(0, 0, 0)",
+        "webkitBorderRadius": "0px",
+        "WebkitBorderRadius": "0px",
+        "-webkit-border-radius": "0px",
+        "MozBorderImage": "none 100% / 1 / 0 stretch",
+        "-moz-border-image": "none 100% / 1 / 0 stretch",
+        "webkitBorderImage": "none 100% / 1 / 0 stretch",
+        "WebkitBorderImage": "none 100% / 1 / 0 stretch",
+        "-webkit-border-image": "none 100% / 1 / 0 stretch",
+        "webkitFlexFlow": "row nowrap",
+        "WebkitFlexFlow": "row nowrap",
+        "-webkit-flex-flow": "row nowrap",
+        "webkitFlex": "0 1 auto",
+        "WebkitFlex": "0 1 auto",
+        "-webkit-flex": "0 1 auto",
+        "gridGap": "normal",
+        "grid-gap": "normal",
+        "webkitMask": "none",
+        "WebkitMask": "none",
+        "-webkit-mask": "none",
+        "webkitMaskPosition": "0% 0%",
+        "WebkitMaskPosition": "0% 0%",
+        "-webkit-mask-position": "0% 0%",
+        "MozTransition": "all 0s ease 0s",
+        "-moz-transition": "all 0s ease 0s",
+        "webkitTransition": "all 0s ease 0s",
+        "WebkitTransition": "all 0s ease 0s",
+        "-webkit-transition": "all 0s ease 0s",
+        "MozAnimation": "0s ease 0s 1 normal none running none",
+        "-moz-animation": "0s ease 0s 1 normal none running none",
+        "webkitAnimation": "0s ease 0s 1 normal none running none",
+        "WebkitAnimation": "0s ease 0s 1 normal none running none",
+        "-webkit-animation": "0s ease 0s 1 normal none running none",
+        "cssText": "",
+        "length": 360,
+        "parentRule": null
+    },
+    "battery": {},
+    "windowVersion": [
+        "undefined",
+        "globalThis",
+        "JSON",
+        "Date",
+        "Math",
+        "InternalError",
+        "AggregateError",
+        "EvalError",
+        "RangeError",
+        "ReferenceError",
+        "SyntaxError",
+        "URIError",
+        "ArrayBuffer",
+        "Int8Array",
+        "Uint8Array",
+        "Int16Array",
+        "Uint16Array",
+        "Float64Array",
+        "Uint8ClampedArray",
+        "BigInt64Array",
+        "BigUint64Array",
+        "BigInt",
+        "Proxy",
+        "WeakMap",
+        "Set",
+        "DataView",
+        "Symbol",
+        "Intl",
+        "Reflect",
+        "WeakSet",
+        "Atomics",
+        "FinalizationRegistry",
+        "WeakRef",
+        "MediaKeyError",
+        "HTMLTimeElement",
+        "OscillatorNode",
+        "IDBCursorWithValue",
+        "URLSearchParams",
+        "ReadableStreamDefaultReader",
+        "SVGPatternElement",
+        "SVGFEOffsetElement",
+        "PeriodicWave",
+        "SVGGElement",
+        "RTCIceCandidate",
+        "SVGDescElement",
+        "SVGMaskElement",
+        "CanvasGradient",
+        "DataTransfer",
+        "ImageBitmapRenderingContext",
+        "TextDecoder",
+        "SVGAnimatedLength",
+        "SVGImageElement",
+        "MediaSession",
+        "HTMLDirectoryElement",
+        "DelayNode",
+        "FileList",
+        "CustomEvent",
+        "ResizeObserverEntry",
+        "HTMLOptionsCollection",
+        "HTMLDialogElement",
+        "DOMPointReadOnly",
+        "NodeList",
+        "DOMImplementation",
+        "ImageData",
+        "HTMLLabelElement",
+        "MessagePort",
+        "Text",
+        "SVGAnimatedTransformList",
+        "AnimationEffect",
+        "HTMLBRElement",
+        "SVGRadialGradientElement",
+        "CSSLayerStatementRule",
+        "IDBRequest",
+        "CSSKeyframeRule",
+        "CompressionStream",
+        "SVGFEDisplacementMapElement",
+        "HashChangeEvent",
+        "SharedWorker",
+        "MessageEvent",
+        "HTMLHeadingElement",
+        "SVGSVGElement",
+        "ResizeObserver",
+        "StaticRange",
+        "HTMLMenuElement",
+        "DecompressionStream",
+        "RTCDTMFToneChangeEvent",
+        "CSSPageRule",
+        "MediaElementAudioSourceNode",
+        "Comment",
+        "HTMLTableElement",
+        "SVGFEDistantLightElement",
+        "XMLHttpRequestEventTarget",
+        "HTMLTableColElement",
+        "HTMLQuoteElement",
+        "KeyframeEffect",
+        "SVGMetadataElement",
+        "ReadableByteStreamController",
+        "ByteLengthQueuingStrategy",
+        "SpeechSynthesisVoice",
+        "FontFace",
+        "HTMLAllCollection",
+        "MediaCapabilities",
+        "WebGLUniformLocation",
+        "NodeIterator",
+        "SVGMPathElement",
+        "DragEvent",
+        "WebGLShader",
+        "InputEvent",
+        "SVGCircleElement",
+        "ImageBitmap",
+        "BiquadFilterNode",
+        "SVGScriptElement",
+        "XPathResult",
+        "CSSCounterStyleRule",
+        "IDBVersionChangeEvent",
+        "FormDataEvent",
+        "MediaList",
+        "WritableStream",
+        "WebGLRenderbuffer",
+        "HTMLMapElement",
+        "HTMLDListElement",
+        "AudioProcessingEvent",
+        "WritableStreamDefaultController",
+        "PerformanceNavigationTiming",
+        "WebGLSampler",
+        "TextTrack",
+        "RTCStatsReport",
+        "DOMException",
+        "CDATASection",
+        "DOMQuad",
+        "DOMRectReadOnly",
+        "HTMLBaseElement",
+        "HTMLTrackElement",
+        "BeforeUnloadEvent",
+        "SVGPoint",
+        "Selection",
+        "PopupBlockedEvent",
+        "FileReader",
+        "SVGFESpotLightElement",
+        "Event",
+        "SVGFEColorMatrixElement",
+        "HTMLMeterElement",
+        "File",
+        "PerformanceEntry",
+        "HTMLHtmlElement",
+        "SVGFEDropShadowElement",
+        "MediaCapabilitiesInfo",
+        "HTMLFormControlsCollection",
+        "HTMLTemplateElement",
+        "CSSMozDocumentRule",
+        "AudioNode",
+        "WebGLFramebuffer",
+        "StereoPannerNode",
+        "MutationRecord",
+        "ReadableStreamBYOBRequest",
+        "ScreenOrientation",
+        "MediaMetadata",
+        "CSS",
+        "CanvasPattern",
+        "ChannelSplitterNode",
+        "WebSocket",
+        "HTMLFontElement",
+        "IntersectionObserver",
+        "Directory",
+        "SVGAngle",
+        "HTMLEmbedElement",
+        "WebKitCSSMatrix",
+        "PaintRequest",
+        "Option",
+        "SVGTextElement",
+        "ClipboardEvent",
+        "MediaStreamTrackEvent",
+        "URL",
+        "DOMMatrix",
+        "OffscreenCanvasRenderingContext2D",
+        "ResizeObserverSize",
+        "CSSKeyframesRule",
+        "AnimationPlaybackEvent",
+        "FocusEvent",
+        "DOMRequest",
+        "CanvasRenderingContext2D",
+        "WheelEvent",
+        "HTMLUnknownElement",
+        "SVGStopElement",
+        "CSSFontFeatureValuesRule",
+        "Path2D",
+        "SVGFEComponentTransferElement",
+        "RTCDTMFSender",
+        "CSSStyleRule",
+        "RadioNodeList",
+        "IDBObjectStore",
+        "DocumentType",
+        "VisualViewport",
+        "PointerEvent",
+        "HTMLDataListElement",
+        "MutationObserver",
+        "FileSystemEntry",
+        "CSSFontPaletteValuesRule",
+        "MediaKeyMessageEvent",
+        "HTMLHeadElement",
+        "ConvolverNode",
+        "SVGGeometryElement",
+        "SVGFEFuncGElement",
+        "FileSystem",
+        "SpeechSynthesisEvent",
+        "FileSystemDirectoryReader",
+        "CSSFontFaceRule",
+        "MediaQueryList",
+        "GainNode",
+        "RTCRtpSender",
+        "StorageEvent",
+        "SVGRectElement",
+        "HTMLOListElement",
+        "XMLDocument",
+        "HTMLAnchorElement",
+        "CSSLayerBlockRule",
+        "ReadableStreamDefaultController",
+        "ProgressEvent",
+        "SVGAnimatedLengthList",
+        "FormData",
+        "HTMLDataElement",
+        "AudioListener",
+        "MediaEncryptedEvent",
+        "SVGDefsElement",
+        "HTMLPictureElement",
+        "HTMLModElement",
+        "SVGAnimatedNumber",
+        "StyleSheetList",
+        "SVGTransformList",
+        "HTMLUListElement",
+        "Worker",
+        "FileSystemDirectoryEntry",
+        "StyleSheet",
+        "DOMTokenList",
+        "DOMStringMap",
+        "MediaKeys",
+        "PerformanceMeasure",
+        "TimeEvent",
+        "SubmitEvent",
+        "HTMLTitleElement",
+        "TextDecoderStream",
+        "AudioBuffer",
+        "MediaStreamAudioDestinationNode",
+        "WebGLProgram",
+        "SVGMarkerElement",
+        "TextTrackList",
+        "HTMLTableRowElement",
+        "HTMLLinkElement",
+        "Range",
+        "SVGFECompositeElement",
+        "MessageChannel",
+        "MutationEvent",
+        "ScriptProcessorNode",
+        "PromiseRejectionEvent",
+        "SVGClipPathElement",
+        "HTMLSourceElement",
+        "FontFaceSetLoadEvent",
+        "AbortController",
+        "HTMLSelectElement",
+        "CSSMediaRule",
+        "SourceBuffer",
+        "CSSStyleSheet",
+        "WebGLVertexArrayObject",
+        "TextMetrics",
+        "HTMLParagraphElement",
+        "DataTransferItem",
+        "SVGRect",
+        "PageTransitionEvent",
+        "BroadcastChannel",
+        "SVGAElement",
+        "OfflineAudioContext",
+        "SVGStyleElement",
+        "RTCRtpTransceiver",
+        "Permissions",
+        "RTCSessionDescription",
+        "HTMLPreElement",
+        "BlobEvent",
+        "AudioBufferSourceNode",
+        "SVGSetElement",
+        "DOMParser",
+        "HTMLTextAreaElement",
+        "UIEvent",
+        "SVGUnitTypes",
+        "Location",
+        "SVGTextPathElement",
+        "TimeRanges",
+        "TextTrackCueList",
+        "ShadowRoot",
+        "PannerNode",
+        "SVGFEConvolveMatrixElement",
+        "OffscreenCanvas",
+        "SVGAnimatedString",
+        "SVGElement",
+        "DOMRectList",
+        "NodeFilter",
+        "SVGLength",
+        "SVGFESpecularLightingElement",
+        "CSSNamespaceRule",
+        "CaretPosition",
+        "Attr",
+        "OfflineAudioCompletionEvent",
+        "IDBOpenDBRequest",
+        "WebGLSync",
+        "SVGLineElement",
+        "MediaKeyStatusMap",
+        "HTMLTableCellElement",
+        "PerformanceResourceTiming",
+        "Animation",
+        "DOMStringList",
+        "VTTCue",
+        "CloseEvent",
+        "RTCDtlsTransport",
+        "HTMLLIElement",
+        "SVGPointList",
+        "MediaStreamTrack",
+        "WaveShaperNode",
+        "ChannelMergerNode",
+        "MouseEvent",
+        "DeviceOrientationEvent",
+        "SVGFEFuncAElement",
+        "HTMLFormElement",
+        "SVGAnimatedNumberList",
+        "SVGFETurbulenceElement",
+        "CSSImportRule",
+        "HTMLProgressElement",
+        "WebGLContextEvent",
+        "Headers",
+        "IIRFilterNode",
+        "CountQueuingStrategy",
+        "SecurityPolicyViolationEvent",
+        "SVGFEMorphologyElement",
+        "SVGTextContentElement",
+        "PerformanceNavigation",
+        "MediaError",
+        "XPathEvaluator",
+        "Notification",
+        "SVGFilterElement",
+        "ValidityState",
+        "HTMLOptionElement",
+        "EventSource",
+        "CSSTransition",
+        "SVGSwitchElement",
+        "RTCCertificate",
+        "VideoPlaybackQuality",
+        "KeyEvent",
+        "TreeWalker",
+        "SVGStringList",
+        "HTMLDetailsElement",
+        "AudioParam",
+        "WebGLBuffer",
+        "HTMLScriptElement",
+        "SVGPreserveAspectRatio",
+        "MediaSource",
+        "SVGFEMergeNodeElement",
+        "MouseScrollEvent",
+        "HTMLOutputElement",
+        "XMLSerializer",
+        "MediaStreamEvent",
+        "CSSContainerRule",
+        "MediaKeySystemAccess",
+        "SVGFEFuncBElement",
+        "SVGFEBlendElement",
+        "HTMLObjectElement",
+        "RTCRtpReceiver",
+        "SVGLinearGradientElement",
+        "DataTransferItemList",
+        "CustomElementRegistry",
+        "CharacterData",
+        "ProcessingInstruction",
+        "SVGFEMergeElement",
+        "SpeechSynthesisErrorEvent",
+        "SVGAnimatedBoolean",
+        "TransformStreamDefaultController",
+        "HTMLTableSectionElement",
+        "SVGNumberList",
+        "WritableStreamDefaultWriter",
+        "HTMLMarqueeElement",
+        "Crypto",
+        "DeviceMotionEvent",
+        "SVGAnimatedEnumeration",
+        "PerformanceObserverEntryList",
+        "DOMPoint",
+        "SVGForeignObjectElement",
+        "IdleDeadline",
+        "SVGFEGaussianBlurElement",
+        "PaintRequestList",
+        "FontFaceSet",
+        "SVGAnimatedRect",
+        "PerformanceObserver",
+        "DocumentTimeline",
+        "console",
+        "DOMMatrixReadOnly",
+        "SVGFEPointLightElement",
+        "WebGLTransformFeedback",
+        "MediaKeySession",
+        "IDBTransaction",
+        "CSSRuleList",
+        "CSSGroupingRule",
+        "ReadableStreamBYOBReader",
+        "SVGNumber",
+        "SVGFETileElement",
+        "Geolocation",
+        "PermissionStatus",
+        "MediaStream",
+        "ConstantSourceNode",
+        "SVGAnimateElement",
+        "PerformancePaintTiming",
+        "HTMLFrameSetElement",
+        "AbortSignal",
+        "CSSRule",
+        "SVGSymbolElement",
+        "WebGLActiveInfo",
+        "SVGComponentTransferFunctionElement",
+        "MediaStreamTrackAudioSourceNode",
+        "ReadableStream",
+        "DynamicsCompressorNode",
+        "XMLHttpRequestUpload",
+        "Response",
+        "RTCTrackEvent",
+        "SVGAnimatedAngle",
+        "SVGUseElement",
+        "TrackEvent",
+        "MediaRecorderErrorEvent",
+        "HTMLAreaElement",
+        "SVGTextPositioningElement",
+        "SVGFEImageElement",
+        "XMLHttpRequest",
+        "WebGLTexture",
+        "MediaQueryListEvent",
+        "IDBDatabase",
+        "KeyboardEvent",
+        "AbstractRange",
+        "SVGAnimatedPreserveAspectRatio",
+        "PopStateEvent",
+        "SVGPolylineElement",
+        "GeolocationPositionError",
+        "VTTRegion",
+        "XSLTProcessor",
+        "SVGAnimateTransformElement",
+        "RTCDataChannelEvent",
+        "SVGLengthList",
+        "webkitURL",
+        "SVGTSpanElement",
+        "DOMRect",
+        "AnalyserNode",
+        "ErrorEvent",
+        "MediaStreamAudioSourceNode",
+        "RTCSctpTransport",
+        "AudioContext",
+        "AudioDestinationNode",
+        "HTMLButtonElement",
+        "SVGTitleElement",
+        "SpeechSynthesisUtterance",
+        "Request",
+        "BaseAudioContext",
+        "HTMLFrameElement",
+        "WebGLQuery",
+        "AnimationEvent",
+        "SVGAnimationElement",
+        "HTMLHRElement",
+        "SVGGraphicsElement",
+        "SVGFEFloodElement",
+        "TextEncoder",
+        "SourceBufferList",
+        "CompositionEvent",
+        "ScrollAreaEvent",
+        "SVGEllipseElement",
+        "SVGFEDiffuseLightingElement",
+        "HTMLFieldSetElement",
+        "FileSystemFileEntry",
+        "SVGAnimateMotionElement",
+        "TransitionEvent",
+        "SVGTransform",
+        "HTMLOptGroupElement",
+        "HTMLStyleElement",
+        "AnimationTimeline",
+        "HTMLMetaElement",
+        "Blob",
+        "AudioScheduledSourceNode",
+        "SVGMatrix",
+        "DocumentFragment",
+        "HTMLInputElement",
+        "CSSConditionRule",
+        "NamedNodeMap",
+        "HTMLLegendElement",
+        "HTMLParamElement",
+        "IDBFactory",
+        "TextTrackCue",
+        "IDBCursor",
+        "RTCPeerConnectionIceEvent",
+        "ElementInternals",
+        "HTMLTableCaptionElement",
+        "History",
+        "TransformStream",
+        "TextEncoderStream",
+        "SVGPolygonElement",
+        "SVGPathElement",
+        "MathMLElement",
+        "SVGAnimatedInteger",
+        "PerformanceEventTiming",
+        "SVGFEFuncRElement",
+        "CSSAnimation",
+        "SVGGradientElement",
+        "IDBKeyRange",
+        "CanvasCaptureMediaStream",
+        "XPathExpression",
+        "HTMLSlotElement",
+        "SVGViewElement",
+        "PerformanceMark",
+        "PerformanceTiming",
+        "CSSSupportsRule",
+        "IDBIndex",
+        "IntersectionObserverEntry",
+        "Function",
+        "Object",
+        "eval",
+        "EventTarget",
+        "Window",
+        "close",
+        "stop",
+        "focus",
+        "blur",
+        "open",
+        "alert",
+        "confirm",
+        "prompt",
+        "print",
+        "postMessage",
+        "captureEvents",
+        "releaseEvents",
+        "getSelection",
+        "getComputedStyle",
+        "matchMedia",
+        "moveTo",
+        "moveBy",
+        "resizeTo",
+        "resizeBy",
+        "scroll",
+        "scrollTo",
+        "scrollBy",
+        "getDefaultComputedStyle",
+        "scrollByLines",
+        "scrollByPages",
+        "sizeToContent",
+        "updateCommands",
+        "find",
+        "dump",
+        "setResizable",
+        "requestIdleCallback",
+        "cancelIdleCallback",
+        "requestAnimationFrame",
+        "cancelAnimationFrame",
+        "reportError",
+        "btoa",
+        "atob",
+        "setTimeout",
+        "clearTimeout",
+        "setInterval",
+        "clearInterval",
+        "queueMicrotask",
+        "createImageBitmap",
+        "structuredClone",
+        "fetch",
+        "self",
+        "name",
+        "history",
+        "customElements",
+        "locationbar",
+        "menubar",
+        "personalbar",
+        "scrollbars",
+        "statusbar",
+        "toolbar",
+        "status",
+        "closed",
+        "event",
+        "frames",
+        "length",
+        "opener",
+        "parent",
+        "frameElement",
+        "navigator",
+        "clientInformation",
+        "external",
+        "screen",
+        "innerWidth",
+        "innerHeight",
+        "scrollX",
+        "pageXOffset",
+        "scrollY",
+        "pageYOffset",
+        "screenLeft",
+        "screenTop",
+        "screenX",
+        "screenY",
+        "outerWidth",
+        "outerHeight",
+        "performance",
+        "mozInnerScreenX",
+        "mozInnerScreenY",
+        "devicePixelRatio",
+        "scrollMaxX",
+        "scrollMaxY",
+        "fullScreen",
+        "ondevicemotion",
+        "ondeviceorientation",
+        "ondeviceorientationabsolute",
+        "InstallTrigger",
+        "visualViewport",
+        "crypto",
+        "onabort",
+        "onblur",
+        "onfocus",
+        "onauxclick",
+        "onbeforeinput",
+        "oncanplay",
+        "oncanplaythrough",
+        "onchange",
+        "onclick",
+        "onclose",
+        "oncontextmenu",
+        "oncopy",
+        "oncuechange",
+        "oncut",
+        "ondblclick",
+        "ondrag",
+        "ondragend",
+        "ondragenter",
+        "ondragexit",
+        "ondragleave",
+        "ondragover",
+        "ondragstart",
+        "ondrop",
+        "ondurationchange",
+        "onemptied",
+        "onended",
+        "onformdata",
+        "oninput",
+        "oninvalid",
+        "onkeydown",
+        "onkeypress",
+        "onkeyup",
+        "onload",
+        "onloadeddata",
+        "onloadedmetadata",
+        "onloadstart",
+        "onmousedown",
+        "onmouseenter",
+        "onmouseleave",
+        "onmousemove",
+        "onmouseout",
+        "onmouseover",
+        "onmouseup",
+        "onwheel",
+        "onpaste",
+        "onpause",
+        "onplay",
+        "onplaying",
+        "onprogress",
+        "onratechange",
+        "onreset",
+        "onresize",
+        "onscroll",
+        "onscrollend",
+        "onsecuritypolicyviolation",
+        "onseeked",
+        "onseeking",
+        "onselect",
+        "onslotchange",
+        "onstalled",
+        "onsubmit",
+        "onsuspend",
+        "ontimeupdate",
+        "onvolumechange",
+        "onwaiting",
+        "onselectstart",
+        "onselectionchange",
+        "ontoggle",
+        "onpointercancel",
+        "onpointerdown",
+        "onpointerup",
+        "onpointermove",
+        "onpointerout",
+        "onpointerover",
+        "onpointerenter",
+        "onpointerleave",
+        "ongotpointercapture",
+        "onlostpointercapture",
+        "onmozfullscreenchange",
+        "onmozfullscreenerror",
+        "onanimationcancel",
+        "onanimationend",
+        "onanimationiteration",
+        "onanimationstart",
+        "ontransitioncancel",
+        "ontransitionend",
+        "ontransitionrun",
+        "ontransitionstart",
+        "onwebkitanimationend",
+        "onwebkitanimationiteration",
+        "onwebkitanimationstart",
+        "onwebkittransitionend",
+        "onerror",
+        "speechSynthesis",
+        "onafterprint",
+        "onbeforeprint",
+        "onbeforeunload",
+        "onhashchange",
+        "onlanguagechange",
+        "onmessage",
+        "onmessageerror",
+        "onoffline",
+        "ononline",
+        "onpagehide",
+        "onpageshow",
+        "onpopstate",
+        "onrejectionhandled",
+        "onstorage",
+        "onunhandledrejection",
+        "onunload",
+        "ongamepadconnected",
+        "ongamepaddisconnected",
+        "localStorage",
+        "origin",
+        "crossOriginIsolated",
+        "isSecureContext",
+        "indexedDB",
+        "sessionStorage",
+        "window",
+        "document",
+        "location",
+        "top",
+        "netscape",
+        "Node",
+        "Document",
+        "HTMLDocument",
+        "EventCounts",
+        "Map",
+        "Performance",
+        "RegExp",
+        "Array",
+        "download",
+        "Promise",
+        "Element",
+        "HTMLElement",
+        "HTMLDivElement",
+        "Navigator",
+        "MimeTypeArray",
+        "PluginArray",
+        "Plugin",
+        "MimeType",
+        "HTMLSpanElement",
+        "CSSStyleDeclaration",
+        "CSS2Properties",
+        "HTMLBodyElement",
+        "HTMLCanvasElement",
+        "WebGLRenderingContext",
+        "HTMLImageElement",
+        "Image",
+        "BarProp",
+        "Storage",
+        "HTMLCollection",
+        "Screen",
+        "isNaN",
+        "isFinite",
+        "parseInt",
+        "parseFloat",
+        "NaN",
+        "Infinity",
+        "Number",
+        "Float32Array",
+        "Boolean",
+        "Int32Array",
+        "escape",
+        "unescape",
+        "decodeURI",
+        "encodeURI",
+        "decodeURIComponent",
+        "encodeURIComponent",
+        "String",
+        "Uint32Array",
+        "WebGLShaderPrecisionFormat",
+        "WebGL2RenderingContext",
+        "HTMLMediaElement",
+        "HTMLVideoElement",
+        "HTMLAudioElement",
+        "Audio",
+        "MediaRecorder",
+        "Error",
+        "TypeError",
+        "HTMLIFrameElement",
+        "SpeechSynthesis",
+        "RTCPeerConnection",
+        "RTCDataChannel"
+    ],
+    "htmlElementVersion": [
+        "version",
+        "click",
+        "attachInternals",
+        "focus",
+        "blur",
+        "title",
+        "lang",
+        "translate",
+        "dir",
+        "innerText",
+        "outerText",
+        "hidden",
+        "inert",
+        "accessKey",
+        "accessKeyLabel",
+        "draggable",
+        "contentEditable",
+        "isContentEditable",
+        "spellcheck",
+        "inputMode",
+        "enterKeyHint",
+        "autocapitalize",
+        "nonce",
+        "offsetParent",
+        "offsetTop",
+        "offsetLeft",
+        "offsetWidth",
+        "offsetHeight",
+        "style",
+        "onabort",
+        "onblur",
+        "onfocus",
+        "onauxclick",
+        "onbeforeinput",
+        "oncanplay",
+        "oncanplaythrough",
+        "onchange",
+        "onclick",
+        "onclose",
+        "oncontextmenu",
+        "oncopy",
+        "oncuechange",
+        "oncut",
+        "ondblclick",
+        "ondrag",
+        "ondragend",
+        "ondragenter",
+        "ondragexit",
+        "ondragleave",
+        "ondragover",
+        "ondragstart",
+        "ondrop",
+        "ondurationchange",
+        "onemptied",
+        "onended",
+        "onformdata",
+        "oninput",
+        "oninvalid",
+        "onkeydown",
+        "onkeypress",
+        "onkeyup",
+        "onload",
+        "onloadeddata",
+        "onloadedmetadata",
+        "onloadstart",
+        "onmousedown",
+        "onmouseenter",
+        "onmouseleave",
+        "onmousemove",
+        "onmouseout",
+        "onmouseover",
+        "onmouseup",
+        "onwheel",
+        "onpaste",
+        "onpause",
+        "onplay",
+        "onplaying",
+        "onprogress",
+        "onratechange",
+        "onreset",
+        "onresize",
+        "onscroll",
+        "onscrollend",
+        "onsecuritypolicyviolation",
+        "onseeked",
+        "onseeking",
+        "onselect",
+        "onslotchange",
+        "onstalled",
+        "onsubmit",
+        "onsuspend",
+        "ontimeupdate",
+        "onvolumechange",
+        "onwaiting",
+        "onselectstart",
+        "onselectionchange",
+        "ontoggle",
+        "onpointercancel",
+        "onpointerdown",
+        "onpointerup",
+        "onpointermove",
+        "onpointerout",
+        "onpointerover",
+        "onpointerenter",
+        "onpointerleave",
+        "ongotpointercapture",
+        "onlostpointercapture",
+        "onmozfullscreenchange",
+        "onmozfullscreenerror",
+        "onanimationcancel",
+        "onanimationend",
+        "onanimationiteration",
+        "onanimationstart",
+        "ontransitioncancel",
+        "ontransitionend",
+        "ontransitionrun",
+        "ontransitionstart",
+        "onwebkitanimationend",
+        "onwebkitanimationiteration",
+        "onwebkitanimationstart",
+        "onwebkittransitionend",
+        "dataset",
+        "autofocus",
+        "tabIndex",
+        "onerror",
+        "getAttributeNames",
+        "getAttribute",
+        "getAttributeNS",
+        "toggleAttribute",
+        "setAttribute",
+        "setAttributeNS",
+        "removeAttribute",
+        "removeAttributeNS",
+        "hasAttribute",
+        "hasAttributeNS",
+        "hasAttributes",
+        "closest",
+        "matches",
+        "webkitMatchesSelector",
+        "getElementsByTagName",
+        "getElementsByTagNameNS",
+        "getElementsByClassName",
+        "insertAdjacentElement",
+        "insertAdjacentText",
+        "mozMatchesSelector",
+        "setPointerCapture",
+        "releasePointerCapture",
+        "hasPointerCapture",
+        "setCapture",
+        "releaseCapture",
+        "getAttributeNode",
+        "setAttributeNode",
+        "removeAttributeNode",
+        "getAttributeNodeNS",
+        "setAttributeNodeNS",
+        "getClientRects",
+        "getBoundingClientRect",
+        "checkVisibility",
+        "scrollIntoView",
+        "scroll",
+        "scrollTo",
+        "scrollBy",
+        "insertAdjacentHTML",
+        "querySelector",
+        "querySelectorAll",
+        "attachShadow",
+        "requestFullscreen",
+        "mozRequestFullScreen",
+        "requestPointerLock",
+        "animate",
+        "getAnimations",
+        "before",
+        "after",
+        "replaceWith",
+        "remove",
+        "prepend",
+        "append",
+        "replaceChildren",
+        "namespaceURI",
+        "prefix",
+        "localName",
+        "tagName",
+        "id",
+        "className",
+        "classList",
+        "part",
+        "attributes",
+        "scrollTop",
+        "scrollLeft",
+        "scrollWidth",
+        "scrollHeight",
+        "clientTop",
+        "clientLeft",
+        "clientWidth",
+        "clientHeight",
+        "scrollTopMax",
+        "scrollLeftMax",
+        "innerHTML",
+        "outerHTML",
+        "shadowRoot",
+        "assignedSlot",
+        "slot",
+        "onfullscreenchange",
+        "onfullscreenerror",
+        "previousElementSibling",
+        "nextElementSibling",
+        "children",
+        "firstElementChild",
+        "lastElementChild",
+        "childElementCount",
+        "getRootNode",
+        "hasChildNodes",
+        "insertBefore",
+        "appendChild",
+        "replaceChild",
+        "removeChild",
+        "normalize",
+        "cloneNode",
+        "isSameNode",
+        "isEqualNode",
+        "compareDocumentPosition",
+        "contains",
+        "lookupPrefix",
+        "lookupNamespaceURI",
+        "isDefaultNamespace",
+        "nodeType",
+        "nodeName",
+        "baseURI",
+        "isConnected",
+        "ownerDocument",
+        "parentNode",
+        "parentElement",
+        "childNodes",
+        "firstChild",
+        "lastChild",
+        "previousSibling",
+        "nextSibling",
+        "nodeValue",
+        "textContent",
+        "ELEMENT_NODE",
+        "ATTRIBUTE_NODE",
+        "TEXT_NODE",
+        "CDATA_SECTION_NODE",
+        "ENTITY_REFERENCE_NODE",
+        "ENTITY_NODE",
+        "PROCESSING_INSTRUCTION_NODE",
+        "COMMENT_NODE",
+        "DOCUMENT_NODE",
+        "DOCUMENT_TYPE_NODE",
+        "DOCUMENT_FRAGMENT_NODE",
+        "NOTATION_NODE",
+        "DOCUMENT_POSITION_DISCONNECTED",
+        "DOCUMENT_POSITION_PRECEDING",
+        "DOCUMENT_POSITION_FOLLOWING",
+        "DOCUMENT_POSITION_CONTAINS",
+        "DOCUMENT_POSITION_CONTAINED_BY",
+        "DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC",
+        "addEventListener",
+        "removeEventListener",
+        "dispatchEvent"
+    ],
+    "webgl": {
+        "supportedExtensions": [
+            "ANGLE_instanced_arrays",
+            "EXT_blend_minmax",
+            "EXT_color_buffer_half_float",
+            "EXT_float_blend",
+            "EXT_frag_depth",
+            "EXT_shader_texture_lod",
+            "EXT_sRGB",
+            "EXT_texture_compression_bptc",
+            "EXT_texture_compression_rgtc",
+            "EXT_texture_filter_anisotropic",
+            "OES_element_index_uint",
+            "OES_fbo_render_mipmap",
+            "OES_standard_derivatives",
+            "OES_texture_float",
+            "OES_texture_float_linear",
+            "OES_texture_half_float",
+            "OES_texture_half_float_linear",
+            "OES_vertex_array_object",
+            "WEBGL_color_buffer_float",
+            "WEBGL_compressed_texture_s3tc",
+            "WEBGL_compressed_texture_s3tc_srgb",
+            "WEBGL_debug_renderer_info",
+            "WEBGL_debug_shaders",
+            "WEBGL_depth_texture",
+            "WEBGL_draw_buffers",
+            "WEBGL_lose_context",
+            "WEBGL_provoking_vertex"
+        ],
+        "contextAttributes": {
+            "alpha": true,
+            "antialias": true,
+            "depth": true,
+            "failIfMajorPerformanceCaveat": false,
+            "powerPreference": "default",
+            "premultipliedAlpha": true,
+            "preserveDrawingBuffer": false,
+            "stencil": false
+        },
+        "maxAnisotropy": 16,
+        "params": {
+            "2849": {
+                "type": "Number",
+                "value": 1
+            },
+            "2884": {
+                "type": "",
+                "value": false
+            },
+            "2885": {
+                "type": "Number",
+                "value": 1029
+            },
+            "2886": {
+                "type": "Number",
+                "value": 2305
+            },
+            "2928": {
+                "type": "Float32Array",
+                "value": {
+                    "0": 0,
+                    "1": 1
+                }
+            },
+            "2929": {
+                "type": "",
+                "value": false
+            },
+            "2930": {
+                "type": "Boolean",
+                "value": true
+            },
+            "2931": {
+                "type": "Number",
+                "value": 1
+            },
+            "2932": {
+                "type": "Number",
+                "value": 513
+            },
+            "2960": {
+                "type": "",
+                "value": false
+            },
+            "2961": {
+                "type": "",
+                "value": 0
+            },
+            "2962": {
+                "type": "Number",
+                "value": 519
+            },
+            "2963": {
+                "type": "Number",
+                "value": 2147483647
+            },
+            "2964": {
+                "type": "Number",
+                "value": 7680
+            },
+            "2965": {
+                "type": "Number",
+                "value": 7680
+            },
+            "2966": {
+                "type": "Number",
+                "value": 7680
+            },
+            "2967": {
+                "type": "",
+                "value": 0
+            },
+            "2968": {
+                "type": "Number",
+                "value": 2147483647
+            },
+            "2978": {
+                "type": "Int32Array",
+                "value": {
+                    "0": 0,
+                    "1": 0,
+                    "2": 300,
+                    "3": 150
+                }
+            },
+            "3024": {
+                "type": "Boolean",
+                "value": true
+            },
+            "3042": {
+                "type": "",
+                "value": false
+            },
+            "3088": {
+                "type": "Int32Array",
+                "value": {
+                    "0": 0,
+                    "1": 0,
+                    "2": 300,
+                    "3": 150
+                }
+            },
+            "3089": {
+                "type": "",
+                "value": false
+            },
+            "3106": {
+                "type": "Float32Array",
+                "value": {
+                    "0": 0,
+                    "1": 0,
+                    "2": 0,
+                    "3": 0
+                }
+            },
+            "3107": {
+                "type": "Array",
+                "value": [
+                    true,
+                    true,
+                    true,
+                    true
+                ]
+            },
+            "3317": {
+                "type": "Number",
+                "value": 4
+            },
+            "3333": {
+                "type": "Number",
+                "value": 4
+            },
+            "3379": {
+                "type": "Number",
+                "value": 16384
+            },
+            "3386": {
+                "type": "Int32Array",
+                "value": {
+                    "0": 32767,
+                    "1": 32767
+                }
+            },
+            "3408": {
+                "type": "Number",
+                "value": 4
+            },
+            "3410": {
+                "type": "Number",
+                "value": 8
+            },
+            "3411": {
+                "type": "Number",
+                "value": 8
+            },
+            "3412": {
+                "type": "Number",
+                "value": 8
+            },
+            "3413": {
+                "type": "Number",
+                "value": 8
+            },
+            "3414": {
+                "type": "Number",
+                "value": 24
+            },
+            "3415": {
+                "type": "",
+                "value": 0
+            },
+            "7936": {
+                "type": "String",
+                "value": "Mozilla"
+            },
+            "7937": {
+                "type": "String",
+                "value": "ANGLE (NVIDIA, NVIDIA GeForce GTX 980 Direct3D11 vs_5_0 ps_5_0)"
+            },
+            "7938": {
+                "type": "String",
+                "value": "WebGL 1.0"
+            },
+            "10752": {
+                "type": "",
+                "value": 0
+            },
+            "32773": {
+                "type": "Float32Array",
+                "value": {
+                    "0": 0,
+                    "1": 0,
+                    "2": 0,
+                    "3": 0
+                }
+            },
+            "32777": {
+                "type": "Number",
+                "value": 32774
+            },
+            "32823": {
+                "type": "",
+                "value": false
+            },
+            "32824": {
+                "type": "",
+                "value": 0
+            },
+            "32873": {
+                "type": "",
+                "value": null
+            },
+            "32883": {
+                "type": "",
+                "value": null
+            },
+            "32936": {
+                "type": "Number",
+                "value": 1
+            },
+            "32937": {
+                "type": "Number",
+                "value": 4
+            },
+            "32938": {
+                "type": "Number",
+                "value": 1
+            },
+            "32939": {
+                "type": "",
+                "value": false
+            },
+            "32968": {
+                "type": "",
+                "value": 0
+            },
+            "32969": {
+                "type": "Number",
+                "value": 1
+            },
+            "32970": {
+                "type": "",
+                "value": 0
+            },
+            "32971": {
+                "type": "Number",
+                "value": 1
+            },
+            "33170": {
+                "type": "Number",
+                "value": 4352
+            },
+            "33901": {
+                "type": "Float32Array",
+                "value": {
+                    "0": 1,
+                    "1": 1024
+                }
+            },
+            "33902": {
+                "type": "Float32Array",
+                "value": {
+                    "0": 1,
+                    "1": 1
+                }
+            },
+            "34016": {
+                "type": "Number",
+                "value": 33984
+            },
+            "34024": {
+                "type": "Number",
+                "value": 16384
+            },
+            "34045": {
+                "type": "",
+                "value": null
+            },
+            "34047": {
+                "type": "Number",
+                "value": 16
+            },
+            "34068": {
+                "type": "",
+                "value": null
+            },
+            "34076": {
+                "type": "Number",
+                "value": 16384
+            },
+            "34467": {
+                "type": "Uint32Array",
+                "value": {}
+            },
+            "34816": {
+                "type": "Number",
+                "value": 519
+            },
+            "34817": {
+                "type": "Number",
+                "value": 7680
+            },
+            "34818": {
+                "type": "Number",
+                "value": 7680
+            },
+            "34819": {
+                "type": "Number",
+                "value": 7680
+            },
+            "34852": {
+                "type": "",
+                "value": null
+            },
+            "34877": {
+                "type": "Number",
+                "value": 32774
+            },
+            "34921": {
+                "type": "Number",
+                "value": 16
+            },
+            "34930": {
+                "type": "Number",
+                "value": 16
+            },
+            "34964": {
+                "type": "",
+                "value": null
+            },
+            "34965": {
+                "type": "",
+                "value": null
+            },
+            "35071": {
+                "type": "",
+                "value": null
+            },
+            "35076": {
+                "type": "",
+                "value": null
+            },
+            "35077": {
+                "type": "",
+                "value": null
+            },
+            "35371": {
+                "type": "",
+                "value": null
+            },
+            "35373": {
+                "type": "",
+                "value": null
+            },
+            "35374": {
+                "type": "",
+                "value": null
+            },
+            "35375": {
+                "type": "",
+                "value": null
+            },
+            "35376": {
+                "type": "",
+                "value": null
+            },
+            "35377": {
+                "type": "",
+                "value": null
+            },
+            "35379": {
+                "type": "",
+                "value": null
+            },
+            "35380": {
+                "type": "",
+                "value": null
+            },
+            "35657": {
+                "type": "",
+                "value": null
+            },
+            "35658": {
+                "type": "",
+                "value": null
+            },
+            "35659": {
+                "type": "",
+                "value": null
+            },
+            "35660": {
+                "type": "Number",
+                "value": 16
+            },
+            "35661": {
+                "type": "Number",
+                "value": 32
+            },
+            "35724": {
+                "type": "String",
+                "value": "WebGL GLSL ES 1.0"
+            },
+            "35725": {
+                "type": "",
+                "value": null
+            },
+            "35968": {
+                "type": "",
+                "value": null
+            },
+            "35978": {
+                "type": "",
+                "value": null
+            },
+            "35979": {
+                "type": "",
+                "value": null
+            },
+            "36003": {
+                "type": "",
+                "value": 0
+            },
+            "36004": {
+                "type": "Number",
+                "value": 2147483647
+            },
+            "36005": {
+                "type": "Number",
+                "value": 2147483647
+            },
+            "36006": {
+                "type": "",
+                "value": null
+            },
+            "36007": {
+                "type": "",
+                "value": null
+            },
+            "36063": {
+                "type": "",
+                "value": null
+            },
+            "36183": {
+                "type": "",
+                "value": null
+            },
+            "36347": {
+                "type": "Number",
+                "value": 4095
+            },
+            "36348": {
+                "type": "Number",
+                "value": 30
+            },
+            "36349": {
+                "type": "Number",
+                "value": 1024
+            },
+            "37154": {
+                "type": "",
+                "value": null
+            },
+            "37157": {
+                "type": "",
+                "value": null
+            },
+            "37440": {
+                "type": "",
+                "value": false
+            },
+            "37441": {
+                "type": "",
+                "value": false
+            },
+            "37443": {
+                "type": "Number",
+                "value": 37444
+            }
+        },
+        "shaderPrecisionFormats": [
+            {
+                "shaderType": 35633,
+                "precisionType": 36338,
+                "r": {
+                    "rangeMin": 127,
+                    "rangeMax": 127,
+                    "precision": 23
+                }
+            },
+            {
+                "shaderType": 35633,
+                "precisionType": 36337,
+                "r": {
+                    "rangeMin": 127,
+                    "rangeMax": 127,
+                    "precision": 23
+                }
+            },
+            {
+                "shaderType": 35633,
+                "precisionType": 36336,
+                "r": {
+                    "rangeMin": 127,
+                    "rangeMax": 127,
+                    "precision": 23
+                }
+            },
+            {
+                "shaderType": 35633,
+                "precisionType": 36341,
+                "r": {
+                    "rangeMin": 31,
+                    "rangeMax": 30,
+                    "precision": 0
+                }
+            },
+            {
+                "shaderType": 35633,
+                "precisionType": 36340,
+                "r": {
+                    "rangeMin": 31,
+                    "rangeMax": 30,
+                    "precision": 0
+                }
+            },
+            {
+                "shaderType": 35633,
+                "precisionType": 36339,
+                "r": {
+                    "rangeMin": 31,
+                    "rangeMax": 30,
+                    "precision": 0
+                }
+            },
+            {
+                "shaderType": 35632,
+                "precisionType": 36338,
+                "r": {
+                    "rangeMin": 127,
+                    "rangeMax": 127,
+                    "precision": 23
+                }
+            },
+            {
+                "shaderType": 35632,
+                "precisionType": 36337,
+                "r": {
+                    "rangeMin": 127,
+                    "rangeMax": 127,
+                    "precision": 23
+                }
+            },
+            {
+                "shaderType": 35632,
+                "precisionType": 36336,
+                "r": {
+                    "rangeMin": 127,
+                    "rangeMax": 127,
+                    "precision": 23
+                }
+            },
+            {
+                "shaderType": 35632,
+                "precisionType": 36341,
+                "r": {
+                    "rangeMin": 31,
+                    "rangeMax": 30,
+                    "precision": 0
+                }
+            },
+            {
+                "shaderType": 35632,
+                "precisionType": 36340,
+                "r": {
+                    "rangeMin": 31,
+                    "rangeMax": 30,
+                    "precision": 0
+                }
+            },
+            {
+                "shaderType": 35632,
+                "precisionType": 36339,
+                "r": {
+                    "rangeMin": 31,
+                    "rangeMax": 30,
+                    "precision": 0
+                }
+            }
+        ]
+    },
+    "webgl2": {
+        "supportedExtensions": [
+            "EXT_color_buffer_float",
+            "EXT_float_blend",
+            "EXT_texture_compression_bptc",
+            "EXT_texture_compression_rgtc",
+            "EXT_texture_filter_anisotropic",
+            "OES_draw_buffers_indexed",
+            "OES_texture_float_linear",
+            "OVR_multiview2",
+            "WEBGL_compressed_texture_s3tc",
+            "WEBGL_compressed_texture_s3tc_srgb",
+            "WEBGL_debug_renderer_info",
+            "WEBGL_debug_shaders",
+            "WEBGL_lose_context",
+            "WEBGL_provoking_vertex"
+        ],
+        "contextAttributes": {
+            "alpha": true,
+            "antialias": true,
+            "depth": true,
+            "failIfMajorPerformanceCaveat": false,
+            "powerPreference": "default",
+            "premultipliedAlpha": true,
+            "preserveDrawingBuffer": false,
+            "stencil": false
+        },
+        "maxAnisotropy": 16,
+        "params": {
+            "2849": {
+                "type": "Number",
+                "value": 1
+            },
+            "2884": {
+                "type": "",
+                "value": false
+            },
+            "2885": {
+                "type": "Number",
+                "value": 1029
+            },
+            "2886": {
+                "type": "Number",
+                "value": 2305
+            },
+            "2928": {
+                "type": "Float32Array",
+                "value": {
+                    "0": 0,
+                    "1": 1
+                }
+            },
+            "2929": {
+                "type": "",
+                "value": false
+            },
+            "2930": {
+                "type": "Boolean",
+                "value": true
+            },
+            "2931": {
+                "type": "Number",
+                "value": 1
+            },
+            "2932": {
+                "type": "Number",
+                "value": 513
+            },
+            "2960": {
+                "type": "",
+                "value": false
+            },
+            "2961": {
+                "type": "",
+                "value": 0
+            },
+            "2962": {
+                "type": "Number",
+                "value": 519
+            },
+            "2963": {
+                "type": "Number",
+                "value": 2147483647
+            },
+            "2964": {
+                "type": "Number",
+                "value": 7680
+            },
+            "2965": {
+                "type": "Number",
+                "value": 7680
+            },
+            "2966": {
+                "type": "Number",
+                "value": 7680
+            },
+            "2967": {
+                "type": "",
+                "value": 0
+            },
+            "2968": {
+                "type": "Number",
+                "value": 2147483647
+            },
+            "2978": {
+                "type": "Int32Array",
+                "value": {
+                    "0": 0,
+                    "1": 0,
+                    "2": 300,
+                    "3": 150
+                }
+            },
+            "3024": {
+                "type": "Boolean",
+                "value": true
+            },
+            "3042": {
+                "type": "",
+                "value": false
+            },
+            "3088": {
+                "type": "Int32Array",
+                "value": {
+                    "0": 0,
+                    "1": 0,
+                    "2": 300,
+                    "3": 150
+                }
+            },
+            "3089": {
+                "type": "",
+                "value": false
+            },
+            "3106": {
+                "type": "Float32Array",
+                "value": {
+                    "0": 0,
+                    "1": 0,
+                    "2": 0,
+                    "3": 0
+                }
+            },
+            "3107": {
+                "type": "Array",
+                "value": [
+                    true,
+                    true,
+                    true,
+                    true
+                ]
+            },
+            "3317": {
+                "type": "Number",
+                "value": 4
+            },
+            "3333": {
+                "type": "Number",
+                "value": 4
+            },
+            "3379": {
+                "type": "Number",
+                "value": 16384
+            },
+            "3386": {
+                "type": "Int32Array",
+                "value": {
+                    "0": 32767,
+                    "1": 32767
+                }
+            },
+            "3408": {
+                "type": "Number",
+                "value": 4
+            },
+            "3410": {
+                "type": "Number",
+                "value": 8
+            },
+            "3411": {
+                "type": "Number",
+                "value": 8
+            },
+            "3412": {
+                "type": "Number",
+                "value": 8
+            },
+            "3413": {
+                "type": "Number",
+                "value": 8
+            },
+            "3414": {
+                "type": "Number",
+                "value": 24
+            },
+            "3415": {
+                "type": "",
+                "value": 0
+            },
+            "7936": {
+                "type": "String",
+                "value": "Mozilla"
+            },
+            "7937": {
+                "type": "String",
+                "value": "ANGLE (NVIDIA, NVIDIA GeForce GTX 980 Direct3D11 vs_5_0 ps_5_0)"
+            },
+            "7938": {
+                "type": "String",
+                "value": "WebGL 2.0"
+            },
+            "10752": {
+                "type": "",
+                "value": 0
+            },
+            "32773": {
+                "type": "Float32Array",
+                "value": {
+                    "0": 0,
+                    "1": 0,
+                    "2": 0,
+                    "3": 0
+                }
+            },
+            "32777": {
+                "type": "Number",
+                "value": 32774
+            },
+            "32823": {
+                "type": "",
+                "value": false
+            },
+            "32824": {
+                "type": "",
+                "value": 0
+            },
+            "32873": {
+                "type": "",
+                "value": null
+            },
+            "32883": {
+                "type": "Number",
+                "value": 2048
+            },
+            "32936": {
+                "type": "Number",
+                "value": 1
+            },
+            "32937": {
+                "type": "Number",
+                "value": 4
+            },
+            "32938": {
+                "type": "Number",
+                "value": 1
+            },
+            "32939": {
+                "type": "",
+                "value": false
+            },
+            "32968": {
+                "type": "",
+                "value": 0
+            },
+            "32969": {
+                "type": "Number",
+                "value": 1
+            },
+            "32970": {
+                "type": "",
+                "value": 0
+            },
+            "32971": {
+                "type": "Number",
+                "value": 1
+            },
+            "33170": {
+                "type": "Number",
+                "value": 4352
+            },
+            "33901": {
+                "type": "Float32Array",
+                "value": {
+                    "0": 1,
+                    "1": 1024
+                }
+            },
+            "33902": {
+                "type": "Float32Array",
+                "value": {
+                    "0": 1,
+                    "1": 1
+                }
+            },
+            "34016": {
+                "type": "Number",
+                "value": 33984
+            },
+            "34024": {
+                "type": "Number",
+                "value": 16384
+            },
+            "34045": {
+                "type": "Number",
+                "value": 2
+            },
+            "34047": {
+                "type": "Number",
+                "value": 16
+            },
+            "34068": {
+                "type": "",
+                "value": null
+            },
+            "34076": {
+                "type": "Number",
+                "value": 16384
+            },
+            "34467": {
+                "type": "Uint32Array",
+                "value": {}
+            },
+            "34816": {
+                "type": "Number",
+                "value": 519
+            },
+            "34817": {
+                "type": "Number",
+                "value": 7680
+            },
+            "34818": {
+                "type": "Number",
+                "value": 7680
+            },
+            "34819": {
+                "type": "Number",
+                "value": 7680
+            },
+            "34852": {
+                "type": "Number",
+                "value": 8
+            },
+            "34877": {
+                "type": "Number",
+                "value": 32774
+            },
+            "34921": {
+                "type": "Number",
+                "value": 16
+            },
+            "34930": {
+                "type": "Number",
+                "value": 16
+            },
+            "34964": {
+                "type": "",
+                "value": null
+            },
+            "34965": {
+                "type": "",
+                "value": null
+            },
+            "35071": {
+                "type": "Number",
+                "value": 2048
+            },
+            "35076": {
+                "type": "Number",
+                "value": -8
+            },
+            "35077": {
+                "type": "Number",
+                "value": 7
+            },
+            "35371": {
+                "type": "Number",
+                "value": 12
+            },
+            "35373": {
+                "type": "Number",
+                "value": 12
+            },
+            "35374": {
+                "type": "Number",
+                "value": 24
+            },
+            "35375": {
+                "type": "Number",
+                "value": 24
+            },
+            "35376": {
+                "type": "Number",
+                "value": 65536
+            },
+            "35377": {
+                "type": "Number",
+                "value": 212988
+            },
+            "35379": {
+                "type": "Number",
+                "value": 200704
+            },
+            "35380": {
+                "type": "Number",
+                "value": 256
+            },
+            "35657": {
+                "type": "Number",
+                "value": 4096
+            },
+            "35658": {
+                "type": "Number",
+                "value": 16380
+            },
+            "35659": {
+                "type": "Number",
+                "value": 120
+            },
+            "35660": {
+                "type": "Number",
+                "value": 16
+            },
+            "35661": {
+                "type": "Number",
+                "value": 32
+            },
+            "35724": {
+                "type": "String",
+                "value": "WebGL GLSL ES 3.00"
+            },
+            "35725": {
+                "type": "",
+                "value": null
+            },
+            "35968": {
+                "type": "Number",
+                "value": 4
+            },
+            "35978": {
+                "type": "Number",
+                "value": 120
+            },
+            "35979": {
+                "type": "Number",
+                "value": 4
+            },
+            "36003": {
+                "type": "",
+                "value": 0
+            },
+            "36004": {
+                "type": "Number",
+                "value": 2147483647
+            },
+            "36005": {
+                "type": "Number",
+                "value": 2147483647
+            },
+            "36006": {
+                "type": "",
+                "value": null
+            },
+            "36007": {
+                "type": "",
+                "value": null
+            },
+            "36063": {
+                "type": "Number",
+                "value": 8
+            },
+            "36183": {
+                "type": "Number",
+                "value": 8
+            },
+            "36347": {
+                "type": "Number",
+                "value": 4095
+            },
+            "36348": {
+                "type": "Number",
+                "value": 30
+            },
+            "36349": {
+                "type": "Number",
+                "value": 1024
+            },
+            "37154": {
+                "type": "Number",
+                "value": 120
+            },
+            "37157": {
+                "type": "Number",
+                "value": 120
+            },
+            "37440": {
+                "type": "",
+                "value": false
+            },
+            "37441": {
+                "type": "",
+                "value": false
+            },
+            "37443": {
+                "type": "Number",
+                "value": 37444
+            }
+        },
+        "shaderPrecisionFormats": [
+            {
+                "shaderType": 35633,
+                "precisionType": 36338,
+                "r": {
+                    "rangeMin": 127,
+                    "rangeMax": 127,
+                    "precision": 23
+                }
+            },
+            {
+                "shaderType": 35633,
+                "precisionType": 36337,
+                "r": {
+                    "rangeMin": 127,
+                    "rangeMax": 127,
+                    "precision": 23
+                }
+            },
+            {
+                "shaderType": 35633,
+                "precisionType": 36336,
+                "r": {
+                    "rangeMin": 127,
+                    "rangeMax": 127,
+                    "precision": 23
+                }
+            },
+            {
+                "shaderType": 35633,
+                "precisionType": 36341,
+                "r": {
+                    "rangeMin": 31,
+                    "rangeMax": 30,
+                    "precision": 0
+                }
+            },
+            {
+                "shaderType": 35633,
+                "precisionType": 36340,
+                "r": {
+                    "rangeMin": 31,
+                    "rangeMax": 30,
+                    "precision": 0
+                }
+            },
+            {
+                "shaderType": 35633,
+                "precisionType": 36339,
+                "r": {
+                    "rangeMin": 31,
+                    "rangeMax": 30,
+                    "precision": 0
+                }
+            },
+            {
+                "shaderType": 35632,
+                "precisionType": 36338,
+                "r": {
+                    "rangeMin": 127,
+                    "rangeMax": 127,
+                    "precision": 23
+                }
+            },
+            {
+                "shaderType": 35632,
+                "precisionType": 36337,
+                "r": {
+                    "rangeMin": 127,
+                    "rangeMax": 127,
+                    "precision": 23
+                }
+            },
+            {
+                "shaderType": 35632,
+                "precisionType": 36336,
+                "r": {
+                    "rangeMin": 127,
+                    "rangeMax": 127,
+                    "precision": 23
+                }
+            },
+            {
+                "shaderType": 35632,
+                "precisionType": 36341,
+                "r": {
+                    "rangeMin": 31,
+                    "rangeMax": 30,
+                    "precision": 0
+                }
+            },
+            {
+                "shaderType": 35632,
+                "precisionType": 36340,
+                "r": {
+                    "rangeMin": 31,
+                    "rangeMax": 30,
+                    "precision": 0
+                }
+            },
+            {
+                "shaderType": 35632,
+                "precisionType": 36339,
+                "r": {
+                    "rangeMin": 31,
+                    "rangeMax": 30,
+                    "precision": 0
+                }
+            }
+        ]
+    },
+    "navigator": {
+        "languages": [
+            "fr",
+            "fr-FR",
+            "en-US",
+            "en"
+        ],
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0",
+        "appCodeName": "Mozilla",
+        "appMinorVersion": "_$obj!_undefined_//+_",
+        "appName": "Netscape",
+        "appVersion": "5.0 (Windows)",
+        "buildID": "20181001000000",
+        "platform": "Win32",
+        "product": "Gecko",
+        "productSub": "20100101",
+        "hardwareConcurrency": 16,
+        "cpuClass": "_$obj!_undefined_//+_",
+        "maxTouchPoints": 0,
+        "oscpu": "Windows NT 10.0; Win64; x64",
+        "vendor": "",
+        "vendorSub": "",
+        "deviceMemory": "_$obj!_undefined_//+_",
+        "doNotTrack": "unspecified",
+        "msDoNotTrack": "_$obj!_undefined_//+_",
+        "vibrate": "_$obj!_//+_",
+        "credentials": "_$obj!_undefined_//+_",
+        "storage": "_$obj!_undefined_//+_",
+        "requestMediaKeySystemAccess": "_$obj!_//+_",
+        "bluetooth": "_$obj!_undefined_//+_",
+        "language": "fr",
+        "systemLanguage": "_$obj!_undefined_//+_",
+        "userLanguage": "_$obj!_undefined_//+_"
+    },
+    "window": {
+        "innerWidth": 2455,
+        "innerHeight": 1158,
+        "outerWidth": 2467,
+        "outerHeight": 1249,
+        "screenX": 501,
+        "screenY": 20,
+        "pageXOffset": 0,
+        "pageYOffset": 0,
+        "Image": "_$obj!_//+_",
+        "isSecureContext": false,
+        "devicePixelRatio": 1,
+        "toolbar": "_$obj!_//+_",
+        "locationbar": "_$obj!_//+_",
+        "ActiveXObject": "_$obj!_undefined_//+_",
+        "external": "_$obj!_//+_",
+        "mozRTCPeerConnection": "_$obj!_undefined_//+_",
+        "postMessage": "_$obj!_//+_",
+        "webkitRequestAnimationFrame": "_$obj!_undefined_//+_",
+        "BluetoothUUID": "_$obj!_undefined_//+_",
+        "netscape": "_$obj!_//+_",
+        "localStorage": "_$obj!_//+_",
+        "sessionStorage": "_$obj!_//+_",
+        "indexDB": "_$obj!_undefined_//+_",
+        "BarcodeDetector": "_$obj!_undefined_//+_"
+    },
+    "document": {
+        "characterSet": "UTF-8",
+        "compatMode": "CSS1Compat",
+        "documentMode": "_$obj!_undefined_//+_",
+        "layers": "_$obj!_undefined_//+_",
+        "images": "_$obj!_//+_"
+    },
+    "screen": {
+        "availWidth": 3440,
+        "availHeight": 1392,
+        "availLeft": 0,
+        "availTop": 0,
+        "width": 3440,
+        "height": 1440,
+        "colorDepth": 24,
+        "pixelDepth": 24
+    },
+    "body": {
+        "clientWidth": 2439,
+        "clientHeight": 18
+    },
+    "permissions": {
+        "push": {
+            "state": "prompt"
+        },
+        "midi": {
+            "state": "prompt"
+        },
+        "geolocation": {
+            "state": "prompt"
+        },
+        "notifications": {
+            "state": "prompt"
+        },
+        "persistent-storage": {
+            "state": "prompt"
+        },
+        "storage-access": {
+            "exType": "TypeError",
+            "msg": "'storage-access' (value of 'name' member of PermissionDescriptor) is not a valid value for enumeration PermissionName."
+        },
+        "speaker": {
+            "exType": "TypeError",
+            "msg": "'speaker' (value of 'name' member of PermissionDescriptor) is not a valid value for enumeration PermissionName."
+        },
+        "device-info": {
+            "exType": "TypeError",
+            "msg": "'device-info' (value of 'name' member of PermissionDescriptor) is not a valid value for enumeration PermissionName."
+        },
+        "bluetooth": {
+            "exType": "TypeError",
+            "msg": "'bluetooth' (value of 'name' member of PermissionDescriptor) is not a valid value for enumeration PermissionName."
+        },
+        "background-fetch": {
+            "exType": "TypeError",
+            "msg": "'background-fetch' (value of 'name' member of PermissionDescriptor) is not a valid value for enumeration PermissionName."
+        },
+        "background-sync": {
+            "exType": "TypeError",
+            "msg": "'background-sync' (value of 'name' member of PermissionDescriptor) is not a valid value for enumeration PermissionName."
+        },
+        "accelerometer": {
+            "exType": "TypeError",
+            "msg": "'accelerometer' (value of 'name' member of PermissionDescriptor) is not a valid value for enumeration PermissionName."
+        },
+        "gyroscope": {
+            "exType": "TypeError",
+            "msg": "'gyroscope' (value of 'name' member of PermissionDescriptor) is not a valid value for enumeration PermissionName."
+        },
+        "magnetometer": {
+            "exType": "TypeError",
+            "msg": "'magnetometer' (value of 'name' member of PermissionDescriptor) is not a valid value for enumeration PermissionName."
+        },
+        "screen-wake-lock": {
+            "exType": "TypeError",
+            "msg": "'screen-wake-lock' (value of 'name' member of PermissionDescriptor) is not a valid value for enumeration PermissionName."
+        },
+        "clipboard": {
+            "exType": "TypeError",
+            "msg": "'clipboard' (value of 'name' member of PermissionDescriptor) is not a valid value for enumeration PermissionName."
+        },
+        "clipboard-read": {
+            "exType": "TypeError",
+            "msg": "'clipboard-read' (value of 'name' member of PermissionDescriptor) is not a valid value for enumeration PermissionName."
+        },
+        "clipboard-write": {
+            "exType": "TypeError",
+            "msg": "'clipboard-write' (value of 'name' member of PermissionDescriptor) is not a valid value for enumeration PermissionName."
+        },
+        "payment-handler": {
+            "exType": "TypeError",
+            "msg": "'payment-handler' (value of 'name' member of PermissionDescriptor) is not a valid value for enumeration PermissionName."
+        },
+        "periodic-background-sync": {
+            "exType": "TypeError",
+            "msg": "'periodic-background-sync' (value of 'name' member of PermissionDescriptor) is not a valid value for enumeration PermissionName."
+        },
+        "camera": {
+            "exType": "TypeError",
+            "msg": "'camera' (value of 'name' member of PermissionDescriptor) is not a valid value for enumeration PermissionName."
+        },
+        "microphone": {
+            "exType": "TypeError",
+            "msg": "'microphone' (value of 'name' member of PermissionDescriptor) is not a valid value for enumeration PermissionName."
+        },
+        "display-capture": {
+            "exType": "TypeError",
+            "msg": "'display-capture' (value of 'name' member of PermissionDescriptor) is not a valid value for enumeration PermissionName."
+        },
+        "ambient-light-sensor": {
+            "exType": "TypeError",
+            "msg": "'ambient-light-sensor' (value of 'name' member of PermissionDescriptor) is not a valid value for enumeration PermissionName."
+        },
+        "accessibility-events": {
+            "exType": "TypeError",
+            "msg": "'accessibility-events' (value of 'name' member of PermissionDescriptor) is not a valid value for enumeration PermissionName."
+        },
+        "nfc": {
+            "exType": "TypeError",
+            "msg": "'nfc' (value of 'name' member of PermissionDescriptor) is not a valid value for enumeration PermissionName."
+        },
+        "idle-detection": {
+            "exType": "TypeError",
+            "msg": "'idle-detection' (value of 'name' member of PermissionDescriptor) is not a valid value for enumeration PermissionName."
+        },
+        "system-wake-lock": {
+            "exType": "TypeError",
+            "msg": "'system-wake-lock' (value of 'name' member of PermissionDescriptor) is not a valid value for enumeration PermissionName."
+        },
+        "window-placement": {
+            "exType": "TypeError",
+            "msg": "'window-placement' (value of 'name' member of PermissionDescriptor) is not a valid value for enumeration PermissionName."
+        },
+        "font-access": {
+            "exType": "TypeError",
+            "msg": "'font-access' (value of 'name' member of PermissionDescriptor) is not a valid value for enumeration PermissionName."
+        }
+    },
+    "voices": [
+        {
+            "default": false,
+            "lang": "fr-FR",
+            "localService": true,
+            "name": "Microsoft Hortense - French (France)",
+            "voiceURI": "urn:moz-tts:sapi:Microsoft Hortense - French (France)?fr-FR"
+        },
+        {
+            "default": false,
+            "lang": "fr-FR",
+            "localService": true,
+            "name": "Microsoft Julie - French (France)",
+            "voiceURI": "urn:moz-tts:sapi:Microsoft Julie - French (France)?fr-FR"
+        },
+        {
+            "default": false,
+            "lang": "fr-FR",
+            "localService": true,
+            "name": "Microsoft Paul - French (France)",
+            "voiceURI": "urn:moz-tts:sapi:Microsoft Paul - French (France)?fr-FR"
+        },
+        {
+            "default": false,
+            "lang": "ru-RU",
+            "localService": true,
+            "name": "Microsoft Irina - Russian (Russia)",
+            "voiceURI": "urn:moz-tts:sapi:Microsoft Irina - Russian (Russia)?ru-RU"
+        },
+        {
+            "default": false,
+            "lang": "ru-RU",
+            "localService": true,
+            "name": "Microsoft Pavel - Russian (Russia)",
+            "voiceURI": "urn:moz-tts:sapi:Microsoft Pavel - Russian (Russia)?ru-RU"
+        },
+        {
+            "default": false,
+            "lang": "fr-FR",
+            "localService": true,
+            "name": "Microsoft Hortense Desktop - French",
+            "voiceURI": "urn:moz-tts:sapi:Microsoft Hortense Desktop - French?fr-FR"
+        },
+        {
+            "default": false,
+            "lang": "en-US",
+            "localService": true,
+            "name": "Microsoft Zira Desktop - English (United States)",
+            "voiceURI": "urn:moz-tts:sapi:Microsoft Zira Desktop - English (United States)?en-US"
+        },
+        {
+            "default": false,
+            "lang": "ru-RU",
+            "localService": true,
+            "name": "Microsoft Irina Desktop - Russian",
+            "voiceURI": "urn:moz-tts:sapi:Microsoft Irina Desktop - Russian?ru-RU"
+        }
+    ],
+    "mimeTypes": [
+        {
+            "mimeType": "application/ogg",
+            "audioPlayType": "maybe",
+            "videoPlayType": "maybe"
+        },
+        {
+            "mimeType": "audio/aac",
+            "audioPlayType": "maybe",
+            "videoPlayType": "maybe"
+        },
+        {
+            "mimeType": "audio/flac",
+            "audioPlayType": "maybe",
+            "videoPlayType": "maybe"
+        },
+        {
+            "mimeType": "audio/mp3",
+            "audioPlayType": "maybe",
+            "videoPlayType": "maybe"
+        },
+        {
+            "mimeType": "audio/mp4",
+            "audioPlayType": "maybe",
+            "videoPlayType": "maybe",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "audio/mp4; codecs=\"Opus\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "audio/mp4; codecs=\"flac\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "audio/mp4; codecs=\"mp3\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "audio/mp4; codecs=\"mp4a.40.2\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "audio/mp4; codecs=\"mp4a.40.29\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "audio/mp4; codecs=\"mp4a.40.5\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "audio/mp4; codecs=\"mp4a.67\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "audio/mpeg",
+            "audioPlayType": "maybe",
+            "videoPlayType": "maybe"
+        },
+        {
+            "mimeType": "audio/mpeg; codecs=\"mp3\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably"
+        },
+        {
+            "mimeType": "audio/ogg; codecs=\"flac\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably"
+        },
+        {
+            "mimeType": "audio/ogg; codecs=\"opus\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaRecorder": true
+        },
+        {
+            "mimeType": "audio/ogg; codecs=\"vorbis\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably"
+        },
+        {
+            "mimeType": "audio/wav",
+            "audioPlayType": "maybe",
+            "videoPlayType": "maybe"
+        },
+        {
+            "mimeType": "audio/wav; codecs=\"1\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably"
+        },
+        {
+            "mimeType": "audio/wave",
+            "audioPlayType": "maybe",
+            "videoPlayType": "maybe"
+        },
+        {
+            "mimeType": "audio/wave; codecs=\"1\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably"
+        },
+        {
+            "mimeType": "audio/wave; codecs=1",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably"
+        },
+        {
+            "mimeType": "audio/webm",
+            "audioPlayType": "maybe",
+            "videoPlayType": "maybe",
+            "mediaSource": true,
+            "mediaRecorder": true
+        },
+        {
+            "mimeType": "audio/webm; codecs=\"opus\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true,
+            "mediaRecorder": true
+        },
+        {
+            "mimeType": "audio/webm; codecs=\"vorbis\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "audio/x-aac",
+            "audioPlayType": "maybe",
+            "videoPlayType": "maybe"
+        },
+        {
+            "mimeType": "audio/x-flac",
+            "audioPlayType": "maybe",
+            "videoPlayType": "maybe"
+        },
+        {
+            "mimeType": "audio/x-m4a",
+            "audioPlayType": "maybe",
+            "videoPlayType": "maybe"
+        },
+        {
+            "mimeType": "audio/x-m4a; codecs=\"mp3\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably"
+        },
+        {
+            "mimeType": "audio/x-m4a; codecs=\"vp9, mp4a.40.2\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably"
+        },
+        {
+            "mimeType": "audio/x-pn-wav",
+            "audioPlayType": "maybe",
+            "videoPlayType": "maybe"
+        },
+        {
+            "mimeType": "audio/x-pn-wav; codecs=\"1\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably"
+        },
+        {
+            "mimeType": "audio/x-wav",
+            "audioPlayType": "maybe",
+            "videoPlayType": "maybe"
+        },
+        {
+            "mimeType": "audio/x-wav; codecs=\"1\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably"
+        },
+        {
+            "mimeType": "video/mp4",
+            "audioPlayType": "maybe",
+            "videoPlayType": "maybe",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"av01.0.08M.08\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.42000a\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.42000b\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.42000c\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.42000d\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.420014\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.420015\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.420016\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.42001e\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.42001f\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.420020\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.420028\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.420029\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.42002a\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.420032\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.420033\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.420034\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.42400a\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.42400b\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.42400c\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.42400d\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.424014\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.424015\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.424016\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.42401e\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.42401f\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.424020\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.424028\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.424029\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.42402a\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.424032\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.424033\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.424034\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.42E009\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.42E01E\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.42E01E, mp4a.40.2\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.42E034\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.42F01E\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.42c00d\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.4D001E\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.4d000a\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.4d000b\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.4d000c\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.4d000d\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.4d0014\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.4d0015\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.4d0016\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.4d001e\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.4d001f\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.4d0020\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.4d0028\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.4d0029\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.4d002a\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.4d0032\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.4d0033\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.4d0034\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.4d400a\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.4d400b\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.4d400c\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.4d400d\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.4d4014\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.4d4015\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.4d4016\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.4d401e\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.4d401f\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.4d4020\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.4d4028\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.4d4029\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.4d402a\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.4d4032\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.4d4033\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.4d4034\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.58000a\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.58000b\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.58000c\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.58000d\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.580014\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.580015\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.580016\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.58001e\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.58001f\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.580020\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.580028\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.580029\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.58002a\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.580032\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.580033\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.580034\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.64000a\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.64000b\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.64000c\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.64000d\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.640014\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.640015\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.640016\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.64001E, mp4a.40.2\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.64001e\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.64001f\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.640020\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.640028\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.640029\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.64002a\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.640032\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.640033\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.640034\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.64080a\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.64080b\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.64080c\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.64080d\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.640814\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.640815\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.640816\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.64081e\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.64081f\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.640820\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.640828\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.640829\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.64082a\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.640832\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.640833\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc1.640834\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"avc3.42001E\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"flac\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"mp4a.40.02\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"mp4a.40.29\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"mp4a.40.5\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"mp4a.67\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"vp09.00.10.08\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"vp09.00.50.08\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"vp09.01.20.08.01\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"vp09.01.20.08.01.01.01.01.00\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=\"vp09.02.10.10.01.09.16.09.01\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/mp4; codecs=mp4a.40.2",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/ogg",
+            "audioPlayType": "maybe",
+            "videoPlayType": "maybe"
+        },
+        {
+            "mimeType": "video/ogg; codecs=\"flac\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably"
+        },
+        {
+            "mimeType": "video/ogg; codecs=\"theora\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably"
+        },
+        {
+            "mimeType": "video/ogg; codecs=\"theora, flac\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably"
+        },
+        {
+            "mimeType": "video/ogg; codecs=\"theora, vorbis\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably"
+        },
+        {
+            "mimeType": "video/ogg; codecs=opus",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably"
+        },
+        {
+            "mimeType": "video/quicktime",
+            "audioPlayType": "maybe",
+            "videoPlayType": "maybe"
+        },
+        {
+            "mimeType": "video/webm",
+            "audioPlayType": "maybe",
+            "videoPlayType": "maybe",
+            "mediaSource": true,
+            "mediaRecorder": true
+        },
+        {
+            "mimeType": "video/webm; codecs=\"av01.0.04M.08\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/webm; codecs=\"vorbis\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/webm; codecs=\"vorbis,vp9\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/webm; codecs=\"vp09.02.10.08\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/webm; codecs=\"vp8\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true,
+            "mediaRecorder": true
+        },
+        {
+            "mimeType": "video/webm; codecs=\"vp8, opus\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true,
+            "mediaRecorder": true
+        },
+        {
+            "mimeType": "video/webm; codecs=\"vp8, vorbis\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/webm; codecs=\"vp8.0\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true,
+            "mediaRecorder": true
+        },
+        {
+            "mimeType": "video/webm; codecs=\"vp8.0, vorbis\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/webm; codecs=\"vp9\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/webm; codecs=\"vp9, opus\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/webm; codecs=\"vp9, vorbis\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/webm; codecs=vorbis",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably",
+            "mediaSource": true
+        },
+        {
+            "mimeType": "video/x-m4v",
+            "audioPlayType": "maybe",
+            "videoPlayType": "maybe"
+        },
+        {
+            "mimeType": "video/x-m4v; codecs=\"avc1.42AC23\"",
+            "audioPlayType": "probably",
+            "videoPlayType": "probably"
+        }
+    ],
+    "rtc": [
+        {
+            "candidate": "candidate:0 1 UDP 2122187007 d3c5dfa2-5d04-4b94-9233-25d98065558a.local 54175 typ host",
+            "reg": null
+        },
+        {
+            "candidate": "candidate:2 1 UDP 2122252543 ccd00e0d-8240-4fa6-92ee-929dcba6096d.local 54176 typ host",
+            "reg": null
+        },
+        {
+            "candidate": "candidate:4 1 TCP 2105458943 d3c5dfa2-5d04-4b94-9233-25d98065558a.local 9 typ host tcptype active",
+            "reg": null
+        },
+        {
+            "candidate": "candidate:5 1 TCP 2105524479 ccd00e0d-8240-4fa6-92ee-929dcba6096d.local 9 typ host tcptype active",
+            "reg": null
+        },
+        {
+            "candidate": "candidate:1 1 UDP 1685987327 00.00.00.00 54175 typ srflx raddr 0.0.0.0 rport 0",
+            "reg": [
+                "00.00.00.00",
+                "00.00.00.00",
+                ".159",
+                null
+            ]
+        }
+    ],
+    "allFonts": [
+        {
+            "name": "sans-serif",
+            "exists": 2
+        },
+        {
+            "name": "serif",
+            "exists": 2
+        },
+        {
+            "name": "monospace",
+            "exists": 2
+        },
+        {
+            "name": "Trebuchet MS",
+            "exists": 1
+        },
+        {
+            "name": "Wingdings",
+            "exists": 1
+        },
+        {
+            "name": "Sylfaen",
+            "exists": 1
+        },
+        {
+            "name": "Segoe UI",
+            "exists": 1
+        },
+        {
+            "name": "Constantia",
+            "exists": 1
+        },
+        {
+            "name": "SimSun-ExtB",
+            "exists": 1
+        },
+        {
+            "name": "Calibri",
+            "exists": 1
+        },
+        {
+            "name": "Courier",
+            "exists": 1
+        },
+        {
+            "name": "Courier New",
+            "exists": 1
+        },
+        {
+            "name": "Marlett",
+            "exists": 1
+        },
+        {
+            "name": "Microsoft YaHei UI",
+            "exists": 1
+        },
+        {
+            "name": "MS UI Gothic",
+            "exists": 1
+        },
+        {
+            "name": "Nirmala UI",
+            "exists": 1
+        },
+        {
+            "name": "Verdana",
+            "exists": 1
+        },
+        {
+            "name": "Wingdings 3",
+            "exists": 1
+        },
+        {
+            "name": "Arial Black",
+            "exists": 1
+        },
+        {
+            "name": "Arial",
+            "exists": 1
+        },
+        {
+            "name": "Comic Sans MS",
+            "exists": 1
+        },
+        {
+            "name": "Georgia",
+            "exists": 1
+        },
+        {
+            "name": "Helvetica",
+            "exists": 1
+        },
+        {
+            "name": "Impact",
+            "exists": 1
+        },
+        {
+            "name": "Microsoft Sans Serif",
+            "exists": 1
+        },
+        {
+            "name": "Symbol",
+            "exists": 1
+        },
+        {
+            "name": "Tahoma",
+            "exists": 1
+        },
+        {
+            "name": "Webdings",
+            "exists": 1
+        },
+        {
+            "name": "Cambria Math",
+            "exists": 1
+        },
+        {
+            "name": "Cambria",
+            "exists": 1
+        },
+        {
+            "name": "Candara",
+            "exists": 1
+        },
+        {
+            "name": "Consolas",
+            "exists": 1
+        },
+        {
+            "name": "Corbel",
+            "exists": 1
+        },
+        {
+            "name": "Ebrima",
+            "exists": 1
+        },
+        {
+            "name": "Franklin Gothic",
+            "exists": 1
+        },
+        {
+            "name": "Gabriola",
+            "exists": 1
+        },
+        {
+            "name": "Lucida Console",
+            "exists": 1
+        },
+        {
+            "name": "Lucida Sans Unicode",
+            "exists": 1
+        },
+        {
+            "name": "MS Gothic",
+            "exists": 1
+        },
+        {
+            "name": "MS PGothic",
+            "exists": 1
+        },
+        {
+            "name": "MV Boli",
+            "exists": 1
+        },
+        {
+            "name": "Malgun Gothic",
+            "exists": 1
+        },
+        {
+            "name": "Microsoft Himalaya",
+            "exists": 1
+        },
+        {
+            "name": "Microsoft JhengHei",
+            "exists": 1
+        },
+        {
+            "name": "Microsoft New Tai Lue",
+            "exists": 1
+        },
+        {
+            "name": "Microsoft PhagsPa",
+            "exists": 1
+        },
+        {
+            "name": "Microsoft YaHei",
+            "exists": 1
+        },
+        {
+            "name": "Microsoft Yi Baiti",
+            "exists": 1
+        },
+        {
+            "name": "MingLiU-ExtB",
+            "exists": 1
+        },
+        {
+            "name": "Mongolian Baiti",
+            "exists": 1
+        },
+        {
+            "name": "PMingLiU-ExtB",
+            "exists": 1
+        },
+        {
+            "name": "Palatino Linotype",
+            "exists": 1
+        },
+        {
+            "name": "Segoe Print",
+            "exists": 1
+        },
+        {
+            "name": "Segoe Script",
+            "exists": 1
+        },
+        {
+            "name": "Segoe UI Symbol",
+            "exists": 1
+        },
+        {
+            "name": "SimSun",
+            "exists": 1
+        },
+        {
+            "name": "Gadugi",
+            "exists": 1
+        },
+        {
+            "name": "Javanese Text",
+            "exists": 1
+        },
+        {
+            "name": "Microsoft JhengHei UI",
+            "exists": 1
+        },
+        {
+            "name": "Myanmar Text",
+            "exists": 1
+        },
+        {
+            "name": "Sitka Small",
+            "exists": 1
+        },
+        {
+            "name": "Sitka Text",
+            "exists": 1
+        },
+        {
+            "name": "Sitka Subheading",
+            "exists": 1
+        },
+        {
+            "name": "Sitka Heading",
+            "exists": 1
+        },
+        {
+            "name": "Sitka Display",
+            "exists": 1
+        },
+        {
+            "name": "Sitka Banner",
+            "exists": 1
+        },
+        {
+            "name": "Yu Gothic",
+            "exists": 1
+        },
+        {
+            "name": "Microsoft Tai Le",
+            "exists": 1
+        },
+        {
+            "name": "MingLiU_HKSCS-ExtB",
+            "exists": 1
+        },
+        {
+            "name": "Segoe UI Emoji",
+            "exists": 1
+        },
+        {
+            "name": "Bahnschrift",
+            "exists": 1
+        },
+        {
+            "name": "sans-serif",
+            "exists": 1
+        },
+        {
+            "name": "serif",
+            "exists": 1
+        },
+        {
+            "name": "monospace",
+            "exists": 1
+        },
+        {
+            "name": "MS Sans Serif",
+            "exists": 1
+        },
+        {
+            "name": "MS Serif",
+            "exists": 1
+        },
+        {
+            "name": "Segoe UI Light",
+            "exists": 1
+        },
+        {
+            "name": "Segoe UI Semibold",
+            "exists": 1
+        },
+        {
+            "name": "Times",
+            "exists": 1
+        },
+        {
+            "name": "Times New Roman",
+            "exists": 1
+        },
+        {
+            "name": "Wingdings 2",
+            "exists": 1
+        },
+        {
+            "name": "Bauhaus 93",
+            "exists": 1
+        },
+        {
+            "name": "Bodoni 72",
+            "exists": 1
+        },
+        {
+            "name": "Bodoni 72 Oldstyle",
+            "exists": 1
+        },
+        {
+            "name": "Bodoni 72 Smallcaps",
+            "exists": 1
+        },
+        {
+            "name": "Bookshelf Symbol 7",
+            "exists": 1
+        },
+        {
+            "name": "English 111 Vivace BT",
+            "exists": 1
+        },
+        {
+            "name": "GeoSlab 703 Lt BT",
+            "exists": 1
+        },
+        {
+            "name": "GeoSlab 703 XBd BT",
+            "exists": 1
+        },
+        {
+            "name": "HELV",
+            "exists": 1
+        },
+        {
+            "name": "Humanst 521 Cn BT",
+            "exists": 1
+        },
+        {
+            "name": "Modern No. 20",
+            "exists": 1
+        },
+        {
+            "name": "NSimSun",
+            "exists": 1
+        },
+        {
+            "name": "Roman",
+            "exists": 1
+        },
+        {
+            "name": "Small Fonts",
+            "exists": 1
+        },
+        {
+            "name": "Univers CE 55 Medium",
+            "exists": 1
+        },
+        {
+            "name": "Exo 2",
+            "exists": 1
+        },
+        {
+            "name": "Goudy Bookletter 1911",
+            "exists": 1
+        },
+        {
+            "name": "Libre Barcode 128",
+            "exists": 1
+        },
+        {
+            "name": "Libre Barcode 128 Text",
+            "exists": 1
+        },
+        {
+            "name": "Libre Barcode 39",
+            "exists": 1
+        },
+        {
+            "name": "Libre Barcode 39 Extended",
+            "exists": 1
+        },
+        {
+            "name": "Libre Barcode 39 Extended Text",
+            "exists": 1
+        },
+        {
+            "name": "Libre Barcode 39 Text",
+            "exists": 1
+        },
+        {
+            "name": "M PLUS 1p",
+            "exists": 1
+        },
+        {
+            "name": "M PLUS Rounded 1c",
+            "exists": 1
+        },
+        {
+            "name": "Press Start 2P",
+            "exists": 1
+        },
+        {
+            "name": "Slabo 13px",
+            "exists": 1
+        },
+        {
+            "name": "Slabo 27px",
+            "exists": 1
+        },
+        {
+            "name": "Apple Braille Outline 6 Dot",
+            "exists": 1
+        },
+        {
+            "name": "Apple Braille Outline 8 Dot",
+            "exists": 1
+        },
+        {
+            "name": "Apple Braille Pinpoint 6 Dot",
+            "exists": 1
+        },
+        {
+            "name": "Apple Braille Pinpoint 8 Dot",
+            "exists": 1
+        },
+        {
+            "name": "Bodoni 72 Bold",
+            "exists": 1
+        },
+        {
+            "name": "Bodoni 72 Book",
+            "exists": 1
+        },
+        {
+            "name": "Bodoni 72 Book Italic",
+            "exists": 1
+        },
+        {
+            "name": "Bodoni 72 Oldstyle Bold",
+            "exists": 1
+        },
+        {
+            "name": "Bodoni 72 Oldstyle Book",
+            "exists": 1
+        },
+        {
+            "name": "Bodoni 72 Oldstyle Book Italic",
+            "exists": 1
+        },
+        {
+            "name": "Bodoni 72 Smallcaps Book",
+            "exists": 1
+        },
+        {
+            "name": "Calibri Light",
+            "exists": 1
+        },
+        {
+            "name": "Candara Light",
+            "exists": 1
+        },
+        {
+            "name": "Corbel Light",
+            "exists": 1
+        },
+        {
+            "name": "Courier 10 Pitch",
+            "exists": 1
+        },
+        {
+            "name": "Franklin Gothic Medium",
+            "exists": 1
+        },
+        {
+            "name": "HoloLens MDL2 Assets",
+            "exists": 1
+        },
+        {
+            "name": "Ink Free",
+            "exists": 1
+        },
+        {
+            "name": "Leelawadee UI",
+            "exists": 1
+        },
+        {
+            "name": "Leelawadee UI Semilight",
+            "exists": 1
+        },
+        {
+            "name": "Malgun Gothic Semilight",
+            "exists": 1
+        },
+        {
+            "name": "Microsoft JhengHei Light",
+            "exists": 1
+        },
+        {
+            "name": "Microsoft JhengHei UI Light",
+            "exists": 1
+        },
+        {
+            "name": "Microsoft YaHei Light",
+            "exists": 1
+        },
+        {
+            "name": "Microsoft YaHei UI Light",
+            "exists": 1
+        },
+        {
+            "name": "Nirmala UI Semilight",
+            "exists": 1
+        },
+        {
+            "name": "Savoye LET Plain CC.:1.0",
+            "exists": 1
+        },
+        {
+            "name": "Savoye LET Plain:1.0",
+            "exists": 1
+        },
+        {
+            "name": "Segoe MDL2 Assets",
+            "exists": 1
+        },
+        {
+            "name": "Segoe UI Black",
+            "exists": 1
+        },
+        {
+            "name": "Segoe UI Historic",
+            "exists": 1
+        },
+        {
+            "name": "Segoe UI Semilight",
+            "exists": 1
+        },
+        {
+            "name": "Shree Devanagari 714",
+            "exists": 1
+        },
+        {
+            "name": "Shree Devanagari 714 Bold",
+            "exists": 1
+        },
+        {
+            "name": "Shree Devanagari 714 Bold Italic",
+            "exists": 1
+        },
+        {
+            "name": "Shree Devanagari 714 Italic",
+            "exists": 1
+        },
+        {
+            "name": "Twemoji Mozilla",
+            "exists": 1
+        },
+        {
+            "name": "UKIJ 3D",
+            "exists": 1
+        },
+        {
+            "name": "UKIJ Kawak 3D",
+            "exists": 1
+        },
+        {
+            "name": "UKIJ Kufi 3D",
+            "exists": 1
+        },
+        {
+            "name": "Yu Gothic Light",
+            "exists": 1
+        },
+        {
+            "name": "Yu Gothic Medium",
+            "exists": 1
+        },
+        {
+            "name": "Yu Gothic UI",
+            "exists": 1
+        },
+        {
+            "name": "Yu Gothic UI Light",
+            "exists": 1
+        },
+        {
+            "name": "Yu Gothic UI Semibold",
+            "exists": 1
+        },
+        {
+            "name": "Yu Gothic UI Semilight",
+            "exists": 1
+        },
+        {
+            "name": "YuMincho +36p Kana Demibold",
+            "exists": 1
+        },
+        {
+            "name": "YuMincho +36p Kana Extrabold",
+            "exists": 1
+        },
+        {
+            "name": "YuMincho +36p Kana Medium",
+            "exists": 1
+        },
+        {
+            "name": "padmaa-Bold.1.1",
+            "exists": 1
+        },
+        {
+            "name": "宋体",
+            "exists": 1
+        },
+        {
+            "name": "微软雅黑",
+            "exists": 1
+        },
+        {
+            "name": "ＭＳ ゴシック",
+            "exists": 1
+        },
+        {
+            "name": "ＭＳ Ｐゴシック",
+            "exists": 1
+        }
+    ]
+}
