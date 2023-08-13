@@ -8,7 +8,7 @@ import (
 func main() {
 	// load fp from json file
 	browser_fp, err := fpclient.LoadFingerprint(&fpclient.LoadingConfig{
-		FilePath: "profile.json",
+		FilePath: "../devices/pc/windows/win10_chrome.json",
 	})
 
 	if err != nil {
@@ -33,4 +33,5 @@ func main() {
 	fmt.Println(tls_fp.TLS.Ja3)
 	fmt.Println(browser_fp.Gpu.Renderer)
 	fmt.Println(browser_fp.Navigator.UserAgent)
+	fmt.Println(browser_fp.Navigator.DeviceMemory)
 }

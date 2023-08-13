@@ -2013,7 +2013,7 @@ type Fingerprint struct {
 		Oscpu               string   `json:"oscpu"`
 		Vendor              string   `json:"vendor"`
 		VendorSub           string   `json:"vendorSub"`
-		//DeviceMemory                int      `json:"deviceMemory"`
+		DeviceMemory                int      `json:"deviceMemory"`
 		DoNotTrack                  any    `json:"doNotTrack"`
 		MsDoNotTrack                string `json:"msDoNotTrack"`
 		Vibrate                     string `json:"vibrate"`
