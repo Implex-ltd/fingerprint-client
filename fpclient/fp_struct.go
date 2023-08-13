@@ -5,7 +5,7 @@ type Unknown interface{}
 type Fingerprint struct {
 	Plugins            Plugins              `json:"plugins"`
 	GPU                GPU                  `json:"gpu"`
-	DefaultCS          map[string]*DefaultC `json:"defaultCS"`
+	DefaultCS          map[string]*any `json:"defaultCS"`
 	WindowVersion      []string             `json:"windowVersion"`
 	HTMLElementVersion []string             `json:"htmlElementVersion"`
 	Webgl              Webgl                `json:"webgl"`
@@ -240,7 +240,7 @@ type Webgl struct {
 	SupportedExtensions    []string                `json:"supportedExtensions"`
 	ContextAttributes      ContextAttributes       `json:"contextAttributes"`
 	MaxAnisotropy          int64                   `json:"maxAnisotropy"`
-	Params                 map[string]Param        `json:"params"`
+	Params                 map[string]any        `json:"params"`
 	ShaderPrecisionFormats []ShaderPrecisionFormat `json:"shaderPrecisionFormats"`
 }
 
@@ -278,7 +278,7 @@ type Webgl2 struct {
 	SupportedExtensions    []string                `json:"supportedExtensions"`
 	ContextAttributes      ContextAttributes       `json:"contextAttributes"`
 	MaxAnisotropy          int64                   `json:"maxAnisotropy"`
-	Params                 map[string]Param        `json:"params"`
+	Params                 map[string]any        `json:"params"`
 	ShaderPrecisionFormats []ShaderPrecisionFormat `json:"shaderPrecisionFormats"`
 }
 
@@ -363,5 +363,5 @@ type Value struct {
 	Integer    *int64
 	IntegerMap map[string]int64
 	String     *string
-	Other      *Unknown
+	
 }
