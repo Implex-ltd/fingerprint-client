@@ -11,7 +11,7 @@ import (
 // Load tls fingerprint and return *TlsFingerprint.
 func LoadTlsFingerprint(config *LoadingConfig) (*TlsFingerprint, error) {
 	var fpStr string
-	
+
 	if config.FilePath != "" {
 		data, err := ioutil.ReadFile(config.FilePath)
 		if err != nil {
@@ -20,7 +20,7 @@ func LoadTlsFingerprint(config *LoadingConfig) (*TlsFingerprint, error) {
 
 		fpStr = string(data)
 	}
-	
+
 	if config.String != "" {
 		fpStr = config.String
 
@@ -82,7 +82,7 @@ func DumpTlsFingerprint(config *DumpTlsConfig) (*TlsFingerprint, error) {
 	if err := json.Unmarshal([]byte(response), &fp); err != nil {
 		return nil, err
 	}
-	
+
 	err = ioutil.WriteFile(config.OutputPath, []byte(response), 0644)
 	if err != nil {
 		return nil, err

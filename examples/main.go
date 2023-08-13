@@ -31,7 +31,7 @@ func main() {
 	}
 
 	fmt.Println(tls_fp.TLS.Ja3)
-	fmt.Println(browser_fp.Gpu.Renderer)
+	fmt.Println(browser_fp.GPU.Renderer)
 	fmt.Println(browser_fp.Navigator.UserAgent)
 	fmt.Println(browser_fp.Navigator.DeviceMemory)
 }
