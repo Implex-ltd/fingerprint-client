@@ -8,7 +8,7 @@ import (
 func main() {
 	// load fp from json file
 	browser_fp, err := fpclient.LoadFingerprint(&fpclient.LoadingConfig{
-		FilePath: "../devices/pc/windows/win10_chrome.json",
+		FilePath: "./fp.json",
 	})
 
 	if err != nil {

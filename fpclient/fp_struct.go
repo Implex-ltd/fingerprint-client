@@ -1,5 +1,7 @@
 package fpclient
 
+type Unknown interface{}
+
 type Fingerprint struct {
 	Plugins            Plugins              `json:"plugins"`
 	GPU                GPU                  `json:"gpu"`
@@ -352,6 +354,7 @@ const (
 type DefaultC struct {
 	Integer *int64
 	String  *string
+	Other   *Unknown
 }
 
 type Value struct {
@@ -360,4 +363,5 @@ type Value struct {
 	Integer    *int64
 	IntegerMap map[string]int64
 	String     *string
+	Other      *Unknown
 }
