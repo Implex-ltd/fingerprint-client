@@ -3,26 +3,26 @@ package fpclient
 type Unknown interface{}
 
 type Fingerprint struct {
-	Plugins            Plugins              `json:"plugins"`
-	GPU                GPU                  `json:"gpu"`
-	DefaultCS          map[string]*any `json:"defaultCS"`
-	WindowVersion      []string             `json:"windowVersion"`
-	HTMLElementVersion []string             `json:"htmlElementVersion"`
-	Webgl              Webgl                `json:"webgl"`
-	Webgl2             Webgl2               `json:"webgl2"`
-	Navigator          Navigator            `json:"navigator"`
-	Window             Window               `json:"window"`
-	Document           Document             `json:"document"`
-	Screen             Screen               `json:"screen"`
-	Body               Body                 `json:"body"`
-	MediaDevices       []MediaDevice        `json:"mediaDevices"`
-	Battery            Battery              `json:"battery"`
-	Voices             []Voice              `json:"voices"`
-	Keyboard           Keyboard             `json:"keyboard"`
-	Permissions        Permissions          `json:"permissions"`
-	MIMETypes          []Welcome10MIMEType  `json:"mimeTypes"`
-	RTC                []RTC                `json:"rtc"`
-	AllFonts           []AllFont            `json:"allFonts"`
+	Plugins            Plugins             `json:"plugins"`
+	GPU                GPU                 `json:"gpu"`
+	DefaultCS          map[string]*any     `json:"defaultCS"`
+	WindowVersion      []string            `json:"windowVersion"`
+	HTMLElementVersion []string            `json:"htmlElementVersion"`
+	Webgl              Webgl               `json:"webgl"`
+	Webgl2             Webgl2              `json:"webgl2"`
+	Navigator          Navigator           `json:"navigator"`
+	Window             Window              `json:"window"`
+	Document           Document            `json:"document"`
+	Screen             Screen              `json:"screen"`
+	Body               Body                `json:"body"`
+	MediaDevices       []MediaDevice       `json:"mediaDevices"`
+	Battery            Battery             `json:"battery"`
+	Voices             []Voice             `json:"voices"`
+	Keyboard           Keyboard            `json:"keyboard"`
+	Permissions        Permissions         `json:"permissions"`
+	MIMETypes          []Welcome10MIMEType `json:"mimeTypes"`
+	RTC                []RTC               `json:"rtc"`
+	AllFonts           []AllFont           `json:"allFonts"`
 }
 
 type AllFont struct {
@@ -240,7 +240,7 @@ type Webgl struct {
 	SupportedExtensions    []string                `json:"supportedExtensions"`
 	ContextAttributes      ContextAttributes       `json:"contextAttributes"`
 	MaxAnisotropy          int64                   `json:"maxAnisotropy"`
-	Params                 map[string]any        `json:"params"`
+	Params                 map[string]any          `json:"params"`
 	ShaderPrecisionFormats []ShaderPrecisionFormat `json:"shaderPrecisionFormats"`
 }
 
@@ -278,7 +278,7 @@ type Webgl2 struct {
 	SupportedExtensions    []string                `json:"supportedExtensions"`
 	ContextAttributes      ContextAttributes       `json:"contextAttributes"`
 	MaxAnisotropy          int64                   `json:"maxAnisotropy"`
-	Params                 map[string]any        `json:"params"`
+	Params                 map[string]any          `json:"params"`
 	ShaderPrecisionFormats []ShaderPrecisionFormat `json:"shaderPrecisionFormats"`
 }
 
@@ -363,5 +363,4 @@ type Value struct {
 	Integer    *int64
 	IntegerMap map[string]int64
 	String     *string
-	
 }

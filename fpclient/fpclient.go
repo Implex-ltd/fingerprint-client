@@ -3,7 +3,7 @@ package fpclient
 import (
 	"encoding/base64"
 	"encoding/json"
-	"io/ioutil"
+	"os"
 )
 
 // Load fingerprint and return *Fingerprint.
@@ -11,7 +11,7 @@ func LoadFingerprint(config *LoadingConfig) (*Fingerprint, error) {
 	var fpStr string
 
 	if config.FilePath != "" {
-		data, err := ioutil.ReadFile(config.FilePath)
+		data, err := os.ReadFile(config.FilePath)
 		if err != nil {
 			return nil, err
 		}

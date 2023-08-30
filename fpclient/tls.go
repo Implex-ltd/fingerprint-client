@@ -3,7 +3,7 @@ package fpclient
 import (
 	"encoding/base64"
 	"encoding/json"
-	"io/ioutil"
+	"os"
 
 	"github.com/playwright-community/playwright-go"
 )
@@ -13,7 +13,7 @@ func LoadTlsFingerprint(config *LoadingConfig) (*TlsFingerprint, error) {
 	var fpStr string
 
 	if config.FilePath != "" {
-		data, err := ioutil.ReadFile(config.FilePath)
+		data, err := os.ReadFile(config.FilePath)
 		if err != nil {
 			return nil, err
 		}
@@ -61,7 +61,7 @@ func DumpTlsFingerprint(config *DumpTlsConfig) (*TlsFingerprint, error) {
 		return nil, err
 	}
 
-	page, err := browser.NewPage(playwright.BrowserNewContextOptions{
+	page, err := browser.NewPage(playwright.BrowserNewPageOptions{
 		IgnoreHttpsErrors: playwright.Bool(true),
 	})
 	if err != nil {
@@ -83,7 +83,7 @@ func DumpTlsFingerprint(config *DumpTlsConfig) (*TlsFingerprint, error) {
 		return nil, err
 	}
 
-	err = ioutil.WriteFile(config.OutputPath, []byte(response), 0644)
+	err = os.WriteFile(config.OutputPath, []byte(response), 0644)
 	if err != nil {
 		return nil, err
 	}
